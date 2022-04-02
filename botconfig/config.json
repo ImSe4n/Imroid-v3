@@ -1,0 +1,49 @@
+{
+    "token": "OTU0ODA5MDAzMzYyMzU3MjQ4.YjYhLQ.H9CpavHhDIAt5lTcaOzg-0qALP8",
+    "prefix": "i!",
+    "ownerIDS": [
+        "711602696133673011"
+    ],
+    "fnbr": "GET from: https://fnbr.co",
+    "fortnitetracker": "GET from: https://fortnitetracker.com",
+    "memer_api": "E62OKfykVDT",
+    "status": {
+        "text": "{prefix}help | on {guildcount} Servers, with {membercount} Members | Played: {songsplayed} Songs",
+        "text2": "Imroid Development | Proud bot development since 2021",
+        "type": "PLAYING",
+        "url": "https://www.youtube.com/channel/UC1uDo5c0yS1ViX8w_PQM8JQ"
+    },
+    "clientsettings": {
+        "nodes": [
+            {
+               "host" : "lavalink.oops.wtf",
+               "port" : 2000,
+               "password" : "www.freelavalink.ga",
+               "secure" : false
+            }
+        ]
+    },
+    "spotify": {
+        "clientSecret": "a44110f92aa44d5c8e3e9ae057fd565f",
+        "clientID": "a44110f92aa44d5c8e3e9ae057fd565f"
+    },
+    "settings": {
+        "COMMENT": "time_delay 0 === insta leave",
+        "leaveOnEmpty_Channel": {
+            "enabled": true,
+            "time_delay": 30000
+        },
+        "LeaveOnEmpty_Queue": {
+            "enabled": true,
+            "time_delay": 30000
+        },
+        "selfDeaf": true
+    },
+    "lyricssettings": {
+        "lyrics_finder": true,
+        "ksoft_api": {
+            "use_this_instead": true,
+            "api_key": "DISABLED"
+        }
+    }
+}
