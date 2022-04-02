@@ -90,10 +90,10 @@ module.exports = {
         client.on('interactionCreate',  (menu) => {
           if (menu?.message.id === menumsg.id) {
             if (menu?.user.id === cmduser.id) {
-              if(used1) return menu?.reply({content : `<:no:> You already selected something, this Selection is now disabled!`}, {ephermal : true});
+              if(used1) return menu?.reply({content : `:no: You already selected something, this Selection is now disabled!`}, {ephermal : true});
               menuselection(menu);
             }
-            else menu?.reply({content : `<:no:> You are not allowed to do that! Only: <@${cmduser.id}>`}, {ephermal : true});
+            else menu?.reply({content : `:no: You are not allowed to do that! Only: <@${cmduser.id}>`}, {ephermal : true});
           }
         });
       }

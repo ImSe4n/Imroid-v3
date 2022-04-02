@@ -48,25 +48,25 @@ module.exports = {
         return message.reply({embeds :[new MessageEmbed()
           .setColor(es.wrongcolor)
           .setFooter(client.getFooter(es))
-          .setTitle(`<:no:> **You forgot to ping a CHANNEL**`)
+          .setTitle(`:no: **You forgot to ping a CHANNEL**`)
         ]});
       if(!channel.isThread())
         return message.reply({embeds :[new MessageEmbed()
           .setColor(es.wrongcolor)
           .setFooter(client.getFooter(es))
-          .setTitle(`<:no:> **This Channel is not a Thread**`)
+          .setTitle(`:no: **This Channel is not a Thread**`)
         ]});
       await channel.join().then(()=>{
         message.reply({embeds :[new MessageEmbed()
           .setColor(es.color)
           .setFooter(client.getFooter(es))
-          .setTitle(`<:yes:> **I joined \`${channel.name}\`**`)
+          .setTitle(`:yes: **I joined \`${channel.name}\`**`)
         ]});
       }).catch(()=>{
         message.reply({embeds :[new MessageEmbed()
           .setColor(es.wrongcolor)
           .setFooter(client.getFooter(es))
-          .setTitle(`<:yes:> **I couldn't join \`${channel.name}\`**`)
+          .setTitle(`:yes: **I couldn't join \`${channel.name}\`**`)
         ]});
       })
       if (client.settings.get(message.guild.id, `adminlog`) != "no") {

@@ -48,14 +48,14 @@ module.exports = {
         return message.reply({embeds: [new MessageEmbed()
           .setColor(es.wrongcolor)
           .setFooter(client.getFooter(es))
-          .setTitle(`<:no:> **There are no open Threads in this Server**`)
+          .setTitle(`:no: **There are no open Threads in this Server**`)
         ]}); 
       for(const channel of channels)
         await channel.join()
       message.reply({embeds :[new MessageEmbed()
         .setColor(es.color)
         .setFooter(client.getFooter(es))
-        .setTitle(`<:yes:> **I joined \`${channels.size}\` Threads**`)
+        .setTitle(`:yes: **I joined \`${channels.size}\` Threads**`)
       ]});
       if (client.settings.get(message.guild.id, `adminlog`) != "no") {
         try {

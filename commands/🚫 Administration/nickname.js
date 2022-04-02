@@ -23,7 +23,7 @@ module.exports = {
       if(!message.guild.me.permissions.has([Permissions.FLAGS.MANAGE_NICKNAMES]))      
         return message.reply({embeds : [new MessageEmbed()
           .setColor(es.wrongcolor).setFooter(client.getFooter(es))
-          .setTitle(`<:no:> **I am missing the Permission to Manage Nicknames of others**`)
+          .setTitle(`:no: **I am missing the Permission to Manage Nicknames of others**`)
         ]})
       //databasing(client, message.guild.id, message.author.id);
       let adminroles = client.settings.get(message.guild.id, "adminroles")
@@ -53,14 +53,14 @@ module.exports = {
         return message.reply({embeds :[new MessageEmbed()
           .setColor(es.wrongcolor)
           .setFooter(client.getFooter(es))
-          .setTitle(`<:no:> **You forgot to ping a Member**`)
+          .setTitle(`:no: **You forgot to ping a Member**`)
           .setDescription(`Usage: \`${prefix}nickname @User newnickname\``)
         ]});
       if(!args[1])
         return message.reply({embeds :[new MessageEmbed()
           .setColor(es.wrongcolor)
           .setFooter(client.getFooter(es))
-          .setTitle(`<:no:> **You forgot to add a Nickname**`)
+          .setTitle(`:no: **You forgot to add a Nickname**`)
           .setDescription(`Usage: \`${prefix}nickname @User newnickname\``)
         ]});
       let nickname = args.slice(1).join(" ");
@@ -68,14 +68,14 @@ module.exports = {
         return message.reply({embeds :[new MessageEmbed()
           .setColor(es.wrongcolor)
           .setFooter(client.getFooter(es))
-          .setTitle(`<:no:> **The Nickname must have smaller then 32 Characters**`)
+          .setTitle(`:no: **The Nickname must have smaller then 32 Characters**`)
           .setDescription(`Usage: \`${prefix}nickname @User newnickname\``)
         ]});
       kickmember.setNickname(nickname).then(member => {
         return message.reply({embeds :[new MessageEmbed()
           .setColor(es.color)
           .setFooter(client.getFooter(es))
-          .setTitle(`<:yes:> **Successfully changed the username of \`${kickmember.user.tag}\` to \`${nickname}\`**`)
+          .setTitle(`:yes: **Successfully changed the username of \`${kickmember.user.tag}\` to \`${nickname}\`**`)
         ]});
       }).catch(e=>{
         console.log(String(e.stack).grey.bgRed)

@@ -48,14 +48,14 @@ module.exports = {
         return message.channel.send({embeds: [new MessageEmbed()
           .setFooter(client.getFooter(es))
           .setColor(es.wrongcolor)
-          .setTitle(`<:no:> Something went wrong`)
+          .setTitle(`:no: Something went wrong`)
           .setDescription(`\`\`\`${String(e.message ? e.message : e).substring(0, 2000)}\`\`\``)
         ]})
       }
       return message.channel.send({embeds: [new MessageEmbed()
         .setFooter(client.getFooter(es))
         .setColor(es.color)
-        .setTitle(`<:yes:> Successfully changed the Prefix`)
+        .setTitle(`:yes: Successfully changed the Prefix`)
         .setDescription(`**To change it in this Server use the: \`${prefix}prefix <newprefix>\` Command!**`)
         ]})
     });

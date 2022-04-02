@@ -17,8 +17,8 @@ module.exports = (client) => {
     client.settings.ensure(message.guild.id, {
         suggest: {
           channel: "",
-          approvemsg: `<:yes:> Accepted Idea! Expect this soon.`,
-          denymsg: `<:no:> Thank you for the feedback, but we are not interested in this idea at this time.`,
+          approvemsg: `:yes: Accepted Idea! Expect this soon.`,
+          denymsg: `:no: Thank you for the feedback, but we are not interested in this idea at this time.`,
           maybemsg: `💡 We are thinking about this idea!`,
           duplicatemsg: `💢 This is a duplicated Suggestion`,
           soonmsg: `👌 Expect this Feature Soon!`,

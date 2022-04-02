@@ -26,7 +26,7 @@ module.exports = {
         return message.reply({embeds :[new MessageEmbed()
           .setColor(es.wrongcolor)
           .setFooter(client.getFooter(es))
-          .setTitle(`<:no:> **This Channel is a Thread**`)
+          .setTitle(`:no: **This Channel is a Thread**`)
         ]});
       await channel.delete();
       if (client.settings.get(message.guild.id, `adminlog`) != "no") {
