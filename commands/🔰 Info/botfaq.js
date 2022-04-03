@@ -53,6 +53,15 @@ module.exports = {
           replymsg: client.la[ls].cmds.info.botfaq.menuoptions[3].replymsg,
           emoji: client.la[ls].cmds.info.botfaq.menuoptions[3].emoji //optional
         },
+        {
+          value: client.la[ls].cmds.info.botfaq.menuoptions[4].value,
+          description: client.la[ls].cmds.info.botfaq.menuoptions[4].description,
+          replymsg: handlemsg(client.la[ls].cmds.info.botfaq.menuoptions[4].replymsg, {
+            prefix: prefix,
+            clientusertag: client.user.tag
+          }),
+          emoji: client.la[ls].cmds.info.botfaq.menuoptions[4].emoji //optional
+        },
       ]
       //define the selection
       let Selection = new MessageActionRow()
