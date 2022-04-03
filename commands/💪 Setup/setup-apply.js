@@ -24,8 +24,8 @@ module.exports = {
   type: "system",
   run: async (client, message, args, cmduser, text, prefix) => {
     let theemoji = "📜";
-    let MilratoGuild = client.guilds.cache.get("949744394825760778");
-    if (MilratoGuild) theemoji = "877653386747605032";
+    let ImroidGuild = client.guilds.cache.get("949744394825760778");
+    if (ImroidGuild) theemoji = "877653386747605032";
     let allbuttons = [new MessageActionRow().addComponents([new MessageButton().setStyle('SUCCESS').setEmoji(theemoji).setCustomId("User_Apply").setLabel("Apply")])]
     let es = client.settings.get(message.guild.id, "embed");
     let ls = client.settings.get(message.guild.id, "language")
