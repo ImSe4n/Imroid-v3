@@ -37,7 +37,7 @@ module.exports = {
             .setFooter(client.getFooter(es))
             .setImage(message.guild.banner ? message.guild.bannerURL({size: 4096}) : "https://i.imgur.com/kStBJS8.png")
             .setTitle(`Start Listening to Music, by connecting to a Voice Channel and sending either the **SONG LINK** or **SONG NAME** in this Channel!`)
-            .setDescription(`> *I support <:Youtube:840260133686870036> Youtube, <:Spotify:846090652231663647> Spotify, <:soundcloud:825095625884434462> Soundcloud and direct MP3 Links!*`)
+            .setDescription(`> *I support <:YOUUTUBE:956661075632337026> Youtube, <:Spootify:956662268635017240> Spotify, <:soundcloud:825095625884434462> Soundcloud and direct MP3 Links!*`)
         ]
         //now we add the components!
         var components = [
