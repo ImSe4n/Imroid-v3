@@ -54,14 +54,6 @@ module.exports = {
           emoji: client.la[ls].cmds.info.botfaq.menuoptions[3].emoji //optional
         },
         {
-          value: client.la[ls].cmds.info.botfaq.menuoptions[4].value,
-          description: client.la[ls].cmds.info.botfaq.menuoptions[4].description,
-          replymsg: handlemsg(client.la[ls].cmds.info.botfaq.menuoptions[4].replymsg, {
-            partnercount: partnercount
-          }),
-          emoji: client.la[ls].cmds.info.botfaq.menuoptions[4].emoji //optional
-        },
-        {
           value: client.la[ls].cmds.info.botfaq.menuoptions[5].value,
           description: client.la[ls].cmds.info.botfaq.menuoptions[5].description,
           replymsg: handlemsg(client.la[ls].cmds.info.botfaq.menuoptions[5].replymsg, {
