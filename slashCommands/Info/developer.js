@@ -23,7 +23,7 @@ module.exports = {
 				.setColor(es.color)
 				.setFooter(client.getFooter(es))
 				.setTimestamp()
-				.setThumbnail("https://cdn.discordapp.com/avatars/442355791412854784/df7b527a701d9a1ab6d73213576fe295.webp?size=1024")
+				.setThumbnail("https://cdn.discordapp.com/avatars/711602696133673011/df7b527a701d9a1ab6d73213576fe295.webp?size=1024")
 				.setTitle(client.la[ls].cmds.info.developer.title)
 				.setURL("https://dsc.gg/imroid-development")
 				.setDescription(client.la[ls].cmds.info.developer.description)],

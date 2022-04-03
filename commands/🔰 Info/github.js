@@ -25,7 +25,7 @@ module.exports = {
 				.setColor(es.color)
 				.setFooter(client.getFooter(es))
 				.setTimestamp()
-				.setThumbnail("https://cdn.discordapp.com/avatars/442355791412854784/df7b527a701d9a1ab6d73213576fe295.webp?size=1024")
+				.setThumbnail("https://cdn.discordapp.com/avatars/711602696133673011/df7b527a701d9a1ab6d73213576fe295.webp?size=1024")
 				.setTitle(client.la[ls].cmds.info.github?.title)
 				.setURL("https://dsc.gg/imroid-development")
 				.addField("🆕 NEW GITHUB", `> There is now an **open Source** Version of this Bot on [\`Sean#1751\`'s Github](https://github.com/ImSe4n)\n> [Link](https://github.com/ImSe4n/Imroid-v3) but please make sure to **give __Credits__** if you use it!\n> Make sure to read the [README](https://github.com/ImSe4n/Imroid-v3#readme) and the [WIKI / FAQ](https://github.com/ImSe4n/Imroid-v3/wiki) carefully before opening an [ISSUE](https://github.com/ImSe4n/Imroid-v3/issues/new/choose)`)
