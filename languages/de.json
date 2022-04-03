@@ -76,7 +76,7 @@
                 },
                 "field5": {
                     "title": "<:arrow:959971239798120479> Wichtige Links",
-                    "value": "**[Einladungs-Link]({invitelink})・[Support Server](https://dsc.gg/imroid-development)・[Internet Seite](https://dsc.gg/imroid-development)**\n**[Bekomme Gratis Bots](https://dsc.gg/imroid-development)・[Lade Public Version ein](https://discord.com/api/oauth2/authorize?client_id=734513783338434591&permissions=8&scope=bot)**"
+                    "value": "**[Einladungs-Link]({invitelink})・[Support Server](https://dsc.gg/imroid-development)・[Internet Seite](https://dsc.gg/imroid-development)**\n**[Bekomme Gratis Bots](https://dsc.gg/imroid-development)・[Lade Public Version ein](https://discord.com/api/oauth2/authorize?client_id=954809003362357248&permissions=8&scope=bot)**"
                 },
                 "variable1": "`\\`\\`\\`yml\\nName: ${client.user.tag} [${client.user.id}]\\nBot Latency: ${Math.round(Date.now() - message.createdTimestamp)}ms\\nApi Latency: ${Math.round(client.ws.ping)}ms\\nRuntime: ${duration(client.uptime).join(\"︲\")}\\`\\`\\``",
                 "variable2": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"

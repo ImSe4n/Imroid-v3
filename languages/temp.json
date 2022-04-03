@@ -34,7 +34,7 @@
                     {
                         "value": "Sponsor / Support us",
                         "description": "Thanks for everything, you'll get something back!",
-                        "replymsg": "**__There are several Sponsor Options:__**\n\n> <:PAYPAL:861207258846330880> **Paypal:**\n> https://paypal.me/MilratoDevelopment\n\n> <:PATREON:861207934070816849> **Patreon:**\n> https://www.patreon.com/MilratoDevelopment?fan_landing=true\n\n> 💸 **Donate via Paysafe, Sofort or others: (1/2)**\n> https://bero-host.de/spenden/qgswlxrzgtll\n\n> 💸 **Donate via Paysafe, Sofort or others: (2/2)**\n> https://mc-host24.de/donate/tomato\n\n> **Every donator** gets the **@DONATOR Role** on:\n> https://dsc.gg/imroid-development\n\n\n> **Every Donator** with more then **10€** Gets a **Free Bot** of his **Choice*!",
+                        "replymsg": "**__There are several Sponsor Options:__**\n\n> <:PAYPAL:861207258846330880> **Paypal:**\n> https://paypal.me/SeanNie38878408elopment\n\n> <:PATREON:861207934070816849> **Patreon:**\n> https://www.patreon.com/SeanNie38878408elopment?fan_landing=true\n\n> 💸 **Donate via Paysafe, Sofort or others: (1/2)**\n> https://bero-host.de/spenden/qgswlxrzgtll\n\n> 💸 **Donate via Paysafe, Sofort or others: (2/2)**\n> https://mc-host24.de/donate/tomato\n\n> **Every donator** gets the **@DONATOR Role** on:\n> https://dsc.gg/imroid-development\n\n\n> **Every Donator** with more then **10€** Gets a **Free Bot** of his/her **Choice*!",
                         "emoji": "861207258846330880"
                     },
                     {
@@ -76,7 +76,7 @@
                 },
                 "field5": {
                     "title": "<:arrow:959971239798120479> Important Links",
-                    "value": "**[Invite Link]({invitelink})・[Support Server](https://dsc.gg/imroid-development)・[Website](https://dsc.gg/imroid-development)**\n**[Get Free Bots](https://dsc.gg/imroid-development)・[Invite Public Version](https://discord.com/api/oauth2/authorize?client_id=734513783338434591&permissions=8&scope=bot)**"
+                    "value": "**[Invite Link]({invitelink})・[Support Server](https://dsc.gg/imroid-development)・[Website](https://dsc.gg/imroid-development)**\n**[Get Free Bots](https://dsc.gg/imroid-development)・[Invite Public Version](https://discord.com/api/oauth2/authorize?client_id=954809003362357248&permissions=8&scope=bot)**"
                 },
                 "variable1": "`\\`\\`\\`yml\\nName: ${client.user.tag} [${client.user.id}]\\nBot Latency: ${Math.round(Date.now() - message.createdTimestamp)}ms\\nApi Latency: ${Math.round(client.ws.ping)}ms\\nRuntime: ${duration(client.uptime).join(\"︲\")}\\`\\`\\``",
                 "variable2": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
@@ -96,11 +96,10 @@
             "developer": {
                 "buttons": {
                     "invite": "Invite Public Version",
-                    "dc": "Get yourself a own Bot",
                     "botlist": "Public Bot-List-Website"
                 },
-                "title": "_Sean#1751 | Dev of 4 Orgs | Developer of 1200+ BOTS",
-                "description": "<:arrow:959971239798120479> Hello I am **Tomato** <@711602696133673011> *(`_Sean#1751`)*, and i made more then 1200 different Discord Bots: [My Bot List](https://botlist.dsc.gg/imroid-development)\n\n<:arrow:959971239798120479> I am very proud for all of my verified and not verified Discord Bots, but the Bot I am the most proud of is: [**LAVA MUSIC** | `2021's Best Music Bot`](https://lava.dsc.gg/imroid-development) <@742672021422342165>\n\n<:arrow:959971239798120479> I made this Bot, and you can get a free Bot too! Just go to: [My Service](https://dc.milrato)\n\n<:arrow:959971239798120479> I am also a **Website** Developer and **Plugin** dev. I made **Modules** like a **SPEECH Module** [SEE IT](https://cdn.discordapp.com/attachments/778714123785076768/801606374105546782/2021-01-21_01-15-50.mp4)\n\n<:arrow:959971239798120479> Yeah i hope you like my stuff :v: <3",
+                "title": "_Sean#1751",
+                "description": "<:arrow:959971239798120479> Hello I am **Sean** <@711602696133673011> *(`_Sean#1751`)*, and i made more then 2 different Discord Bots\n\n<:arrow:959971239798120479> I am very proud for all of my Discord Bots, but the Bot I am the most proud of is: [**Imroid v3** | `It is my biggest project <@954809003362357248>\n\n<:arrow:959971239798120479> I made this Bot, and you can get a free Bot too! Just go to: [My Server](https://dsc.gg/imroid-development)\n\n<:arrow:959971239798120479>\n\n<:arrow:959971239798120479> Yeah i hope you like my stuff :v: <3",
                 "variable1": "`\\`\\`\\`${String(e.stack).substr(0, 2000)}\\`\\`\\``"
             },
             "djmode": {
@@ -154,8 +153,8 @@
                     "dc": "Get yourself a own Bot",
                     "botlist": "Public Bot-List-Website"
                 },
-                "title": "_Sean#1751 | Dev of 4 Orgs | Developer of 1200+ BOTS",
-                "description": "<:arrow:959971239798120479> Hello I am **Tomato** <@711602696133673011> *(`_Sean#1751`)*, and i made more then 1200 different Discord Bots: [My Bot List](https://botlist.dsc.gg/imroid-development)\n\n<:arrow:959971239798120479> I am very proud for all of my verified and not verified Discord Bots, but the Bot I am the most proud of is: [**LAVA MUSIC** | `2021's Best Music Bot`](https://lava.dsc.gg/imroid-development) <@742672021422342165>\n\n<:arrow:959971239798120479> I made this Bot, and you can get a free Bot too! Just go to: [My Service](https://dc.milrato)\n\n<:arrow:959971239798120479> I am also a **Website** Developer and **Plugin** dev. I made **Modules** like a **SPEECH Module** [SEE IT](https://cdn.discordapp.com/attachments/778714123785076768/801606374105546782/2021-01-21_01-15-50.mp4)\n\n<:arrow:959971239798120479> Yeah i hope you like my stuff :v: <3",
+                "title": "_Sean#1751",
+                "description": "<:arrow:959971239798120479> Hello I am **Sean** <@711602696133673011> *(`_Sean#1751`)*, and i made more then 2 different Discord Bots\n\n<:arrow:959971239798120479> I am very proud for all of my Discord Bots, but the Bot I am the most proud of is: [**Imroid v3** | `It is my biggest project <@954809003362357248>\n\n<:arrow:959971239798120479> I made this Bot, and you can get a free Bot too! Just go to: [My Server](https://dsc.gg/imroid-development)\n\n<:arrow:959971239798120479>\n\n<:arrow:959971239798120479> Yeah i hope you like my stuff :v: <3",
                 "variable1": "`\\`\\`\\`${String(e.stack).substr(0, 2000)}\\`\\`\\``"
             },
             "help": {
@@ -2865,7 +2864,7 @@
                 "variable3": "\"<a:no:955946429094953004> ERROR | Missing Permissions to add Reactions\"",
                 "variable4": "\"<a:no:955946429094953004> ERROR | Your Time ran out\"",
                 "variable5": "\"Which Twitch Streamer do you wanna add?\"",
-                "variable6": "`Please send me just the link, for example: \\`https://www.twitch.tv/milratodiscordbot\\``",
+                "variable6": "`Please send me just the link, for example: \\`https://www.twitch.tv/foolish_gamers\\``",
                 "variable7": "\"Which Discord User is he?\"",
                 "variable8": "`Please Ping the User now! For example: ${message.author}`",
                 "variable9": "\"Which Message should I post?\"",
@@ -2911,9 +2910,9 @@
                 "variable8": "\"<a:no:955946429094953004> ERROR | Missing Permissions to add Reactions\"",
                 "variable9": "\"<a:no:955946429094953004> ERROR | Your Time ran out\"",
                 "variable10": "\"Which account do you wanna use?\"",
-                "variable11": "`Please send me the TWITTER LINK like that: \\`https://twitter.com/MilratoDev\\``",
-                "variable12": "\"INVALID TWITTER LINK, a Twitter Link looks like that: \\`https://twitter.com/MilratoDev\\`\"",
-                "variable13": "\"INVALID TWITTER LINK, a Twitter Link looks like that: \\`https://twitter.com/MilratoDev\\`\"",
+                "variable11": "`Please send me the TWITTER LINK like that: \\`https://twitter.com/SeanNie38878408\\``",
+                "variable12": "\"INVALID TWITTER LINK, a Twitter Link looks like that: \\`https://twitter.com/SeanNie38878408\\`\"",
+                "variable13": "\"INVALID TWITTER LINK, a Twitter Link looks like that: \\`https://twitter.com/SeanNie38878408\\`\"",
                 "variable14": "\"<a:no:955946429094953004> ERROR | Your Time ran out\"",
                 "variable15": "\"UNABLE TO FIND USER\"",
                 "variable16": "\"UNABLE TO FIND USER\"",
@@ -2933,7 +2932,7 @@
                 "variable30": "\"Which MEssage do you wanna send with the Twitter Post?\"",
                 "variable31": "`\\`{url}\\` Will be replaced with the Twitter POST LINK\\n\\n\\`{Twittername}\\` will be replaced with the TwitterAccountname`",
                 "variable32": "`<a:yes:955154240664371222> I will now post The Twitter Messages with the Twitter Post: `",
-                "variable33": "`${collected.first().content.replace(\"{url}\", \"https://twitter.com/MilratoDev\").replace(\"{Twittername}\", \"Tomato6966\")}\\n\\nNote that this is just an **example**\\n\\nYou need to have The TWITTERNAME, TWITTERID, and DISCORDCHANNEl and MESSAGE to be right, so that the autoposter works!`",
+                "variable33": "`${collected.first().content.replace(\"{url}\", \"https://twitter.com/SeanNie38878408\").replace(\"{Twittername}\", \"Sean1751\")}\\n\\nNote that this is just an **example**\\n\\nYou need to have The TWITTERNAME, TWITTERID, and DISCORDCHANNEl and MESSAGE to be right, so that the autoposter works!`",
                 "variablex_34": "\"**NOTE THERE MIGHT BE AN UP TO 7 MINUTES DELAY!** (because of Rate limits)\"", "variable34": "\"When posting a new Twit\"",
                 "variable35": "\"<a:no:955946429094953004> ERROR | An error occurred, please contact: `_Sean#1751`\"",
                 "variable36": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``",
@@ -2945,7 +2944,7 @@
                 "variable42": "`Go to: https://tweeterid.com to get your USERID and **ENTER IT __NOW__**`",
                 "variable43": "`You need to have The TWITTERNAME, TWITTERID, and DISCORDCHANNEl and MESSAGE to be right, so that the autoposter works!`",
                 "variable44": "\"What should be the new USERNAME of your TWITTER LOGGER?\"",
-                "variable45": "`That's your @, forexample: MilratoDev\\n\\nPlease **just** enter the Name!`",
+                "variable45": "`That's your @, forexample: SeanNie38878408\\n\\nPlease **just** enter the Name!`",
                 "variable46": "`${collected.first().content.replace(\"{url}\", `https://twitter.com/${collected.first().content}`).replace(\"{Twittername}\", collected.first().content)}\\n\\nNote that this is just an **example**\\n\\nYou need to have The TWITTERNAME, TWITTERID, and DISCORDCHANNEl and MESSAGE to be right, so that the autoposter works!`",
                 "variablex_47": "\"**NOTE THERE MIGHT BE AN UP TO 7 MINUTES DELAY!** (because of Rate limits)\"", "variable47": "\"When posting a new Twit\"",
                 "variable48": "\"<a:no:955946429094953004> ERROR | An error occurred, please contact: `_Sean#1751`\"",
@@ -5344,9 +5343,9 @@
                 "variable1": "\"Don't unmute me!, i muted my self again! This safes Data so it gives you a faster and smoother experience\"",
                 "variable2": "\"Don't unmute me!, i muted my self again! This safes Data so it gives you a faster and smoother experience\"",
                 "variable3": "`<a:Join_vc:863876115584385074> Joined a new Guild | ${guild.name}`",
-                "variable4": "`> **${guild.name} (\\`${guild.id}\\`)**\\n\\n> **Owner:** \\`${guild.owner ? guild.owner.tag : guild.ownerID}\\`\\n\\n> **Members:** \\`${guild.memberCount}\\`\\n\\n> **Servers Bot is in:** \\`${client.guilds.cache.size}\\``",
+                "variable4": "`> **${guild.name} (\\`${guild.id}\\`)**\\n\\n> **Owner:** \\`${theowner ? `${theowner.tag} (${theowner.id})` : `${theowner} (${guild.ownerId})`}\\`\\n\\n> **Members:** \\`${guild.memberCount}\\`\\n\\n> **Servers Bot is in:** \\`${client.guilds.cache.size}\\``",
                 "variable5": "`<:leaves:866356598356049930> Left a Guild | ${guild.name}`",
-                "variable6": "`> **${guild.name} (\\`${guild.id}\\`)**\\n\\n> **Owner:** \\`${guild.owner ? guild.owner.tag : guild.ownerID}\\`\\n\\n> **Members:** \\`${guild.memberCount}\\`\\n\\n> **Servers Bot is in:** \\`${client.guilds.cache.size}\\``"
+                "variable6": "`> **${guild.name} (\\`${guild.id}\\`)**\\n\\n> **Owner:** \\`${theowner ? `${theowner.tag} (${theowner.id})` : `${theowner} (${guild.ownerId})`}\\`\\n\\n> **Members:** \\`${guild.memberCount}\\`\\n\\n> **Servers Bot is in:** \\`${client.guilds.cache.size}\\``"
             }
         },
         "functionsjs": {

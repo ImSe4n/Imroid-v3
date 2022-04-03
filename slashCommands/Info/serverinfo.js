@@ -47,7 +47,7 @@ module.exports = {
         interaction?.reply({ephemeral: true, embeds: [new Discord.MessageEmbed()
         .setAuthor(client.la[ls].cmds.info.serverinfo.author + " " +  message.guild.name, message.guild.iconURL({
           dynamic: true
-        }), "https://discord.com/api/oauth2/authorize?client_id=734513783338434591&permissions=8&scope=bot%20applications.commands")
+        }), "https://discord.com/api/oauth2/authorize?client_id=954809003362357248&permissions=8&scope=bot%20applications.commands")
         .setColor(es.color).setThumbnail(es.thumb ? es.footericon && (es.footericon.includes("http://") || es.footericon.includes("https://")) ? es.footericon : client.user.displayAvatarURL() : null)
         .addField(client.la[ls].cmds.info.serverinfo.field1, `${message.guild.owner}\n\`${message.guild.owner.tag}\``, true)
         .addField(client.la[ls].cmds.info.serverinfo.field2, "\`" + moment(message.guild.createdTimestamp).format("DD/MM/YYYY") + "\`\n" + "`"+ moment(message.guild.createdTimestamp).format("hh:mm:ss") +"`", true)

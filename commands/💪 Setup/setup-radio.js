@@ -108,7 +108,7 @@ module.exports = {
         //define an embed
         var embed = new MessageEmbed()
           .setColor(es.color)
-          .setFooter(client.getFooter(es))
+          .setFooter(client.getFooter(es))  
           .setTitle(`Searching: ${emoji?.msg.search}` + song.title)
           try{embed.setURL(song.url)}catch{}
         //send the message of the searching <a:Playing_Owdio:960196762478473336> <a:Playing_Owdio:960196762478473336> 

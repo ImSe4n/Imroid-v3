@@ -17,7 +17,7 @@ module.exports = {
 		let es = client.settings.get(message.guild.id, "embed");let ls = client.settings.get(message.guild.id, "language")
 		
 		try {	
-			let button_public_invite = new MessageButton().setStyle('LINK').setLabel(client.la[ls].cmds.info.developer.buttons.invite).setURL("https://discord.com/api/oauth2/authorize?client_id=734513783338434591&permissions=8&scope=bot%20applications.commands")
+			let button_public_invite = new MessageButton().setStyle('LINK').setLabel(client.la[ls].cmds.info.developer.buttons.invite).setURL("https://discord.com/api/oauth2/authorize?client_id=954809003362357248&permissions=8&scope=bot%20applications.commands")
 			let button_support_dc = new MessageButton().setStyle('LINK').setLabel(client.la[ls].cmds.info.developer.buttons.dc).setURL("https://dsc.gg/imroid-development")
 			let button_invite = new MessageButton().setStyle('LINK').setLabel(client.la[ls].cmds.info.developer.buttons.botlist).setURL(`https://dsc.gg/imroid-development`)
 			const allbuttons = [new MessageActionRow().addComponents([button_public_invite, button_support_dc, button_invite])]

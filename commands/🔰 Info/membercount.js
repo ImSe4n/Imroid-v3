@@ -21,7 +21,7 @@ module.exports = {
         message.reply({embeds: [new Discord.MessageEmbed()
         .setAuthor(client.la[ls].cmds.info.membercount.title + " " +message.guild.name, message.guild.iconURL({
           dynamic: true
-        }), "https://discord.com/api/oauth2/authorize?client_id=734513783338434591&permissions=8&scope=bot%20applications.commands")
+        }), "https://discord.com/api/oauth2/authorize?client_id=954809003362357248&permissions=8&scope=bot%20applications.commands")
         .setColor(es.color)
         .addField(client.la[ls].cmds.info.membercount.field1, "😀 \`" + message.guild.memberCount + "\`", true)
         .addField(client.la[ls].cmds.info.membercount.field2, "👤 \`" + message.guild.members.cache.filter(member => !member.user.bot).size + "\`", true)
