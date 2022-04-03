@@ -159,11 +159,11 @@ module.exports = {
             temptype = SetupNumber;
             second_layer(SetupNumber, menuoptiondata)
           }
-          else menu?.reply({content: `:no: You are not allowed to do that! Only: <@${cmduser.id}>`, ephemeral: true});
+          else menu?.reply({content: `<a:no:955946429094953004> You are not allowed to do that! Only: <@${cmduser.id}>`, ephemeral: true});
         });
         //Once the Collections ended edit the menu message
         collector.on('end', collected => {
-          menumsg.edit({embeds: [menumsg.embeds[0].setDescription(`~~${menumsg.embeds[0].description}~~`)], components: [], content: `${collected && collected.first() && collected.first().values ? `<a:yes:929001012830806016> **Selected: \`${collected ? collected.first().values[0] : "Nothing"}\`**` : "❌ **NOTHING SELECTED - CANCELLED**" }`})
+          menumsg.edit({embeds: [menumsg.embeds[0].setDescription(`~~${menumsg.embeds[0].description}~~`)], components: [], content: `${collected && collected.first() && collected.first().values ? `<a<a:yes:955154240664371222>929001012830806016> **Selected: \`${collected ? collected.first().values[0] : "Nothing"}\`**` : "❌ **NOTHING SELECTED - CANCELLED**" }`})
         });
       } catch (e) {
         console.log(String(e.stack).grey.bgRed)
@@ -370,11 +370,11 @@ module.exports = {
             used2 = true;
             handle_the_picks(menu?.values[0], SetupNumber)
           }
-          else menu?.reply({content: `:no: You are not allowed to do that! Only: <@${cmduser.id}>`, ephemeral: true});
+          else menu?.reply({content: `<a:no:955946429094953004> You are not allowed to do that! Only: <@${cmduser.id}>`, ephemeral: true});
         });
         //Once the Collections ended edit the menu message
         collector.on('end', collected => {
-          menumsg.edit({embeds: [menumsg.embeds[0].setDescription(`~~${menumsg.embeds[0].description}~~`)], components: [], content: `${collected && collected.first() && collected.first().values ? `<a:yes:929001012830806016> **Selected: \`${collected ? collected.first().values[0] : "Nothing"}\`**` : "❌ **NOTHING SELECTED - CANCELLED**" }`})
+          menumsg.edit({embeds: [menumsg.embeds[0].setDescription(`~~${menumsg.embeds[0].description}~~`)], components: [], content: `${collected && collected.first() && collected.first().values ? `<a<a:yes:955154240664371222>929001012830806016> **Selected: \`${collected ? collected.first().values[0] : "Nothing"}\`**` : "❌ **NOTHING SELECTED - CANCELLED**" }`})
         });
       } catch (e) {
         console.log(String(e.stack).grey.bgRed)
@@ -749,7 +749,7 @@ module.exports = {
                                     var guildrole = message.guild.roles.cache.get(role.id)
 
                                     if (!message.guild.me.roles) return message.reply({
-                                      embeds: [new Discord.MessageEmbed().setFooter(client.getFooter(es)).setColor("RED").setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable25"])).setAuthor(":no: ERROR | Could not Access the Role", message.author.displayAvatarURL({
+                                      embeds: [new Discord.MessageEmbed().setFooter(client.getFooter(es)).setColor("RED").setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable25"])).setAuthor("<a:no:955946429094953004> ERROR | Could not Access the Role", message.author.displayAvatarURL({
                                         dynamic: true
                                       }))]
                                     })
@@ -844,7 +844,7 @@ module.exports = {
                     }).then(msg => msg.delete({
                       timeout: 7500
                     }))
-                    throw ":no: ERROR";
+                    throw "<a:no:955946429094953004> ERROR";
                   }
                 })
                 .catch(e => {
@@ -890,7 +890,7 @@ module.exports = {
                     }).then(msg => msg.delete({
                       timeout: 7500
                     }))
-                    throw ":no: ERROR";
+                    throw "<a:no:955946429094953004> ERROR";
                   }
                 })
                 .catch(e => {
@@ -1199,7 +1199,7 @@ module.exports = {
                           var guildrole = message.guild.roles.cache.get(role.id)
 
                           if (!message.guild.me.roles) return message.reply({
-                            embeds: [new Discord.MessageEmbed().setFooter(client.getFooter(es)).setColor("RED").setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable58"])).setAuthor(":no: ERROR | Could not Access the Role", message.author.displayAvatarURL({
+                            embeds: [new Discord.MessageEmbed().setFooter(client.getFooter(es)).setColor("RED").setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable58"])).setAuthor("<a:no:955946429094953004> ERROR | Could not Access the Role", message.author.displayAvatarURL({
                               dynamic: true
                             }))]
                           })
@@ -1316,7 +1316,7 @@ module.exports = {
               var guildrole = message.guild.roles.cache.get(role.id)
 
               if (!message.guild.me.roles) return message.reply({
-                embeds: [new Discord.MessageEmbed().setFooter(client.getFooter(es)).setColor("RED").setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable70"])).setAuthor(":no: ERROR | Could not Access the Role", message.author.displayAvatarURL({
+                embeds: [new Discord.MessageEmbed().setFooter(client.getFooter(es)).setColor("RED").setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable70"])).setAuthor("<a:no:955946429094953004> ERROR | Could not Access the Role", message.author.displayAvatarURL({
                   dynamic: true
                 }))]
               })
@@ -1332,7 +1332,7 @@ module.exports = {
                 })
               } else {
                 return message.reply({
-                  embeds: [new Discord.MessageEmbed().setFooter(client.getFooter(es)).setColor("RED").setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable71"])).setAuthor(":no: ERROR | Could not Access the Role", message.author.displayAvatarURL({
+                  embeds: [new Discord.MessageEmbed().setFooter(client.getFooter(es)).setColor("RED").setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable71"])).setAuthor("<a:no:955946429094953004> ERROR | Could not Access the Role", message.author.displayAvatarURL({
                     dynamic: true
                   }))]
                 })
@@ -1523,7 +1523,7 @@ module.exports = {
                 var guildrole = message.guild.roles.cache.get(role.id)
 
                 if (!message.guild.me.roles) return message.reply({
-                  embeds: [new Discord.MessageEmbed().setFooter(client.getFooter(es)).setColor("RED").setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable81"])).setAuthor(":no: ERROR | Could not Access the Role", message.author.displayAvatarURL({
+                  embeds: [new Discord.MessageEmbed().setFooter(client.getFooter(es)).setColor("RED").setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable81"])).setAuthor("<a:no:955946429094953004> ERROR | Could not Access the Role", message.author.displayAvatarURL({
                     dynamic: true
                   }))]
                 })
@@ -1539,7 +1539,7 @@ module.exports = {
                   })
                 } else {
                   return message.reply({
-                    embeds: [new Discord.MessageEmbed().setFooter(client.getFooter(es)).setColor("RED").setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable82"])).setAuthor(":no: ERROR | Could not Access the Role", message.author.displayAvatarURL({
+                    embeds: [new Discord.MessageEmbed().setFooter(client.getFooter(es)).setColor("RED").setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable82"])).setAuthor("<a:no:955946429094953004> ERROR | Could not Access the Role", message.author.displayAvatarURL({
                       dynamic: true
                     }))]
                   })
@@ -1778,7 +1778,7 @@ module.exports = {
                 var guildrole = message.guild.roles.cache.get(role.id)
 
                 if (!message.guild.me.roles) return message.reply({
-                  embeds: [new Discord.MessageEmbed().setFooter(client.getFooter(es)).setColor("RED").setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable100"])).setAuthor(":no: ERROR | Could not Access the Role", message.author.displayAvatarURL({
+                  embeds: [new Discord.MessageEmbed().setFooter(client.getFooter(es)).setColor("RED").setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable100"])).setAuthor("<a:no:955946429094953004> ERROR | Could not Access the Role", message.author.displayAvatarURL({
                     dynamic: true
                   }))]
                 })
@@ -1794,7 +1794,7 @@ module.exports = {
                   })
                 } else {
                   return message.reply({
-                    embeds: [new Discord.MessageEmbed().setFooter(client.getFooter(es)).setColor("RED").setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable101"])).setAuthor(":no: ERROR | Could not Access the Role", message.author.displayAvatarURL({
+                    embeds: [new Discord.MessageEmbed().setFooter(client.getFooter(es)).setColor("RED").setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable101"])).setAuthor("<a:no:955946429094953004> ERROR | Could not Access the Role", message.author.displayAvatarURL({
                       dynamic: true
                     }))]
                   })
@@ -2035,7 +2035,7 @@ module.exports = {
                 var guildrole = message.guild.roles.cache.get(role.id)
 
                 if (!message.guild.me.roles) return message.reply({
-                  embeds: [new Discord.MessageEmbed().setFooter(client.getFooter(es)).setColor("RED").setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable119"])).setAuthor(":no: ERROR | Could not Access the Role", message.author.displayAvatarURL({
+                  embeds: [new Discord.MessageEmbed().setFooter(client.getFooter(es)).setColor("RED").setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable119"])).setAuthor("<a:no:955946429094953004> ERROR | Could not Access the Role", message.author.displayAvatarURL({
                     dynamic: true
                   }))]
                 })
@@ -2051,7 +2051,7 @@ module.exports = {
                   })
                 } else {
                   return message.reply({
-                    embeds: [new Discord.MessageEmbed().setFooter(client.getFooter(es)).setColor("RED").setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable120"])).setAuthor(":no: ERROR | Could not Access the Role", message.author.displayAvatarURL({
+                    embeds: [new Discord.MessageEmbed().setFooter(client.getFooter(es)).setColor("RED").setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable120"])).setAuthor("<a:no:955946429094953004> ERROR | Could not Access the Role", message.author.displayAvatarURL({
                       dynamic: true
                     }))]
                   })
@@ -2294,7 +2294,7 @@ module.exports = {
                 var guildrole = message.guild.roles.cache.get(role.id)
 
                 if (!message.guild.me.roles) return message.reply({
-                  embeds: [new Discord.MessageEmbed().setFooter(client.getFooter(es)).setColor("RED").setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable140"])).setAuthor(":no: ERROR | Could not Access the Role", message.author.displayAvatarURL({
+                  embeds: [new Discord.MessageEmbed().setFooter(client.getFooter(es)).setColor("RED").setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable140"])).setAuthor("<a:no:955946429094953004> ERROR | Could not Access the Role", message.author.displayAvatarURL({
                     dynamic: true
                   }))]
                 })
@@ -2310,7 +2310,7 @@ module.exports = {
                   })
                 } else {
                   return message.reply({
-                    embeds: [new Discord.MessageEmbed().setFooter(client.getFooter(es)).setColor("RED").setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable141"])).setAuthor(":no: ERROR | Could not Access the Role", message.author.displayAvatarURL({
+                    embeds: [new Discord.MessageEmbed().setFooter(client.getFooter(es)).setColor("RED").setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable141"])).setAuthor("<a:no:955946429094953004> ERROR | Could not Access the Role", message.author.displayAvatarURL({
                       dynamic: true
                     }))]
                   })
@@ -2554,7 +2554,7 @@ module.exports = {
                 var guildrole = message.guild.roles.cache.get(role.id)
 
                 if (!message.guild.me.roles) return message.reply({
-                  embeds: [new Discord.MessageEmbed().setFooter(client.getFooter(es)).setColor("RED").setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable161"])).setAuthor(":no: ERROR | Could not Access the Role", message.author.displayAvatarURL({
+                  embeds: [new Discord.MessageEmbed().setFooter(client.getFooter(es)).setColor("RED").setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable161"])).setAuthor("<a:no:955946429094953004> ERROR | Could not Access the Role", message.author.displayAvatarURL({
                     dynamic: true
                   }))]
                 })
@@ -2570,7 +2570,7 @@ module.exports = {
                   })
                 } else {
                   return message.reply({
-                    embeds: [new Discord.MessageEmbed().setFooter(client.getFooter(es)).setColor("RED").setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable162"])).setAuthor(":no: ERROR | Could not Access the Role", message.author.displayAvatarURL({
+                    embeds: [new Discord.MessageEmbed().setFooter(client.getFooter(es)).setColor("RED").setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable162"])).setAuthor("<a:no:955946429094953004> ERROR | Could not Access the Role", message.author.displayAvatarURL({
                       dynamic: true
                     }))]
                   })
@@ -2951,7 +2951,7 @@ module.exports = {
               var guildrole = message.guild.roles.cache.get(role.id)
 
               if (!message.guild.me.roles) return message.reply({
-                embeds: [new Discord.MessageEmbed().setFooter(client.getFooter(es)).setColor("RED").setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable183"])).setAuthor(":no: ERROR | Could not Access the Role", message.author.displayAvatarURL({
+                embeds: [new Discord.MessageEmbed().setFooter(client.getFooter(es)).setColor("RED").setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable183"])).setAuthor("<a:no:955946429094953004> ERROR | Could not Access the Role", message.author.displayAvatarURL({
                   dynamic: true
                 }))]
               })
@@ -2967,7 +2967,7 @@ module.exports = {
                 })
               } else {
                 return message.reply({
-                  embeds: [new Discord.MessageEmbed().setFooter(client.getFooter(es)).setColor("RED").setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable184"])).setAuthor(":no: ERROR | Could not Access the Role", message.author.displayAvatarURL({
+                  embeds: [new Discord.MessageEmbed().setFooter(client.getFooter(es)).setColor("RED").setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-apply"]["variable184"])).setAuthor("<a:no:955946429094953004> ERROR | Could not Access the Role", message.author.displayAvatarURL({
                     dynamic: true
                   }))]
                 })
@@ -3300,7 +3300,7 @@ module.exports = {
                   }).then(msg => msg.delete({
                     timeout: 7500
                   }))
-                  throw ":no: ERROR";
+                  throw "<a:no:955946429094953004> ERROR";
                 }
               })
               .catch(e => {
@@ -3470,7 +3470,7 @@ module.exports = {
                   }).then(msg => msg.delete({
                     timeout: 7500
                   }))
-                  throw ":no: ERROR";
+                  throw "<a:no:955946429094953004> ERROR";
                 }
               })
               .catch(e => {

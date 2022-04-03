@@ -60,7 +60,7 @@ module.exports = {
       }
       itemsvalue += prize * data.items[`${itemarray}`];
     }
-    const p2b = (costs) => (Number(costs) > Number(data.balance)) ? ":no:" : ":yes:";
+    const p2b = (costs) => (Number(costs) > Number(data.balance)) ? "<a:no:955946429094953004>" : "<a:yes:955154240664371222>";
     //return some message!
     return message.reply({embeds: [new MessageEmbed()
       .setColor(es.color).setThumbnail(es.thumb ? es.footericon && (es.footericon.includes("http://") || es.footericon.includes("https://")) ? es.footericon : client.user.displayAvatarURL() : null)
