@@ -96,6 +96,7 @@
             "developer": {
                 "buttons": {
                     "invite": "Invite Public Version",
+                    "dc": "Get yourself a own Bot",
                     "botlist": "Public Bot-List-Website"
                 },
                 "title": "_Sean#1751",
