@@ -16,7 +16,7 @@
                     {
                         "value": "Creator / Features",
                         "description": "Who is my Creator? / What are my Features?",
-                        "replymsg": "<:Milrato:840259659163893820> **__Imroid Development__ made me!**\n> <:Like:857334024087011378> **Their Website:** https://dsc.gg/imroid-development\n> <:Doscord:956662822551572480> **Their Discord:** https://dsc.gg/imroid-development\n``` ```***__You can join their Discord Server and get yourself a Bot like me, for FREE/CHEAP!__***\n``` ```:muscle: **__My Features__**\n>>> **68+ Systems**, like: <:Tweeter:956660155888590868> **Twitter-** & <:YOUUTUBE:956661075632337026> **Youtube-Auto-Poster** \n**Application-**, Ticket-, **Welcome-Images-** and Reaction Role-, ... Systems\n:notes: An advanced <:Spootify:956662268635017240> **Music System** with **Audio Filtering**\n:video_game: Many **Minigames** and :joystick: **Fun** Commands (150+)\n:no_entry_sign: **Administration** and **Auto-Moderation** and way much more!\n\n**The Developer is: `_Sean#1751` <:TOMATO:858450817665204224>, Contact him if you wanna hire him!**",
+                        "replymsg": "<:Milrato:840259659163893820> **__Imroid Development__ made me!**\n> <:Like:857334024087011378> **Their Website:** https://dsc.gg/imroid-development\n> <:Doscord:956662822551572480> **Their Discord:** https://dsc.gg/imroid-development\n``` ```***__You can join their Discord Server and get yourself a Bot like me, for FREE/CHEAP!__***\n``` ```:muscle: **__My Features__**\n>>> **68+ Systems**, like: <:Tweeter:956660155888590868> **Twitter-** & <:YOUUTUBE:956661075632337026> **Youtube-Auto-Poster** \n**Application-**, Ticket-, **Welcome-Images-** and Reaction Role-, ... Systems\n:notes: An advanced <:Spootify:956662268635017240> **Music System** with **Audio Filtering**\n:video_game: Many **Minigames** and :joystick: **Fun** Commands (150+)\n:no_entry_sign: **Administration** and **Auto-Moderation** and way much more!\n\n**The Developer is: `_Sean#1751`, Contact him if you wanna hire him!**",
                         "emoji": "840259659163893820"
                     },
                     {
@@ -32,21 +32,9 @@
                         "emoji": "❓"
                     },
                     {
-                        "value": "Sponsor / Support us",
-                        "description": "Thanks for everything, you'll get something back!",
-                        "replymsg": "**__There are several Sponsor Options:__**\n\n> <:PAYPAL:861207258846330880> **Paypal:**\n> https://paypal.me/SeanNie38878408elopment\n\n> <:PATREON:861207934070816849> **Patreon:**\n> https://www.patreon.com/SeanNie38878408elopment?fan_landing=true\n\n> 💸 **Donate via Paysafe, Sofort or others: (1/2)**\n> https://bero-host.de/spenden/qgswlxrzgtll\n\n> 💸 **Donate via Paysafe, Sofort or others: (2/2)**\n> https://mc-host24.de/donate/tomato\n\n> **Every donator** gets the **@DONATOR Role** on:\n> https://dsc.gg/imroid-development\n\n\n> **Every Donator** with more then **10€** Gets a **Free Bot** of his/her **Choice*!",
-                        "emoji": "861207258846330880"
-                    },
-                    {
-                        "value": "Partners / Sponsors",
-                        "description": "We are really proud of our Sponsors and Partners!",
-                        "replymsg": "<:BeroHost:852970925695041646> Our First/Main Sponsor is **Bero-Host.de** <:BeroHost:852970925695041646>\n> <:Like:857334024087011378> **Their Website:** https://bero-host.de\n> <:Doscord:956662822551572480> **Their Discord:** https://discord.bero-host.de\n> *They provide us several HIGH QUALTIY __Servers__ which we are using for our HOSTING! **CHECK THEM OUT**!*\n``` ```<:Bittmax:840370610755862529> Our Second Sponsor is **Bittmax.de** <:Bittmax:840370610755862529>\n> <:Like:857334024087011378> **Their Website:** https://bittmax.de\n> <:Doscord:956662822551572480> **Their Discord:** https://discord.gg/GgjJZCyYKD\n> *They provide us several __Servers__ which we are using for our PUBLIC BOT HOSTING! **CHECK THEM OUT**!*\n``` ```**__Partners__**\n> ***We currently have `{partnercount} Partners`, which get at least 1 FREE OP BOT***\n``` ```Wanna be a Partner/Sponsor too? Contact us in our <:Doscord:956662822551572480> **Discord:** https://dsc.gg/imroid-development and open a Ticket in <#840491251278676008>",
-                        "emoji": "866089513436315698"
-                    },
-                    {
                         "value": "My Bot doesnt work",
                         "description": "If your Bot is not working do this:",
-                        "replymsg": "Contact us in Imroid Development <:Doscord:956662822551572480> **Discord:** https://dsc.gg/imroid-development and open a Ticket in <#840332764603351101>\n\n***If it still responds with messages but doesn't work right, then you can try to do: `{prefix}reloadbot` / `{prefix}cmdreload [CMDNAME]`***\n\nMake sure that I have enough Permissions, as well as that the highest Role is high enough!",
+                        "replymsg": "Contact us in Imroid Development <:Doscord:956662822551572480> **Discord:** https://dsc.gg/imroid-development and open a Ticket in <#960220709521592330>\n\n***If it still responds with messages but doesn't work right, then you can try to do: `{prefix}reloadbot` / `{prefix}cmdreload [CMDNAME]`***\n\nMake sure that I have enough Permissions, as well as that the highest Role is high enough!",
                         "emoji": "😓"
                     },
                     {
@@ -436,7 +424,7 @@
                 "loading": "Getting the Channel-Information-Data",
                 "error1": "<a:no:955946429094953004> Please use a Valid Youtube Link",
                 "error2": ":x: **Only the one who typed {prefix}youtubeinfo is allowed to react!**",
-                "example": "Example Usage: `{prefix}youtubeinfo https://youtube.com/c/Tomato6966`",
+                "example": "Example Usage: `{prefix}youtubeinfo https://youtube.com/c/mrbeast`",
                 "field1": "**Subscribercount:**",
                 "field2": "**Tags:**",
                 "field3": "**Unlisted:**",
