@@ -16,7 +16,7 @@
                     {
                         "value": "Ersteller / Funktionen",
                         "description": "Wer ist mein Macher? / Was sind meine Funktionen?",
-                        "replymsg": "<:Milrato:840259659163893820> **__Imroid Development__ hat mich gemacht!**\n> <:Like:857334024087011378> **Ihre Internet Seite:** https://dsc.gg/imroid-development\n> <:Doscord:956662822551572480> **Ihr Discord:** https://dsc.gg/imroid-development\n``` ```***__Du kannst ihrem Discord Server beitreten und einen kostenlosen, bzw. günstigen Discord Bot deiner Wahl erhalten, wie mich!__***\n``` ```:muscle: **__Meine Funktionen__**\n>>> **68+ Systeme**, wie z.B: Automatischer <:Tweeter:956660155888590868> **Twitter-** & <:YOUUTUBE:956661075632337026> **Youtube** Upload Poster \n**Bewerbungs-**, Ticket-, **Willkommens-Bilder-** und Reaction Role-, ... Systeme\n:notes: Ein komplexes <:Spootify:956662268635017240> **Music System** mit **Audio Filter**\n:video_game: Viele **Minigames** und :joystick: **Fun** Befehle (150+)\n:no_entry_sign: **Administration** und **Auto-Moderation** und viel mehr!\n\n**Der Programmiere ist: `_Sean#1751` <:TOMATO:858450817665204224>, Wenn du ihn anheuern willst, dann kontaktiere ihn!**",
+                        "replymsg": "<:Milrato:840259659163893820> **__Imroid Development__ hat mich gemacht!**\n> <:Like:857334024087011378> **Ihre Internet Seite:** https://dsc.gg/imroid-development\n> <:Doscord:961024476642934784> **Ihr Discord:** https://dsc.gg/imroid-development\n``` ```***__Du kannst ihrem Discord Server beitreten und einen kostenlosen, bzw. günstigen Discord Bot deiner Wahl erhalten, wie mich!__***\n``` ```:muscle: **__Meine Funktionen__**\n>>> **68+ Systeme**, wie z.B: Automatischer <:Tweeter:956660155888590868> **Twitter-** & <:YOUUTUBE:956661075632337026> **Youtube** Upload Poster \n**Bewerbungs-**, Ticket-, **Willkommens-Bilder-** und Reaction Role-, ... Systeme\n:notes: Ein komplexes <:Spootify:956662268635017240> **Music System** mit **Audio Filter**\n:video_game: Viele **Minigames** und :joystick: **Fun** Befehle (150+)\n:no_entry_sign: **Administration** und **Auto-Moderation** und viel mehr!\n\n**Der Programmiere ist: `_Sean#1751` <:TOMATO:858450817665204224>, Wenn du ihn anheuern willst, dann kontaktiere ihn!**",
                         "emoji": "840259659163893820"
                     },
                     {
@@ -40,13 +40,13 @@
                     {
                         "value": "Partner / Sponsoren",
                         "description": "Wir sind sehr stolz auf unsere Partner & Sponsoren",
-                        "replymsg": "<:BeroHost:852970925695041646> Unser erster Sponsor ist **Bero-Host.de** <:BeroHost:852970925695041646>\n> <:Like:857334024087011378> **Ihre Internet Seite:** https://bero-host.de\n> <:Doscord:956662822551572480> **Ihr Discord:** https://discord.bero-host.de\n> *Sie geben uns höchst qualtiative __SERVER__ welche wir für das Bot-Hosting verwenden! **BESUCHE SIE**!*\n``` ```<:Bittmax:840370610755862529> Unser zweiter Sponsor ist **Bittmax.de** <:Bittmax:840370610755862529>\n> <:Like:857334024087011378> **Ihre Internet Seite:** https://bittmax.de\n> <:Doscord:956662822551572480> **Ihr Discord:** https://discord.gg/GgjJZCyYKD\n> *Sie geben uns höchst qualtiative __SERVER__ welche wir für das Bot-Hosting verwenden! **BESUCHE SIE**!*\n``` ```**__Partner__**\n> ***Wir haben zurzeit `{partnercount} Partner`, welche mindestens 1 OP GRATIS BOT erhalten***\n``` ```Du willst auch ein Partner sein oder uns Sponsorn?\nKontaktiere uns auf unserem Discord Server:\n <:Doscord:956662822551572480> **Discord:** https://dsc.gg/imroid-development und öffne ein Ticket in <#840491251278676008>",
+                        "replymsg": "<:BeroHost:852970925695041646> Unser erster Sponsor ist **Bero-Host.de** <:BeroHost:852970925695041646>\n> <:Like:857334024087011378> **Ihre Internet Seite:** https://bero-host.de\n> <:Doscord:961024476642934784> **Ihr Discord:** https://discord.bero-host.de\n> *Sie geben uns höchst qualtiative __SERVER__ welche wir für das Bot-Hosting verwenden! **BESUCHE SIE**!*\n``` ```<:Bittmax:840370610755862529> Unser zweiter Sponsor ist **Bittmax.de** <:Bittmax:840370610755862529>\n> <:Like:857334024087011378> **Ihre Internet Seite:** https://bittmax.de\n> <:Doscord:961024476642934784> **Ihr Discord:** https://discord.gg/GgjJZCyYKD\n> *Sie geben uns höchst qualtiative __SERVER__ welche wir für das Bot-Hosting verwenden! **BESUCHE SIE**!*\n``` ```**__Partner__**\n> ***Wir haben zurzeit `{partnercount} Partner`, welche mindestens 1 OP GRATIS BOT erhalten***\n``` ```Du willst auch ein Partner sein oder uns Sponsorn?\nKontaktiere uns auf unserem Discord Server:\n <:Doscord:961024476642934784> **Discord:** https://dsc.gg/imroid-development und öffne ein Ticket in <#840491251278676008>",
                         "emoji": "866089513436315698"
                     },
                     {
                         "value": "Mein Bot funktioniert nicht",
                         "description": "Wenn dein Bot nicht funktioniert, dann mach das:",
-                        "replymsg": "Kontaktiere uns in Imroid Development <:Doscord:956662822551572480> **Discord:** https://dsc.gg/imroid-development und öffne ein Ticket in <#840332764603351101>\n\n***Wenn er noch auf Befehle antworten kann, aber nicht richtig funktioniert, dann versuch mal das: `{prefix}reloadbot` / `{prefix}cmdreload [CMDNAME]`***\n\nStell sicher, dass ich genügend Rechte habe, bzw. das meine höchste Rolle soweit oben ist wie es nötig ist!",
+                        "replymsg": "Kontaktiere uns in Imroid Development <:Doscord:961024476642934784> **Discord:** https://dsc.gg/imroid-development und öffne ein Ticket in <#840332764603351101>\n\n***Wenn er noch auf Befehle antworten kann, aber nicht richtig funktioniert, dann versuch mal das: `{prefix}reloadbot` / `{prefix}cmdreload [CMDNAME]`***\n\nStell sicher, dass ich genügend Rechte habe, bzw. das meine höchste Rolle soweit oben ist wie es nötig ist!",
                         "emoji": "😓"
                     },
                     {
@@ -61,21 +61,21 @@
             "botinfo": {
                 "loading": "Bekomme Bot Informationen...",
                 "field1": {
-                    "title": "<:arrow:959971239798120479> Generell -- Statistik",
+                    "title": "<:Curvedrightarrow:960220710586953789> Generell -- Statistik",
                     "value": "```yml\nServer: {totalGuilds}\nNutzer: {totalNutzern}\nVerbindungen: {connectedchannelsamount}```"
                 },
                 "field2": {
-                    "title": "<:arrow:959971239798120479> Bot -- Statistik"
+                    "title": "<:Curvedrightarrow:960220710586953789> Bot -- Statistik"
                 },
                 "field3": {
-                    "title": "<:arrow:959971239798120479> System -- Statistik",
+                    "title": "<:Curvedrightarrow:960220710586953789> System -- Statistik",
                     "value": "```yml\nOS: Linux | Debian\nCPU Nutzung: {cpu} %\nRAM Nutzung: {ram} MB```"
                 },
                 "field4": {
-                    "title": "<:arrow:959971239798120479> Programmierer"
+                    "title": "<:Curvedrightarrow:960220710586953789> Programmierer"
                 },
                 "field5": {
-                    "title": "<:arrow:959971239798120479> Wichtige Links",
+                    "title": "<:Curvedrightarrow:960220710586953789> Wichtige Links",
                     "value": "**[Einladungs-Link]({invitelink})・[Support Server](https://dsc.gg/imroid-development)・[Internet Seite](https://dsc.gg/imroid-development)**\n**[Bekomme Gratis Bots](https://dsc.gg/imroid-development)・[Lade Public Version ein](https://discord.com/api/oauth2/authorize?client_id=954809003362357248&permissions=8&scope=bot)**"
                 },
                 "variable1": "`\\`\\`\\`yml\\nName: ${client.user.tag} [${client.user.id}]\\nBot Latency: ${Math.round(Date.now() - message.createdTimestamp)}ms\\nApi Latency: ${Math.round(client.ws.ping)}ms\\nRuntime: ${duration(client.uptime).join(\"︲\")}\\`\\`\\``",
@@ -100,14 +100,14 @@
                     "botlist": "Bot-List-Internet Seite"
                 },
                 "title": "_Sean#1751 | Dev von 4 Orgs | Developer von 1200+ BOTS",
-                "description": "<:arrow:959971239798120479> Hallo, ich bin **Tomato** <@711602696133673011> *(`_Sean#1751`)*, und ich habe mehr als 1200 verschiedene Discord Bots gemacht: [Meine Bot List](https://botlist.dsc.gg/imroid-development)\n\n<:arrow:959971239798120479> Ich bin sehr stolz auf meine verifizierten Bots, am meisten aber auf: [**LAVA MUSIC** | `2021's Bester Music Bot`](https://lava.dsc.gg/imroid-development) <@742672021422342165>\n\n<:arrow:959971239798120479> Ich habe diesen Bot gemacht, du kannst auch gratis Bots bekommen bei: [My Service](https://dc.milrato)\n\n<:arrow:959971239798120479> Ich bin auch ein **Internet Seite** Programmierer und **Plugin** Programmierer. Ich habe veiele **Module** wie dieses **SPRACH-STEURUNGS Module** gemacht! [GUCK ES AN](https://cdn.discordapp.com/attachments/778714123785076768/801606374105546782/2021-01-21_01-15-50.mp4)\n\n<:arrow:959971239798120479> Ich hoffe dir gefällt was ich mache :v: <3",
+                "description": "<:Curvedrightarrow:960220710586953789> Hallo, ich bin **Tomato** <@711602696133673011> *(`_Sean#1751`)*, und ich habe mehr als 1200 verschiedene Discord Bots gemacht: [Meine Bot List](https://botlist.dsc.gg/imroid-development)\n\n<:Curvedrightarrow:960220710586953789> Ich bin sehr stolz auf meine verifizierten Bots, am meisten aber auf: [**LAVA MUSIC** | `2021's Bester Music Bot`](https://lava.dsc.gg/imroid-development) <@742672021422342165>\n\n<:Curvedrightarrow:960220710586953789> Ich habe diesen Bot gemacht, du kannst auch gratis Bots bekommen bei: [My Service](https://dc.milrato)\n\n<:Curvedrightarrow:960220710586953789> Ich bin auch ein **Internet Seite** Programmierer und **Plugin** Programmierer. Ich habe veiele **Module** wie dieses **SPRACH-STEURUNGS Module** gemacht! [GUCK ES AN](https://cdn.discordapp.com/attachments/778714123785076768/801606374105546782/2021-01-21_01-15-50.mp4)\n\n<:Curvedrightarrow:960220710586953789> Ich hoffe dir gefällt was ich mache :v: <3",
                 "variable1": "`\\`\\`\\`${String(e.stack).substr(0, 2000)}\\`\\`\\``"
             },
             "djmode": {
                 "nodjroles": "Keine DJ-ROLLEN, also sind alle Nutzer ein DJ",
                 "description": "Wenn eine DJ-ROLLE existiert und der Befehl hier steht, dann benötigst du eine dieser DJ-ROLLE(N) um ihn ausführen zu können!",
-                "field1": "<:arrow:959971239798120479> DJ-Only Befehle aktiv für:",
-                "field2": "<:arrow:959971239798120479> DJ-Rollen",
+                "field1": "<:Curvedrightarrow:960220710586953789> DJ-Only Befehle aktiv für:",
+                "field2": "<:Curvedrightarrow:960220710586953789> DJ-Rollen",
                 "variable1": "\"🎧 Dj Mode\"",
                 "variable2": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
@@ -155,7 +155,7 @@
                     "botlist": "Bot-List-Internet Seite"
                 },
                 "title": "_Sean#1751 | Dev von 4 Orgs | Developer von 1200+ BOTS",
-                "description": "<:arrow:959971239798120479> Hallo, ich bin **Tomato** <@711602696133673011> *(`_Sean#1751`)*, und ich habe mehr als 1200 verschiedene Discord Bots gemacht: [Meine Bot List](https://botlist.dsc.gg/imroid-development)\n\n<:arrow:959971239798120479> Ich bin sehr stolz auf meine verifizierten Bots, am meisten aber auf: [**LAVA MUSIC** | `2021's Bester Music Bot`](https://lava.dsc.gg/imroid-development) <@742672021422342165>\n\n<:arrow:959971239798120479> Ich habe diesen Bot gemacht, du kannst auch gratis Bots bekommen bei: [My Service](https://dc.milrato)\n\n<:arrow:959971239798120479> Ich bin auch ein **Internet Seite** Programmierer und **Plugin** Programmierer. Ich habe veiele **Module** wie dieses **SPRACH-STEURUNGS Module** gemacht! [GUCK ES AN](https://cdn.discordapp.com/attachments/778714123785076768/801606374105546782/2021-01-21_01-15-50.mp4)\n\n<:arrow:959971239798120479> Ich hoffe dir gefällt was ich mache :v: <3",
+                "description": "<:Curvedrightarrow:960220710586953789> Hallo, ich bin **Tomato** <@711602696133673011> *(`_Sean#1751`)*, und ich habe mehr als 1200 verschiedene Discord Bots gemacht: [Meine Bot List](https://botlist.dsc.gg/imroid-development)\n\n<:Curvedrightarrow:960220710586953789> Ich bin sehr stolz auf meine verifizierten Bots, am meisten aber auf: [**LAVA MUSIC** | `2021's Bester Music Bot`](https://lava.dsc.gg/imroid-development) <@742672021422342165>\n\n<:Curvedrightarrow:960220710586953789> Ich habe diesen Bot gemacht, du kannst auch gratis Bots bekommen bei: [My Service](https://dc.milrato)\n\n<:Curvedrightarrow:960220710586953789> Ich bin auch ein **Internet Seite** Programmierer und **Plugin** Programmierer. Ich habe veiele **Module** wie dieses **SPRACH-STEURUNGS Module** gemacht! [GUCK ES AN](https://cdn.discordapp.com/attachments/778714123785076768/801606374105546782/2021-01-21_01-15-50.mp4)\n\n<:Curvedrightarrow:960220710586953789> Ich hoffe dir gefällt was ich mache :v: <3",
                 "variable1": "`\\`\\`\\`${String(e.stack).substr(0, 2000)}\\`\\`\\``"
             },
             "help": {
@@ -164,12 +164,12 @@
                 "noinfo": "Keine Information für den Befehl **{command}** gefunden",
                 "footer": "Um Befehl-Beschreibungen & Informationen zu sehen, schreibe: {prefix}help [CMD NAME]",
                 "detail": {
-                    "name": "**<:arrow:959971239798120479> Befehlnamen**",
-                    "desc": "**<:arrow:959971239798120479> Beschreibung**",
-                    "aliases": "**<:arrow:959971239798120479> Aliases**",
-                    "about": "<:arrow:959971239798120479> Detail Information: `{cmdname}`",
-                    "cooldown": "**<:arrow:959971239798120479> Abklingzeit**",
-                    "usage": "**<:arrow:959971239798120479> Nutzung**",
+                    "name": "**<:Curvedrightarrow:960220710586953789> Befehlnamen**",
+                    "desc": "**<:Curvedrightarrow:960220710586953789> Beschreibung**",
+                    "aliases": "**<:Curvedrightarrow:960220710586953789> Aliases**",
+                    "about": "<:Curvedrightarrow:960220710586953789> Detail Information: `{cmdname}`",
+                    "cooldown": "**<:Curvedrightarrow:960220710586953789> Abklingzeit**",
+                    "usage": "**<:Curvedrightarrow:960220710586953789> Nutzung**",
                     "syntax": "Syntax: <> = benötigt, [] = optional"
                 },
                 "buttons": {
@@ -213,7 +213,7 @@
                 "variable24": "`🦾 **Custom Commands [${cuc[0].includes(\"NO\") ? 0 : items.length}]**`",
                 "variable25": "\"<:Milrato:840259659163893820> Bot Creator Company Advertisment\"",
                 "variablex_26": "`<:Milrato:840259659163893820> **__Bot Creator Information__**`",
-                "variable26": "`>>> 💯 This Bot has been made by:\\n[**Imroid Development**](https://dsc.gg/imroid-development)・[Discord](dsc.gg/imroid-development)<:Doscord:956662822551572480> [Click here to order yourself a own one](dsc.gg/imroid-development)`",
+                "variable26": "`>>> 💯 This Bot has been made by:\\n[**Imroid Development**](https://dsc.gg/imroid-development)・[Discord](dsc.gg/imroid-development)<:Doscord:961024476642934784> [Click here to order yourself a own one](dsc.gg/imroid-development)`",
                 "variable27": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "invite": {
@@ -245,13 +245,13 @@
             },
             "membercount": {
                 "title": "Nutzer Anzahl Information über:",
-                "field1": "<:arrow:959971239798120479> Alle NUTZER",
-                "field2": "<:arrow:959971239798120479> Alle MENSCHEN",
-                "field3": "<:arrow:959971239798120479> Alle BOTS",
-                "field4": "<:arrow:959971239798120479> ONLINE",
-                "field5": "<:arrow:959971239798120479> ABWESEND",
-                "field6": "<:arrow:959971239798120479> DND",
-                "field7": "<:arrow:959971239798120479> OFFLINE",
+                "field1": "<:Curvedrightarrow:960220710586953789> Alle NUTZER",
+                "field2": "<:Curvedrightarrow:960220710586953789> Alle MENSCHEN",
+                "field3": "<:Curvedrightarrow:960220710586953789> Alle BOTS",
+                "field4": "<:Curvedrightarrow:960220710586953789> ONLINE",
+                "field5": "<:Curvedrightarrow:960220710586953789> ABWESEND",
+                "field6": "<:Curvedrightarrow:960220710586953789> DND",
+                "field7": "<:Curvedrightarrow:960220710586953789> OFFLINE",
                 "variable1": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "modstats": {
@@ -297,7 +297,7 @@
             },
             "permissions": {
                 "from": "Berechtigungen von: {usertag}",
-                "from2": "**<:arrow:959971239798120479> Berechtigungen:**",
+                "from2": "**<:Curvedrightarrow:960220710586953789> Berechtigungen:**",
                 "variable1": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "ping": {
@@ -312,15 +312,15 @@
             },
             "roleinfo": {
                 "author": "Information über:",
-                "field1": "**<:arrow:959971239798120479> Name:**",
-                "field2": "**<:arrow:959971239798120479> ID:**",
-                "field3": "**<:arrow:959971239798120479> Farbe:**",
-                "field4": "**<:arrow:959971239798120479> Datum erstellt:**",
-                "field5": "**<:arrow:959971239798120479> Position:**",
-                "field6": "**<:arrow:959971239798120479> Member-Anzahl:**",
-                "field7": "**<:arrow:959971239798120479> Gelisted:**",
-                "field8": "**<:arrow:959971239798120479> Pingbar:**",
-                "field9": "**<:arrow:959971239798120479> Berechtigungen:**",
+                "field1": "**<:Curvedrightarrow:960220710586953789> Name:**",
+                "field2": "**<:Curvedrightarrow:960220710586953789> ID:**",
+                "field3": "**<:Curvedrightarrow:960220710586953789> Farbe:**",
+                "field4": "**<:Curvedrightarrow:960220710586953789> Datum erstellt:**",
+                "field5": "**<:Curvedrightarrow:960220710586953789> Position:**",
+                "field6": "**<:Curvedrightarrow:960220710586953789> Member-Anzahl:**",
+                "field7": "**<:Curvedrightarrow:960220710586953789> Gelisted:**",
+                "field8": "**<:Curvedrightarrow:960220710586953789> Pingbar:**",
+                "field9": "**<:Curvedrightarrow:960220710586953789> Berechtigungen:**",
                 "variable1": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "serveravatar": {
@@ -329,23 +329,23 @@
             },
             "serverinfo": {
                 "author": "Server Information über:",
-                "field1": "**<:arrow:959971239798120479> Besitzer:**",
-                "field2": "**<:arrow:959971239798120479> Erstellt an:**",
-                "field3": "**<:arrow:959971239798120479> Du bist beigetreten:**",
-                "field4": "**<:arrow:959971239798120479> Alle Channel:**",
-                "field5": "**<:arrow:959971239798120479> Text Channel:**",
-                "field6": "**<:arrow:959971239798120479> Voice Channel:**",
-                "field7": "**<:arrow:959971239798120479> Alle NUTZER:**",
-                "field8": "**<:arrow:959971239798120479> Alle MENSCHEN:**",
-                "field9": "**<:arrow:959971239798120479> Alle BOTS:**",
-                "field10": "**<:arrow:959971239798120479> ONLINE:**",
-                "field11": "**<:arrow:959971239798120479> OFFLINE:**",
-                "field12": "**<:arrow:959971239798120479> Alle Boosts:**",
-                "field13": "**<:arrow:959971239798120479> Boost-Level:**",
-                "field14": "**<:arrow:959971239798120479> Max-Channel-Bitrate:**",
-                "variablex_1": "`<:arrow:959971239798120479> [${message.guild.emojis.cache.size}] Emojis: `",
+                "field1": "**<:Curvedrightarrow:960220710586953789> Besitzer:**",
+                "field2": "**<:Curvedrightarrow:960220710586953789> Erstellt an:**",
+                "field3": "**<:Curvedrightarrow:960220710586953789> Du bist beigetreten:**",
+                "field4": "**<:Curvedrightarrow:960220710586953789> Alle Channel:**",
+                "field5": "**<:Curvedrightarrow:960220710586953789> Text Channel:**",
+                "field6": "**<:Curvedrightarrow:960220710586953789> Voice Channel:**",
+                "field7": "**<:Curvedrightarrow:960220710586953789> Alle NUTZER:**",
+                "field8": "**<:Curvedrightarrow:960220710586953789> Alle MENSCHEN:**",
+                "field9": "**<:Curvedrightarrow:960220710586953789> Alle BOTS:**",
+                "field10": "**<:Curvedrightarrow:960220710586953789> ONLINE:**",
+                "field11": "**<:Curvedrightarrow:960220710586953789> OFFLINE:**",
+                "field12": "**<:Curvedrightarrow:960220710586953789> Alle Boosts:**",
+                "field13": "**<:Curvedrightarrow:960220710586953789> Boost-Level:**",
+                "field14": "**<:Curvedrightarrow:960220710586953789> Max-Channel-Bitrate:**",
+                "variablex_1": "`<:Curvedrightarrow:960220710586953789> [${message.guild.emojis.cache.size}] Emojis: `",
                 "variable1": "\"> \"+message.guild.emojis.cache.size < 35 ? message.guild.emojis.cache.map(emoji => `${emoji}`).join(\"︲\") : message.guild.emojis.cache.size > 35 ? emojitrimarray(message.guild.emojis.cache.map(emoji => `${emoji}`)).substr(0, 2048) : 'No Emojis'",
-                "variablex_2": "`<:arrow:959971239798120479> [${message.guild.roles.cache.size}] Roles: `", "variable2":"\"> \"+message.guild.roles.cache.size < 40 ? [...message.guild.roles.cache.values()].sort((a, b) => b.rawPosition - a.rawPosition).map(role => `<@&${role.id}>`).join(', ') : message.guild.roles.cache.size > 40 ? trimArray(message.guild.roles.cache) : 'None'",
+                "variablex_2": "`<:Curvedrightarrow:960220710586953789> [${message.guild.roles.cache.size}] Roles: `", "variable2":"\"> \"+message.guild.roles.cache.size < 40 ? [...message.guild.roles.cache.values()].sort((a, b) => b.rawPosition - a.rawPosition).map(role => `<@&${role.id}>`).join(', ') : message.guild.roles.cache.size > 40 ? trimArray(message.guild.roles.cache) : 'None'",
                 "variable3": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "servers": {
@@ -441,18 +441,18 @@
             },
             "userinfo": {
                 "author": "Information über: {usertag}",
-                "field1": "**<:arrow:959971239798120479> Nutzername:**",
-                "field2": "**<:arrow:959971239798120479> ID:**",
-                "field3": "**<:arrow:959971239798120479> Profilbild:**",
-                "field4": "**<:arrow:959971239798120479> Zeitpunkt DC gejoined:**",
-                "field5": "**<:arrow:959971239798120479> Zeitpunkt Server gejoined:**",
-                "field6": "**<:arrow:959971239798120479> Flags:**",
-                "field7": "**<:arrow:959971239798120479> Status:**",
-                "field8": "**<:arrow:959971239798120479> Höchste Rolle:**",
-                "field9": "**<:arrow:959971239798120479> Ist ein Bot:**",
-                "field10": "**<:arrow:959971239798120479> Activität:**",
-                "field11": "**<:arrow:959971239798120479> Berechtigungen:**",
-                "field12": "**<:arrow:959971239798120479> [{rolesize}] Rollen:**",
+                "field1": "**<:Curvedrightarrow:960220710586953789> Nutzername:**",
+                "field2": "**<:Curvedrightarrow:960220710586953789> ID:**",
+                "field3": "**<:Curvedrightarrow:960220710586953789> Profilbild:**",
+                "field4": "**<:Curvedrightarrow:960220710586953789> Zeitpunkt DC gejoined:**",
+                "field5": "**<:Curvedrightarrow:960220710586953789> Zeitpunkt Server gejoined:**",
+                "field6": "**<:Curvedrightarrow:960220710586953789> Flags:**",
+                "field7": "**<:Curvedrightarrow:960220710586953789> Status:**",
+                "field8": "**<:Curvedrightarrow:960220710586953789> Höchste Rolle:**",
+                "field9": "**<:Curvedrightarrow:960220710586953789> Ist ein Bot:**",
+                "field10": "**<:Curvedrightarrow:960220710586953789> Activität:**",
+                "field11": "**<:Curvedrightarrow:960220710586953789> Berechtigungen:**",
+                "field12": "**<:Curvedrightarrow:960220710586953789> [{rolesize}] Rollen:**",
                 "noroles": "Keine Rollen",
                 "nopermissions": "Keine Berechtigungen",
                 "nostatus": "Hat keine Aktivität",
