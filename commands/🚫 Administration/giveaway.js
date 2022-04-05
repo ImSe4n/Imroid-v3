@@ -126,7 +126,7 @@ module.exports = {
                 let options = {
                     time: giveawayDuration,
                     duration: giveawayDuration,
-                    prize: `:Gift:> ${giveawayPrize} <:Gift:>`,
+                    prize: `:gift: ${giveawayPrize} <:gift:`,
                     winnerCount: giveawayNumberWinners,
                     hostedBy: message.author,
                     thumbnail: es.thumb ? es.footericon && (es.footericon.includes("http://") || es.footericon.includes("https://")) ? es.footericon : client.user.displayAvatarURL() : null,
