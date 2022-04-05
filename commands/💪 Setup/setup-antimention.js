@@ -109,11 +109,11 @@ module.exports = {
             let SetupNumber = menu?.values[0].split(" ")[0]
             handle_the_picks(menuoptiondataIndex, SetupNumber, menuoptiondata)
           }
-          else menu?.reply({content: `<a:no:955946429094953004> You are not allowed to do that! Only: <@${cmduser.id}>`, ephemeral: true});
+          else menu?.reply({content: `<a:nah:960701828675297300> You are not allowed to do that! Only: <@${cmduser.id}>`, ephemeral: true});
         });
         //Once the Collections ended edit the menu message
         collector.on('end', collected => {
-          menumsg.edit({embeds: [menumsg.embeds[0].setDescription(`~~${menumsg.embeds[0].description}~~`)], components: [], content: `${collected && collected.first() && collected.first().values ? `<a:yes:955154240664371222> **Selected: \`${collected ? collected.first().values[0] : "Nothing"}\`**` : "❌ **NOTHING SELECTED - CANCELLED**" }`})
+          menumsg.edit({embeds: [menumsg.embeds[0].setDescription(`~~${menumsg.embeds[0].description}~~`)], components: [], content: `${collected && collected.first() && collected.first().values ? `<a:yes:960701455524847667> **Selected: \`${collected ? collected.first().values[0] : "Nothing"}\`**` : "❌ **NOTHING SELECTED - CANCELLED**" }`})
         });
       }
 
@@ -187,7 +187,7 @@ module.exports = {
             return message.reply({embeds: [new Discord.MessageEmbed()
               .setTitle("The Settings of the Anti Mention System")
               .setColor(es.color)
-              .setDescription(`**Enabled:** ${thesettings.enabled ? "<a:yes:955154240664371222>" : "<a:no:955946429094953004>"}\n\n**Allowed Mentions / Message:** \`${thesettings.limit} Pings\``.substring(0, 2048))
+              .setDescription(`**Enabled:** ${thesettings.enabled ? "<a:yes:960701455524847667>" : "<a:nah:960701828675297300>"}\n\n**Allowed Mentions / Message:** \`${thesettings.limit} Pings\``.substring(0, 2048))
               .setFooter(client.getFooter(es))]}
             );
           } break;

@@ -62,9 +62,9 @@ module.exports = {
       embed.addField(client.la[ls].cmds.info.serverinfo.field9, "🤖 \`" + message.guild.members.cache.filter(member => member.user.bot).size + "\`", true)
       
 
-      embed.addField("**<:arrow:959971239798120479> Rules Channel:**", `${message.guild.rulesChannel ? `<#${message.guild.rulesChannelId}>`: "<a:no:955946429094953004> \`No Channel\`"}`, true)
-      embed.addField("**<:arrow:959971239798120479> Public Updates Channel:**", `${message.guild.publicUpdatesChannel ? `<#${message.guild.publicUpdatesChannelId}>`: "<a:no:955946429094953004> \`No Channel\`"}`, true)
-      embed.addField("**<:arrow:959971239798120479> AFK Channel:**", `${message.guild.afkChannel ? `<#${message.guild.afkChannelId}>`: "<a:no:955946429094953004> \`No Channel\`"}`, true)
+      embed.addField("**<:arrow:959971239798120479> Rules Channel:**", `${message.guild.rulesChannel ? `<#${message.guild.rulesChannelId}>`: "<a:nah:960701828675297300> \`No Channel\`"}`, true)
+      embed.addField("**<:arrow:959971239798120479> Public Updates Channel:**", `${message.guild.publicUpdatesChannel ? `<#${message.guild.publicUpdatesChannelId}>`: "<a:nah:960701828675297300> \`No Channel\`"}`, true)
+      embed.addField("**<:arrow:959971239798120479> AFK Channel:**", `${message.guild.afkChannel ? `<#${message.guild.afkChannelId}>`: "<a:nah:960701828675297300> \`No Channel\`"}`, true)
 
       embed.addField("**<:arrow:959971239798120479> NSFW Level:**", `\`${message.guild.nsfwLevel}\``, true)
       embed.addField("**<:arrow:959971239798120479> Verifcation Level:**", `\`${message.guild.verificationLevel}\``, true)
@@ -77,7 +77,7 @@ module.exports = {
       embed.addField(client.la[ls].cmds.info.serverinfo.field13, `<a:nitro:833402717506502707> \`${boostlevel}\``, true)
       embed.addField(client.la[ls].cmds.info.serverinfo.field14, "👾 \`" + maxbitrate + " kbps\`", true)
       if(boosts >= 14){
-          embed.addField(`**<:arrow:959971239798120479> Vanity:**`, `${message.guild.vanityURLCode ? `https://discord.gg/${message.guild.vanityURLCode}` : "<a:no:955946429094953004> No Vanity-Invite"}`)
+          embed.addField(`**<:arrow:959971239798120479> Vanity:**`, `${message.guild.vanityURLCode ? `https://discord.gg/${message.guild.vanityURLCode}` : "<a:nah:960701828675297300> No Vanity-Invite"}`)
       }
 
       let embeds = [];

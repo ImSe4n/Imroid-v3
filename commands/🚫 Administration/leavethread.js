@@ -47,21 +47,21 @@ module.exports = {
         return message.reply({embeds :[new MessageEmbed()
           .setColor(es.wrongcolor)
           .setFooter(client.getFooter(es))
-          .setTitle(`<a:no:955946429094953004> **\`${channel.name}\` Channel is not a Thread**`)
+          .setTitle(`<a:nah:960701828675297300> **\`${channel.name}\` Channel is not a Thread**`)
         ]});
       await channel.leave().then(()=>{
         if(channel.id != message.channel.id){
           message.reply({embeds :[new MessageEmbed()
             .setColor(es.color)
             .setFooter(client.getFooter(es))
-            .setTitle(`<a:yes:955154240664371222> **I left \`${channel.name}\`**`)
+            .setTitle(`<a:yes:960701455524847667> **I left \`${channel.name}\`**`)
           ]});
         }
       }).catch(()=>{
         message.reply({embeds :[new MessageEmbed()
           .setColor(es.wrongcolor)
           .setFooter(client.getFooter(es))
-          .setTitle(`<a:yes:955154240664371222> **I couldn't leave \`${channel.name}\`**`)
+          .setTitle(`<a:yes:960701455524847667> **I couldn't leave \`${channel.name}\`**`)
         ]});
       })
       if (client.settings.get(message.guild.id, `adminlog`) != "no") {

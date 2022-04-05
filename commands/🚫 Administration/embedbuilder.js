@@ -119,7 +119,7 @@ let buttonEvent = async (interaction) => {
     if (interaction?.user.id === message.member.id) {
       embedEditing(interaction);
     } else {
-      await interaction?.reply({content : `<a:no:955946429094953004> You are not allowed to do that! Only: <@${message.author.id}>`, ephemeral : true}); //ephemeral message
+      await interaction?.reply({content : `<a:nah:960701828675297300> You are not allowed to do that! Only: <@${message.author.id}>`, ephemeral : true}); //ephemeral message
     }
   }
 }

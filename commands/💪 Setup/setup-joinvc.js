@@ -102,11 +102,11 @@ module.exports = {
             menu?.deferUpdate();
             handle_the_picks(menu?.values[0], menuoptiondata)
           }
-          else menu?.reply({content: `<a:no:955946429094953004> You are not allowed to do that! Only: <@${cmduser.id}>`, ephemeral: true});
+          else menu?.reply({content: `<a:nah:960701828675297300> You are not allowed to do that! Only: <@${cmduser.id}>`, ephemeral: true});
         });
         //Once the Collections ended edit the menu message
         collector.on('end', collected => {
-          menumsg.edit({embeds: [menumsg.embeds[0].setDescription(`~~${menumsg.embeds[0].description}~~`)], components: [], content: `${collected && collected.first() && collected.first().values ? `<a:yes:955154240664371222> **Selected: \`${collected ? collected.first().values[0] : "Nothing"}\`**` : "❌ **NOTHING SELECTED - CANCELLED**" }`})
+          menumsg.edit({embeds: [menumsg.embeds[0].setDescription(`~~${menumsg.embeds[0].description}~~`)], components: [], content: `${collected && collected.first() && collected.first().values ? `<a:yes:960701455524847667> **Selected: \`${collected ? collected.first().values[0] : "Nothing"}\`**` : "❌ **NOTHING SELECTED - CANCELLED**" }`})
         });
       }
       async function handle_the_picks(optionhandletype, menuoptiondata) {
@@ -173,11 +173,11 @@ module.exports = {
                   menu?.deferUpdate();
                   handle_the_picks2(menu?.values[0], menuoptiondata)
                 }
-                else menu?.reply({content: `<a:no:955946429094953004> You are not allowed to do that! Only: <@${cmduser.id}>`, ephemeral: true});
+                else menu?.reply({content: `<a:nah:960701828675297300> You are not allowed to do that! Only: <@${cmduser.id}>`, ephemeral: true});
               });
               //Once the Collections ended edit the menu message
               collector.on('end', collected => {
-                menumsg.edit({embeds: [menumsg.embeds[0].setDescription(`~~${menumsg.embeds[0].description}~~`)], components: [], content: `${collected && collected.first() && collected.first().values ? `<a:yes:955154240664371222> **Selected: \`${collected ? collected.first().values[0] : "Nothing"}\`**` : "❌ **NOTHING SELECTED - CANCELLED**" }`})
+                menumsg.edit({embeds: [menumsg.embeds[0].setDescription(`~~${menumsg.embeds[0].description}~~`)], components: [], content: `${collected && collected.first() && collected.first().values ? `<a:yes:960701455524847667> **Selected: \`${collected ? collected.first().values[0] : "Nothing"}\`**` : "❌ **NOTHING SELECTED - CANCELLED**" }`})
               });
             }
             async function handle_the_picks2(optionhandletype, menuoptiondata) {
@@ -214,7 +214,7 @@ module.exports = {
                         a = client.joinvc.get(message.guild.id, "vcmessages")
                         if(a.map(d => d.channelId).includes(Voicechannel.id))
                           return message.reply({embeds: [new Discord.MessageEmbed()
-                            .setTitle(`<a:no:955946429094953004> This Channel is already Setupped!`)
+                            .setTitle(`<a:nah:960701828675297300> This Channel is already Setupped!`)
                             .setDescription(`Remove it first with \`${prefix}setup-joinvc\` --> Then Pick VC Messages --> Then Pick Remove!`)
                             .setColor(es.color)
                             .setFooter(client.getFooter(es))
@@ -223,7 +223,7 @@ module.exports = {
                        
                         client.joinvc.push(message.guild.id, { channelId: Voicechannel.id, textChannelId: Textchannel.id, message: args.join(" ") }, "vcmessages")
                         return message.reply({embeds: [new Discord.MessageEmbed()
-                          .setTitle(`<a:yes:955154240664371222> I will now send Messages after someone joins the VC \`${Voicechannel.name}\` in the TextChannel **${Textchannel.name}**`)
+                          .setTitle(`<a:yes:960701455524847667> I will now send Messages after someone joins the VC \`${Voicechannel.name}\` in the TextChannel **${Textchannel.name}**`)
                           .setColor(es.color)
                           .setFooter(client.getFooter(es))
                         ]});
@@ -278,13 +278,13 @@ module.exports = {
                         a = client.joinvc.get(message.guild.id, "vcmessages")
                         if(!a.map(d => d.channelId).includes(Voicechannel.id))
                           return message.reply({embeds: [new Discord.MessageEmbed()
-                            .setTitle(`<a:no:955946429094953004> This Channel has not been Setup yet!`)
+                            .setTitle(`<a:nah:960701828675297300> This Channel has not been Setup yet!`)
                             .setColor(es.color)
                             .setFooter(client.getFooter(es))
                           ]});
                         client.joinvc.remove(message.guild.id, d => d.channelId == Voicechannel.id, "vcmessages")
                         return message.reply({embeds: [new Discord.MessageEmbed()
-                          .setTitle(`<a:yes:955154240664371222> Successfully removed **${Voicechannel.name}** out of the Setup!`)
+                          .setTitle(`<a:yes:960701455524847667> Successfully removed **${Voicechannel.name}** out of the Setup!`)
                           .setColor(es.color)
                           .setFooter(client.getFooter(es))
                         ]});
@@ -392,11 +392,11 @@ module.exports = {
                   menu?.deferUpdate();
                   handle_the_picks2(menu?.values[0], menuoptiondata)
                 }
-                else menu?.reply({content: `<a:no:955946429094953004> You are not allowed to do that! Only: <@${cmduser.id}>`, ephemeral: true});
+                else menu?.reply({content: `<a:nah:960701828675297300> You are not allowed to do that! Only: <@${cmduser.id}>`, ephemeral: true});
               });
               //Once the Collections ended edit the menu message
               collector.on('end', collected => {
-                menumsg.edit({embeds: [menumsg.embeds[0].setDescription(`~~${menumsg.embeds[0].description}~~`)], components: [], content: `${collected && collected.first() && collected.first().values ? `<a:yes:955154240664371222> **Selected: \`${collected ? collected.first().values[0] : "Nothing"}\`**` : "❌ **NOTHING SELECTED - CANCELLED**" }`})
+                menumsg.edit({embeds: [menumsg.embeds[0].setDescription(`~~${menumsg.embeds[0].description}~~`)], components: [], content: `${collected && collected.first() && collected.first().values ? `<a:yes:960701455524847667> **Selected: \`${collected ? collected.first().values[0] : "Nothing"}\`**` : "❌ **NOTHING SELECTED - CANCELLED**" }`})
               });
             }
             async function handle_the_picks2(optionhandletype, menuoptiondata) {
@@ -439,14 +439,14 @@ module.exports = {
                         a = client.joinvc.get(message.guild.id, "vcroles")
                         if(a.map(d => d.channelId).includes(Voicechannel.id))
                           return message.reply({embeds: [new Discord.MessageEmbed()
-                            .setTitle(`<a:no:955946429094953004> This Channel is already Setupped!`)
+                            .setTitle(`<a:nah:960701828675297300> This Channel is already Setupped!`)
                             .setDescription(`Remove it first with \`${prefix}setup-joinvc\` --> Then Pick VC ROLES --> Then Pick Remove!`)
                             .setColor(es.color)
                             .setFooter(client.getFooter(es))
                           ]});
                         client.joinvc.push(message.guild.id, { channelId: Voicechannel.id, roleId: Role.id }, "vcroles")
                         return message.reply({embeds: [new Discord.MessageEmbed()
-                          .setTitle(`<a:yes:955154240664371222> I will now Add the Role \`${Role.name}\` when someone joins the VC **${Discord.VoiceChannel.name}**`)
+                          .setTitle(`<a:yes:960701455524847667> I will now Add the Role \`${Role.name}\` when someone joins the VC **${Discord.VoiceChannel.name}**`)
                           .setColor(es.color)
                           .setFooter(client.getFooter(es))
                         ]});
@@ -501,13 +501,13 @@ module.exports = {
                         a = client.joinvc.get(message.guild.id, "vcroles")
                         if(!a.map(d => d.channelId).includes(Voicechannel.id))
                           return message.reply({embeds: [new Discord.MessageEmbed()
-                            .setTitle(`<a:no:955946429094953004> This Channel has not been Setup yet!`)
+                            .setTitle(`<a:nah:960701828675297300> This Channel has not been Setup yet!`)
                             .setColor(es.color)
                             .setFooter(client.getFooter(es))
                           ]});
                         client.joinvc.remove(message.guild.id, d => d.channelId == Voicechannel.id, "vcroles")
                         return message.reply({embeds: [new Discord.MessageEmbed()
-                          .setTitle(`<a:yes:955154240664371222> Successfully removed **${Voicechannel.name}** out of the Setup!`)
+                          .setTitle(`<a:yes:960701455524847667> Successfully removed **${Voicechannel.name}** out of the Setup!`)
                           .setColor(es.color)
                           .setFooter(client.getFooter(es))
                         ]});

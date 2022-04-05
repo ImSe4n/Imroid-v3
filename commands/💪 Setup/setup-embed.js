@@ -223,7 +223,7 @@ module.exports = {
                     client.settings.set(message.guild.id, text, "embed.footertext")
                     es = client.settings.get(message.guild.id, "embed")
                     return message.reply({embeds: [new Discord.MessageEmbed()
-                      .setTitle(`<a:yes:955154240664371222> The new Embed Footer Text is:`.substring(0, 256))
+                      .setTitle(`<a:yes:960701455524847667> The new Embed Footer Text is:`.substring(0, 256))
                       .setColor(es.color).setThumbnail(es.thumb ? es.footericon && (es.footericon.includes("http://") || es.footericon.includes("https://")) ? es.footericon : client.user.displayAvatarURL() : null)
                       .setDescription(es.footertext)
                       .setFooter(client.getFooter(es))
@@ -267,11 +267,11 @@ module.exports = {
               }
             } 
           }
-          else button?.reply({content: `<a:no:955946429094953004> You are not allowed to do that! Only: <@${cmduser.id}>`, ephemeral: true});
+          else button?.reply({content: `<a:nah:960701828675297300> You are not allowed to do that! Only: <@${cmduser.id}>`, ephemeral: true});
         });
         //Once the Collections ended edit the menu message
         collector.on('end', collected => {
-          tempmsg.edit({embeds: [tempmsg.embeds[0].setDescription(`~~${tempmsg.embeds[0].description}~~`)], components: [], content: `${collected && collected.first() && collected.first().customId ? `<a:yes:955154240664371222> **Selected the \`${collected.first().customId}\`. Button**` : "❌ **NOTHING SELECTED - CANCELLED**" }`})
+          tempmsg.edit({embeds: [tempmsg.embeds[0].setDescription(`~~${tempmsg.embeds[0].description}~~`)], components: [], content: `${collected && collected.first() && collected.first().customId ? `<a:yes:960701455524847667> **Selected the \`${collected.first().customId}\`. Button**` : "❌ **NOTHING SELECTED - CANCELLED**" }`})
         });
   
     } catch (e) {

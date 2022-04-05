@@ -50,7 +50,7 @@ module.exports = {
         return message.reply({embeds :[new MessageEmbed()
           .setColor(es.wrongcolor)
           .setFooter(client.getFooter(es))
-          .setTitle(`<a:no:955946429094953004> **This Channel is a Thread u can't unlock it!**`)
+          .setTitle(`<a:nah:960701828675297300> **This Channel is a Thread u can't unlock it!**`)
         ]});
 
 
@@ -76,14 +76,14 @@ module.exports = {
           message.reply({embeds :[new MessageEmbed()
             .setColor(es.color)
             .setFooter(client.getFooter(es))
-            .setTitle(`<a:yes:955154240664371222> **Successfully unlocked \`${channel.name}\` for ${users ? users.length : 0} Users and ${roles ? roles.length : 0} Roles**`)
+            .setTitle(`<a:yes:960701455524847667> **Successfully unlocked \`${channel.name}\` for ${users ? users.length : 0} Users and ${roles ? roles.length : 0} Roles**`)
           ]});
         } else {
           if(channel.permissionOverwrites.cache.filter(permission => permission.deny.toArray().includes("SEND_MESSAGES")).size < 1)
             return message.reply({embeds :[new MessageEmbed()
               .setColor(es.wrongcolor)
               .setFooter(client.getFooter(es))
-              .setTitle(`<a:no:955946429094953004> **This Channel is not locked!**`)
+              .setTitle(`<a:nah:960701828675297300> **This Channel is not locked!**`)
               .setDescription(`This usually means, that the Channel **PERMISSIONS** are so defined, that __all__ of them are ALLOWING to send a Message!`)
             ]});
           await channel.permissionOverwrites.set(
@@ -112,7 +112,7 @@ module.exports = {
           message.reply({embeds :[new MessageEmbed()
             .setColor(es.color)
             .setFooter(client.getFooter(es))
-            .setTitle(`<a:yes:955154240664371222> **Successfully unlocked \`${channel.name}\`**`)
+            .setTitle(`<a:yes:960701455524847667> **Successfully unlocked \`${channel.name}\`**`)
           ]});
         }
 

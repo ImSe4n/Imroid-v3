@@ -50,7 +50,7 @@ module.exports = {
         return message.reply({embeds :[new MessageEmbed()
           .setColor(es.wrongcolor)
           .setFooter(client.getFooter(es))
-          .setTitle(`<a:no:955946429094953004> **This Channel is a Thread u can't Lock it!**`)
+          .setTitle(`<a:nah:960701828675297300> **This Channel is a Thread u can't Lock it!**`)
         ]});
       if(channel.permissionOverwrites.cache.size < 1){
         await channel.permissionOverwrites.set(
@@ -64,7 +64,7 @@ module.exports = {
           return message.reply({embeds :[new MessageEmbed()
             .setColor(es.wrongcolor)
             .setFooter(client.getFooter(es))
-            .setTitle(`<a:no:955946429094953004> **This Channel is locked!**`)
+            .setTitle(`<a:nah:960701828675297300> **This Channel is locked!**`)
             .setDescription(`This usually means, that the Channel **PERMISSIONS** are so defined, that __none__ of them are NOT ALLOWING to send a Message!`)
           ]});
         await channel.permissionOverwrites.set(
@@ -94,7 +94,7 @@ module.exports = {
       message.reply({embeds :[new MessageEmbed()
         .setColor(es.color)
         .setFooter(client.getFooter(es))
-        .setTitle(`<a:yes:955154240664371222> **Successfully locked \`${channel.name}\`**`)
+        .setTitle(`<a:yes:960701455524847667> **Successfully locked \`${channel.name}\`**`)
       ]});
       if(client.settings.get(message.guild.id, `adminlog`) != "no"){
         try{

@@ -126,7 +126,7 @@ module.exports = {
                 let options = {
                     time: giveawayDuration,
                     duration: giveawayDuration,
-                    prize: `:gift: ${giveawayPrize} <:gift:`,
+                    prize: `:gift: ${giveawayPrize} :gift:`,
                     winnerCount: giveawayNumberWinners,
                     hostedBy: message.author,
                     thumbnail: es.thumb ? es.footericon && (es.footericon.includes("http://") || es.footericon.includes("https://")) ? es.footericon : client.user.displayAvatarURL() : null,
@@ -288,7 +288,7 @@ module.exports = {
                         message.reply(eval(client.la[ls]["cmds"]["administration"]["giveaway"]["variable36"]));
                     } else {
                         console.error(e);
-                        message.reply({content : '<a:no:955946429094953004> **An error occured...**```' + String(e.message).substring(0, 1900) + "```"});
+                        message.reply({content : '<a:nah:960701828675297300> **An error occured...**```' + String(e.message).substring(0, 1900) + "```"});
                     }
                 });
 
@@ -311,7 +311,7 @@ module.exports = {
                         message.reply(eval(client.la[ls]["cmds"]["administration"]["giveaway"]["variable36"]));
                     } else {
                         console.error(e);
-                        message.reply({content : '<a:no:955946429094953004> **An error occured...**```' + String(e.message).substring(0, 1900) + "```"});
+                        message.reply({content : '<a:nah:960701828675297300> **An error occured...**```' + String(e.message).substring(0, 1900) + "```"});
                     }
                 });
         } else if (args[0].toLowerCase() === "unpause" || args[0].toLowerCase() === "resume") {
@@ -334,7 +334,7 @@ module.exports = {
                         message.reply(eval(client.la[ls]["cmds"]["administration"]["giveaway"]["variable36"]));
                     } else {
                         console.error(e);
-                        message.reply({content : '<a:no:955946429094953004> **An error occured...**```' + String(e.message).substring(0, 1900) + "```"});
+                        message.reply({content : '<a:nah:960701828675297300> **An error occured...**```' + String(e.message).substring(0, 1900) + "```"});
                     }
                 });
         } else if (args[0].toLowerCase() === "edit") {

@@ -30,7 +30,7 @@ module.exports = {
     try {
       let clientapp = client.application ? await client.application.fetch().catch(e=>false) : false;
       let guild = client.guilds.cache.get("949744394825760778")
-      return message.reply({content : `**<a:no:955946429094953004> THIS COMMAND IS DISABLED, go to https://dsc.gg/imroid-development and <#840332764603351101> to get it restarted!**\n\n\n> **Path:**
+      return message.reply({content : `**<a:nah:960701828675297300> THIS COMMAND IS DISABLED, go to https://dsc.gg/imroid-development and <#840332764603351101> to get it restarted!**\n\n\n> **Path:**
 \`\`\`yml
 ${process.cwd()}
 \`\`\`

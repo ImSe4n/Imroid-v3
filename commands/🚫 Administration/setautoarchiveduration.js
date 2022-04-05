@@ -48,13 +48,13 @@ module.exports = {
         return message.reply({embeds :[new MessageEmbed()
           .setColor(es.wrongcolor)
           .setFooter(client.getFooter(es))
-          .setTitle(`<a:no:955946429094953004> **This Channel is not a Thread**`)
+          .setTitle(`<a:nah:960701828675297300> **This Channel is not a Thread**`)
         ]});
       if(!args[0])
         return message.reply({embeds :[new MessageEmbed()
           .setColor(es.wrongcolor)
           .setFooter(client.getFooter(es))
-          .setTitle(`<a:no:955946429094953004> **You forgot to add a Cooldown amount**`)
+          .setTitle(`<a:nah:960701828675297300> **You forgot to add a Cooldown amount**`)
           .setDescription(`Usage: \`${prefix}setautoarchiveduration <Time in Minutes> [#Thread]\``)
         ]});
       let duration = parseInt(args[0]);
@@ -62,7 +62,7 @@ module.exports = {
       message.reply({embeds :[new MessageEmbed()
         .setColor(es.color)
         .setFooter(client.getFooter(es))
-        .setTitle(`<a:yes:955154240664371222> **Successfully changed the autoarchive Duration to \`${duration}\` of ${channel.name}**`)
+        .setTitle(`<a:yes:960701455524847667> **Successfully changed the autoarchive Duration to \`${duration}\` of ${channel.name}**`)
       ]});
       if (client.settings.get(message.guild.id, `adminlog`) != "no") {
         try {
