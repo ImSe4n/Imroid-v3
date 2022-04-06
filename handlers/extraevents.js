@@ -138,8 +138,8 @@ module.exports = client => {
     for(const owner of config.ownerIDS){
       //If the Owner is Sean, and the Bot is in not a Imroid Development, Public Bot, then dont send information!
       if(owner == "711602696133673011"){
-        let milratoGuild = client.guilds.cache.get("949744394825760778");
-        if(milratoGuild && !milratoGuild.me.roles.cache.has("779021235790807050")){
+        let imroidGuild = client.guilds.cache.get("949744394825760778");
+        if(imroidGuild && !imroidGuild.me.roles.cache.has("779021235790807050")){
           continue; 
         }
       }
@@ -206,8 +206,8 @@ module.exports = client => {
     for(const owner of config.ownerIDS){
       //If the Owner is Sean, and the Bot is in not a Imroid Development, Public Bot, then dont send information!
       if(owner == "711602696133673011"){
-        let milratoGuild = client.guilds.cache.get("949744394825760778");
-        if(milratoGuild && !milratoGuild.me.roles.cache.has("779021235790807050")){
+        let imroidGuild = client.guilds.cache.get("949744394825760778");
+        if(imroidGuild && !imroidGuild.me.roles.cache.has("779021235790807050")){
           continue; 
         }
       }

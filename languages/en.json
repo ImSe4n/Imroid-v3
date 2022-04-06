@@ -321,13 +321,6 @@
                 "info": "Blacklisted Words",
                 "variable1": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
-            "sponsor": {
-                "variable1": "\"BERO-HOST.de | German Hosting\"",
-                "variable2": "-",
-                "variable3": "-",
-                "variable4": "\"Bittmax\"",
-                "variable5": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
-            },
             "stats": {
                 "title": "💿 The Stats of {botname}",
                 "field1": {
