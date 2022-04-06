@@ -12,9 +12,9 @@ module.exports = {
       interaction?.reply({ephemeral: true, embeds: [new Discord.MessageEmbed()
       .setAuthor(handlemsg(client.la[ls].cmds.info.serveravatar.author, { servername: guild.name }), guild.iconURL({dynamic: true}), "https://dsc.gg/imroid-development")
       .setColor(es.color).setThumbnail(es.thumb ? es.footericon && (es.footericon.includes("http://") || es.footericon.includes("https://")) ? es.footericon : client.user.displayAvatarURL() : null)
-      .addField("<:arrow:959971239798120479> PNG",`[\`LINK\`](${guild.iconURL({format: "png"})})`, true)
-      .addField("<:arrow:959971239798120479> JPEG",`[\`LINK\`](${guild.iconURL({format: "jpg"})})`, true)
-      .addField("<:arrow:959971239798120479> WEBP",`[\`LINK\`](${guild.iconURL({format: "webp"})})`, true)
+      .addField("<:Curvedrightarrow:960220710586953789> PNG",`[\`LINK\`](${guild.iconURL({format: "png"})})`, true)
+      .addField("<:Curvedrightarrow:960220710586953789> JPEG",`[\`LINK\`](${guild.iconURL({format: "jpg"})})`, true)
+      .addField("<:Curvedrightarrow:960220710586953789> WEBP",`[\`LINK\`](${guild.iconURL({format: "webp"})})`, true)
       .setURL(guild.iconURL({
         dynamic: true
       }))

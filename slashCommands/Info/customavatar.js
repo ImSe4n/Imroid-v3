@@ -47,9 +47,9 @@ module.exports = {
           usertag: user.tag
         }), customavatar, "https://dsc.gg/imroid-development")
         .setColor(es.color).setThumbnail(es.thumb ? es.footericon && (es.footericon.includes("http://") || es.footericon.includes("https://")) ? es.footericon : client.user.displayAvatarURL() : null)
-        .addField("<:arrow:959971239798120479> PNG", `[\`LINK\`](${customavatar})`, true)
-        .addField("<:arrow:959971239798120479> JPEG", `[\`LINK\`](${customavatar.replace("png", "jpg").replace("gif", "jpg")})`, true)
-        .addField("<:arrow:959971239798120479> WEBP", `[\`LINK\`](${customavatar.replace("png", "webp").replace("gif", "webp")})`, true)
+        .addField("<:Curvedrightarrow:960220710586953789> PNG", `[\`LINK\`](${customavatar})`, true)
+        .addField("<:Curvedrightarrow:960220710586953789> JPEG", `[\`LINK\`](${customavatar.replace("png", "jpg").replace("gif", "jpg")})`, true)
+        .addField("<:Curvedrightarrow:960220710586953789> WEBP", `[\`LINK\`](${customavatar.replace("png", "webp").replace("gif", "webp")})`, true)
         .setURL(customavatar)
         .setFooter(client.getFooter(es))
         .setImage(customavatar);
@@ -64,9 +64,9 @@ module.exports = {
           dynamic: true
         }), "https://dsc.gg/imroid-development")
         .setColor(es.color).setThumbnail(es.thumb ? es.footericon && (es.footericon.includes("http://") || es.footericon.includes("https://")) ? es.footericon : client.user.displayAvatarURL() : null)
-        .addField("<:arrow:959971239798120479> PNG", `[\`LINK\`](${user.displayAvatarURL({format: "png"})})`, true)
-        .addField("<:arrow:959971239798120479> JPEG", `[\`LINK\`](${user.displayAvatarURL({format: "jpg"})})`, true)
-        .addField("<:arrow:959971239798120479> WEBP", `[\`LINK\`](${user.displayAvatarURL({format: "webp"})})`, true)
+        .addField("<:Curvedrightarrow:960220710586953789> PNG", `[\`LINK\`](${user.displayAvatarURL({format: "png"})})`, true)
+        .addField("<:Curvedrightarrow:960220710586953789> JPEG", `[\`LINK\`](${user.displayAvatarURL({format: "jpg"})})`, true)
+        .addField("<:Curvedrightarrow:960220710586953789> WEBP", `[\`LINK\`](${user.displayAvatarURL({format: "webp"})})`, true)
         .setURL(user.displayAvatarURL({
           dynamic: true
         }))

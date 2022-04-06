@@ -16,7 +16,7 @@
                     {
                         "value": "Creator / Features",
                         "description": "Who is my Creator? / What are my Features?",
-                        "replymsg": "<:Milrato:840259659163893820> **__Imroid Development__ made me!**\n> <:Like:857334024087011378> **Their Website:** https://dsc.gg/imroid-development\n> <:Doscord:956662822551572480> **Their Discord:** https://dsc.gg/imroid-development\n``` ```***__You can join their Discord Server and get yourself a Bot like me, for FREE/CHEAP!__***\n``` ```:muscle: **__My Features__**\n>>> **68+ Systems**, like: <:Tweeter:956660155888590868> **Twitter-** & <:YOUUTUBE:956661075632337026> **Youtube-Auto-Poster** \n**Application-**, Ticket-, **Welcome-Images-** and Reaction Role-, ... Systems\n:notes: An advanced <:Spootify:956662268635017240> **Music System** with **Audio Filtering**\n:video_game: Many **Minigames** and :joystick: **Fun** Commands (150+)\n:no_entry_sign: **Administration** and **Auto-Moderation** and way much more!\n\n**The Developer is: `_Sean#1751`, Contact him if you wanna hire him!**",
+                        "replymsg": "<:Milrato:840259659163893820> **__Imroid Development__ made me!**\n> <:Like:857334024087011378> **Their Website:** https://dsc.gg/imroid-development\n> <:Doscord:961024476642934784> **Their Discord:** https://dsc.gg/imroid-development\n``` ```***__You can join their Discord Server and get yourself a Bot like me, for FREE/CHEAP!__***\n``` ```:muscle: **__My Features__**\n>>> **68+ Systems**, like: <:Tweeter:956660155888590868> **Twitter-** & <:YOUUTUBE:956661075632337026> **Youtube-Auto-Poster** \n**Application-**, Ticket-, **Welcome-Images-** and Reaction Role-, ... Systems\n:notes: An advanced <:Spootify:956662268635017240> **Music System** with **Audio Filtering**\n:video_game: Many **Minigames** and :joystick: **Fun** Commands (150+)\n:no_entry_sign: **Administration** and **Auto-Moderation** and way much more!\n\n**The Developer is: `_Sean#1751`, Contact him if you wanna hire him!**",
                         "emoji": "840259659163893820"
                     },
                     {
@@ -34,7 +34,7 @@
                     {
                         "value": "My Bot doesnt work",
                         "description": "If your Bot is not working do this:",
-                        "replymsg": "Contact us in Imroid Development <:Doscord:956662822551572480> **Discord:** https://dsc.gg/imroid-development and open a Ticket in <#960220709521592330>\n\n***If it still responds with messages but doesn't work right, then you can try to do: `{prefix}reloadbot` / `{prefix}cmdreload [CMDNAME]`***\n\nMake sure that I have enough Permissions, as well as that the highest Role is high enough!",
+                        "replymsg": "Contact us in Imroid Development <:Doscord:961024476642934784> **Discord:** https://dsc.gg/imroid-development and open a Ticket in <#960220709521592330>\n\n***If it still responds with messages but doesn't work right, then you can try to do: `{prefix}reloadbot` / `{prefix}cmdreload [CMDNAME]`***\n\nMake sure that I have enough Permissions, as well as that the highest Role is high enough!",
                         "emoji": "😓"
                     },
                     {
@@ -49,21 +49,21 @@
             "botinfo": {
                 "loading": "Getting the Bot-Information-Data",
                 "field1": {
-                    "title": "<:arrow:959971239798120479> General -- Stats",
+                    "title": "<:Curvedrightarrow:960220710586953789> General -- Stats",
                     "value": "```yml\nServers: {totalGuilds}\nUsers: {totalMembers}\nConnections: {connectedchannelsamount}```"
                 },
                 "field2": {
-                    "title": "<:arrow:959971239798120479> Bot -- Stats"
+                    "title": "<:Curvedrightarrow:960220710586953789> Bot -- Stats"
                 },
                 "field3": {
-                    "title": "<:arrow:959971239798120479> System -- Stats",
+                    "title": "<:Curvedrightarrow:960220710586953789> System -- Stats",
                     "value": "```yml\nOS: Linux | Debian\nCPU Usage: {cpu} %\nRAM Usage: {ram} MB```"
                 },
                 "field4": {
-                    "title": "<:arrow:959971239798120479> Developer"
+                    "title": "<:Curvedrightarrow:960220710586953789> Developer"
                 },
                 "field5": {
-                    "title": "<:arrow:959971239798120479> Important Links",
+                    "title": "<:Curvedrightarrow:960220710586953789> Important Links",
                     "value": "**[Invite Link]({invitelink})・[Support Server](https://dsc.gg/imroid-development)・[Website](https://dsc.gg/imroid-development)**\n**[Get Free Bots](https://dsc.gg/imroid-development)・[Invite Public Version](https://discord.com/api/oauth2/authorize?client_id=954809003362357248&permissions=8&scope=bot)**"
                 },
                 "variable1": "`\\`\\`\\`yml\\nName: ${client.user.tag} [${client.user.id}]\\nBot Latency: ${Math.round(Date.now() - message.createdTimestamp)}ms\\nApi Latency: ${Math.round(client.ws.ping)}ms\\nRuntime: ${duration(client.uptime).join(\"︲\")}\\`\\`\\``",
@@ -88,14 +88,14 @@
                     "botlist": "Public Bot-List-Website"
                 },
                 "title": "_Sean#1751",
-                "description": "<:arrow:959971239798120479> Hello I am **Sean** <@711602696133673011> *(`_Sean#1751`)*, and i made more then 2 different Discord Bots\n\n<:arrow:959971239798120479> I am very proud for all of my Discord Bots, but the Bot I am the most proud of is: [**Imroid v3** | `It is my biggest project <@954809003362357248>\n\n<:arrow:959971239798120479> I made this Bot, and you can get a free Bot too! Just go to: [My Server](https://dsc.gg/imroid-development)\n\n<:arrow:959971239798120479>\n\n<:arrow:959971239798120479> Yeah i hope you like my stuff :v: <3",
+                "description": "<:Curvedrightarrow:960220710586953789> Hello I am **Sean** <@711602696133673011> *(`_Sean#1751`)*, and i made more then 2 different Discord Bots\n\n<:Curvedrightarrow:960220710586953789> I am very proud for all of my Discord Bots, but the Bot I am the most proud of is: [**Imroid v3** | `It is my biggest project <@954809003362357248>\n\n<:Curvedrightarrow:960220710586953789> I made this Bot, and you can get a free Bot too! Just go to: [My Server](https://dsc.gg/imroid-development)\n\n<:Curvedrightarrow:960220710586953789>\n\n<:Curvedrightarrow:960220710586953789> Yeah i hope you like my stuff :v: <3",
                 "variable1": "`\\`\\`\\`${String(e.stack).substr(0, 2000)}\\`\\`\\``"
             },
             "djmode": {
                 "nodjroles": "no Dj Roles, aka all Users are Djs",
                 "description": "If a Command is listed here, and at least one role exists, then it means that you have to have this Role, in order to be able to use these listed Commands!",
-                "field1": "<:arrow:959971239798120479> Dj Only Commands active for:",
-                "field2": "<:arrow:959971239798120479> Dj Roles",
+                "field1": "<:Curvedrightarrow:960220710586953789> Dj Only Commands active for:",
+                "field2": "<:Curvedrightarrow:960220710586953789> Dj Roles",
                 "variable1": "\"🎧 Dj Mode\"",
                 "variable2": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
@@ -143,7 +143,7 @@
                     "botlist": "Public Bot-List-Website"
                 },
                 "title": "_Sean#1751",
-                "description": "<:arrow:959971239798120479> Hello I am **Sean** <@711602696133673011> *(`_Sean#1751`)*, and i made more then 2 different Discord Bots\n\n<:arrow:959971239798120479> I am very proud for all of my Discord Bots, but the Bot I am the most proud of is: [**Imroid v3** | `It is my biggest project <@954809003362357248>\n\n<:arrow:959971239798120479> I made this Bot, and you can get a free Bot too! Just go to: [My Server](https://dsc.gg/imroid-development)\n\n<:arrow:959971239798120479>\n\n<:arrow:959971239798120479> Yeah i hope you like my stuff :v: <3",
+                "description": "<:Curvedrightarrow:960220710586953789> Hello I am **Sean** <@711602696133673011> *(`_Sean#1751`)*, and i made more then 2 different Discord Bots\n\n<:Curvedrightarrow:960220710586953789> I am very proud for all of my Discord Bots, but the Bot I am the most proud of is: [**Imroid v3** | `It is my biggest project <@954809003362357248>\n\n<:Curvedrightarrow:960220710586953789> I made this Bot, and you can get a free Bot too! Just go to: [My Server](https://dsc.gg/imroid-development)\n\n<:Curvedrightarrow:960220710586953789>\n\n<:Curvedrightarrow:960220710586953789> Yeah i hope you like my stuff :v: <3",
                 "variable1": "`\\`\\`\\`${String(e.stack).substr(0, 2000)}\\`\\`\\``"
             },
             "help": {
@@ -152,12 +152,12 @@
                 "noinfo": "No Information found for the command **{command}**",
                 "footer": "To see command Descriptions and Information, type: {prefix}help [CMD NAME]",
                 "detail": {
-                    "name": "**<:arrow:959971239798120479> Command name**",
-                    "desc": "**<:arrow:959971239798120479> Description**",
-                    "aliases": "**<:arrow:959971239798120479> Aliases**",
-                    "about": "<:arrow:959971239798120479> Detailed Information about: `{cmdname}`",
-                    "cooldown": "**<:arrow:959971239798120479> Cooldown**",
-                    "usage": "**<:arrow:959971239798120479> Usage**",
+                    "name": "**<:Curvedrightarrow:960220710586953789> Command name**",
+                    "desc": "**<:Curvedrightarrow:960220710586953789> Description**",
+                    "aliases": "**<:Curvedrightarrow:960220710586953789> Aliases**",
+                    "about": "<:Curvedrightarrow:960220710586953789> Detailed Information about: `{cmdname}`",
+                    "cooldown": "**<:Curvedrightarrow:960220710586953789> Cooldown**",
+                    "usage": "**<:Curvedrightarrow:960220710586953789> Usage**",
                     "syntax": "Syntax: <> = required, [] = optional"
                 },
                 "buttons": {
@@ -196,7 +196,7 @@
                 "variable23": "\"🦾 Custom Commands\"",
                 "variable24": "`🦾 **Custom Commands [${cuc[0].includes(\"NO\") ? 0 : items.length}]**`",
                 "variable25": "\"<:Milrato:840259659163893820> Bot Creator Company Advertisment\"",
-                "variablex_26": "`<:Milrato:840259659163893820> **__Bot Creator Information__**`", "variable26": "`>>> 💯 This Bot has been made by:\\n[**Imroid Development**](https://dsc.gg/imroid-development)・[Discord](dsc.gg/imroid-development)<:Doscord:956662822551572480> [Click here to order yourself a own one](dsc.gg/imroid-development)`",
+                "variablex_26": "`<:Milrato:840259659163893820> **__Bot Creator Information__**`", "variable26": "`>>> 💯 This Bot has been made by:\\n[**Imroid Development**](https://dsc.gg/imroid-development)・[Discord](dsc.gg/imroid-development)<:Doscord:961024476642934784> [Click here to order yourself a own one](dsc.gg/imroid-development)`",
                 "variable27": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "invite": {
@@ -228,13 +228,13 @@
             },
             "membercount": {
                 "title": "Member-Count Information About:",
-                "field1": "<:arrow:959971239798120479> Total USERS",
-                "field2": "<:arrow:959971239798120479> Total HUMANS",
-                "field3": "<:arrow:959971239798120479> Total BOTS",
-                "field4": "<:arrow:959971239798120479> ONLINE",
-                "field5": "<:arrow:959971239798120479> IDLE",
-                "field6": "<:arrow:959971239798120479> DND",
-                "field7": "<:arrow:959971239798120479> OFFLINE",
+                "field1": "<:Curvedrightarrow:960220710586953789> Total USERS",
+                "field2": "<:Curvedrightarrow:960220710586953789> Total HUMANS",
+                "field3": "<:Curvedrightarrow:960220710586953789> Total BOTS",
+                "field4": "<:Curvedrightarrow:960220710586953789> ONLINE",
+                "field5": "<:Curvedrightarrow:960220710586953789> IDLE",
+                "field6": "<:Curvedrightarrow:960220710586953789> DND",
+                "field7": "<:Curvedrightarrow:960220710586953789> OFFLINE",
                 "variable1": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "modstats": {
@@ -262,7 +262,7 @@
             },
             "permissions": {
                 "from": "Permissions from: {usertag}",
-                "from2": "**<:arrow:959971239798120479> Permissions:**",
+                "from2": "**<:Curvedrightarrow:960220710586953789> Permissions:**",
                 "variable1": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "ping": {
@@ -277,15 +277,15 @@
             },
             "roleinfo": {
                 "author": "Information about:",
-                "field1": "**<:arrow:959971239798120479> Name:**",
-                "field2": "**<:arrow:959971239798120479> ID:**",
-                "field3": "**<:arrow:959971239798120479> Color:**",
-                "field4": "**<:arrow:959971239798120479> Date Created:**",
-                "field5": "**<:arrow:959971239798120479> Position:**",
-                "field6": "**<:arrow:959971239798120479> MemberCount:**",
-                "field7": "**<:arrow:959971239798120479> Hoisted:**",
-                "field8": "**<:arrow:959971239798120479> Mentionable:**",
-                "field9": "**<:arrow:959971239798120479> Permissions:**",
+                "field1": "**<:Curvedrightarrow:960220710586953789> Name:**",
+                "field2": "**<:Curvedrightarrow:960220710586953789> ID:**",
+                "field3": "**<:Curvedrightarrow:960220710586953789> Color:**",
+                "field4": "**<:Curvedrightarrow:960220710586953789> Date Created:**",
+                "field5": "**<:Curvedrightarrow:960220710586953789> Position:**",
+                "field6": "**<:Curvedrightarrow:960220710586953789> MemberCount:**",
+                "field7": "**<:Curvedrightarrow:960220710586953789> Hoisted:**",
+                "field8": "**<:Curvedrightarrow:960220710586953789> Mentionable:**",
+                "field9": "**<:Curvedrightarrow:960220710586953789> Permissions:**",
                 "variable1": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "serveravatar": {
@@ -294,22 +294,22 @@
             },
             "serverinfo": {
                 "author": "Server Information About:",
-                "field1": "**<:arrow:959971239798120479> Owner:**",
-                "field2": "**<:arrow:959971239798120479> Created On:**",
-                "field3": "**<:arrow:959971239798120479> You Joined:**",
-                "field4": "**<:arrow:959971239798120479> All Channels:**",
-                "field5": "**<:arrow:959971239798120479> Text Channels:**",
-                "field6": "**<:arrow:959971239798120479> Voice Channels:**",
-                "field7": "**<:arrow:959971239798120479> Total USERS:**",
-                "field8": "**<:arrow:959971239798120479> Total HUMANS:**",
-                "field9": "**<:arrow:959971239798120479> Total BOTS:**",
-                "field10": "**<:arrow:959971239798120479> ONLINE:**",
-                "field11": "**<:arrow:959971239798120479> OFFLINE:**",
-                "field12": "**<:arrow:959971239798120479> Total Boosts:**",
-                "field13": "**<:arrow:959971239798120479> Boost-Level:**",
-                "field14": "**<:arrow:959971239798120479> Max-Talk-Bitrate:**",
-                "variablex_1": "`<:arrow:959971239798120479> [${message.guild.emojis.cache.size}] Emojis: `", "variable1":"\"> \"+message.guild.emojis.cache.size < 35 ? message.guild.emojis.cache.map(emoji => `${emoji}`).join(\"︲\") : message.guild.emojis.cache.size > 35 ? emojitrimarray(message.guild.emojis.cache.map(emoji => `${emoji}`)).substr(0, 2048) : 'No Emojis'",
-                "variablex_2": "`<:arrow:959971239798120479> [${message.guild.roles.cache.size}] Roles: `", "variable2":"\"> \"+message.guild.roles.cache.size < 40 ? [...message.guild.roles.cache.values()].sort((a, b) => b.rawPosition - a.rawPosition).map(role => `<@&${role.id}>`).join(', ') : message.guild.roles.cache.size > 40 ? trimArray(message.guild.roles.cache) : 'None'",
+                "field1": "**<:Curvedrightarrow:960220710586953789> Owner:**",
+                "field2": "**<:Curvedrightarrow:960220710586953789> Created On:**",
+                "field3": "**<:Curvedrightarrow:960220710586953789> You Joined:**",
+                "field4": "**<:Curvedrightarrow:960220710586953789> All Channels:**",
+                "field5": "**<:Curvedrightarrow:960220710586953789> Text Channels:**",
+                "field6": "**<:Curvedrightarrow:960220710586953789> Voice Channels:**",
+                "field7": "**<:Curvedrightarrow:960220710586953789> Total USERS:**",
+                "field8": "**<:Curvedrightarrow:960220710586953789> Total HUMANS:**",
+                "field9": "**<:Curvedrightarrow:960220710586953789> Total BOTS:**",
+                "field10": "**<:Curvedrightarrow:960220710586953789> ONLINE:**",
+                "field11": "**<:Curvedrightarrow:960220710586953789> OFFLINE:**",
+                "field12": "**<:Curvedrightarrow:960220710586953789> Total Boosts:**",
+                "field13": "**<:Curvedrightarrow:960220710586953789> Boost-Level:**",
+                "field14": "**<:Curvedrightarrow:960220710586953789> Max-Talk-Bitrate:**",
+                "variablex_1": "`<:Curvedrightarrow:960220710586953789> [${message.guild.emojis.cache.size}] Emojis: `", "variable1":"\"> \"+message.guild.emojis.cache.size < 35 ? message.guild.emojis.cache.map(emoji => `${emoji}`).join(\"︲\") : message.guild.emojis.cache.size > 35 ? emojitrimarray(message.guild.emojis.cache.map(emoji => `${emoji}`)).substr(0, 2048) : 'No Emojis'",
+                "variablex_2": "`<:Curvedrightarrow:960220710586953789> [${message.guild.roles.cache.size}] Roles: `", "variable2":"\"> \"+message.guild.roles.cache.size < 40 ? [...message.guild.roles.cache.values()].sort((a, b) => b.rawPosition - a.rawPosition).map(role => `<@&${role.id}>`).join(', ') : message.guild.roles.cache.size > 40 ? trimArray(message.guild.roles.cache) : 'None'",
                 "variable3": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "servers": {
@@ -320,13 +320,6 @@
             "showblacklist": {
                 "info": "Blacklisted Words",
                 "variable1": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
-            },
-            "sponsor": {
-                "variable1": "\"BERO-HOST.de | German Hosting\"",
-                "variable2": "-",
-                "variable3": "-",
-                "variable4": "\"Bittmax\"",
-                "variable5": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "stats": {
                 "title": "💿 The Stats of {botname}",
@@ -403,18 +396,18 @@
             },
             "userinfo": {
                 "author": "Information about: {usertag}",
-                "field1": "**<:arrow:959971239798120479> Username:**",
-                "field2": "**<:arrow:959971239798120479> ID:**",
-                "field3": "**<:arrow:959971239798120479> Avatar:**",
-                "field4": "**<:arrow:959971239798120479> Date Join DC:**",
-                "field5": "**<:arrow:959971239798120479> Date Join Guild:**",
-                "field6": "**<:arrow:959971239798120479> Flags:**",
-                "field7": "**<:arrow:959971239798120479> Status:**",
-                "field8": "**<:arrow:959971239798120479> Highest Role:**",
-                "field9": "**<:arrow:959971239798120479> Is a Bot:**",
-                "field10": "**<:arrow:959971239798120479> Activity:**",
-                "field11": "**<:arrow:959971239798120479> Permissions:**",
-                "field12": "**<:arrow:959971239798120479> [{rolesize}] Roles:**",
+                "field1": "**<:Curvedrightarrow:960220710586953789> Username:**",
+                "field2": "**<:Curvedrightarrow:960220710586953789> ID:**",
+                "field3": "**<:Curvedrightarrow:960220710586953789> Avatar:**",
+                "field4": "**<:Curvedrightarrow:960220710586953789> Date Join DC:**",
+                "field5": "**<:Curvedrightarrow:960220710586953789> Date Join Guild:**",
+                "field6": "**<:Curvedrightarrow:960220710586953789> Flags:**",
+                "field7": "**<:Curvedrightarrow:960220710586953789> Status:**",
+                "field8": "**<:Curvedrightarrow:960220710586953789> Highest Role:**",
+                "field9": "**<:Curvedrightarrow:960220710586953789> Is a Bot:**",
+                "field10": "**<:Curvedrightarrow:960220710586953789> Activity:**",
+                "field11": "**<:Curvedrightarrow:960220710586953789> Permissions:**",
+                "field12": "**<:Curvedrightarrow:960220710586953789> [{rolesize}] Roles:**",
                 "noroles": "No Roles",
                 "nopermissions": "No Permissions",
                 "nostatus": "Not having an activity",

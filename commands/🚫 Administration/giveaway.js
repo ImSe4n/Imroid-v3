@@ -155,7 +155,7 @@ module.exports = {
                         noWinner: "\n**Giveaway cancelled!**\n> No valid participations. :cry:",
                         endedAt: "Ends at", 
                         giveaway: '<a:Tada_Cool:960300044337180693> **GIVEAWAY STARTED** <a:Tada_Cool:960300044337180693>',
-                        giveawayEnded: '<a:Tada_Green:867721862858539048> **GIVEAWAY ENDED** <a:Tada_Green:867721862858539048>',
+                        giveawayEnded: '<a:Tada_Winner:961027085302890586> **GIVEAWAY ENDED** <a:Tada_Winner:961027085302890586>',
                         winMessage: '**Congrats** {winners}!\n> You won **{this.prize}**!\n> **Jump:** {this.messageURL}\nHosted by: {this.hostedBy}',
                         embedFooter: '{this.winnerCount} Winner{this.winnerCount > 1 ? "s" : ""}'
                     },
