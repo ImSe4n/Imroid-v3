@@ -8,7 +8,7 @@ const emoji = require(`${process.cwd()}/botconfig/emojis.json`);
 const got = require("got");
 const path = require("path");
 module.exports = {
-  name: path.parse(__filename).name,
+  name: "joke",
   category: "🕹️ Fun",
   usage: `${path.parse(__filename).name} [@User]`,
   type: "user",
