@@ -149,7 +149,7 @@
                     "botlist": "सार्वजनिक बॉट-सूची-वेबसाइट"
                 },
                 "title": "_Sean#1751 | 4 संगठन के निर्माता | 200+ बॉटो के निर्माता",
-                "description": " नमस्ते, मैं हूँ **Tomato** <@711602696133673011> *(`_Sean#1751`)*, और मैंने 200 से अधिक अलग-अलग Discord बॉट्स बनाए: [मेरी बॉट सूची](https://bots.musicium.eu)\n\n मुझे अपने सभी सत्यापित और सत्यापित नहीं किए गए Discord बॉट्स पर बहुत गर्व है, लेकिन जिस बॉट पर मुझे सबसे ज्यादा गर्व है, वह है: [**LAVA MUSIC** | `2021 का सर्वश्रेष्ठ संगीत बॉट`](https://lava.dsc.gg/imroid-development) <@742672021422342165>\n\n मैंने यह बॉट बनाया है, और आप एक मुफ्त बॉट भी प्राप्त कर सकते हैं! बस यहां जाएं: [मेरी सेवा](https://milrato)\n\n मैं एक **वेबसाइट** डेवलपर और **प्लगइन** डेवलपर भी हूं। मैंने **मॉड्यूल्स** जैसे की **स्पीच मॉड्यूल** भी बनाया है [इसे देखें](https://cdn.discordapp.com/attachments/778714123785076768/801606374105546782/2021-01-21_01-15-50.mp4)\n\n मुझे आशा है कि आपको मेरा काम पसंद आएगा :v: <3",
+                "description": " नमस्ते, मैं हूँ **Sean** <@711602696133673011> *(`_Sean#1751`)*, और मैंने 200 से अधिक अलग-अलग Discord बॉट्स बनाए: [मेरी बॉट सूची](https://bots.musicium.eu)\n\n मुझे अपने सभी सत्यापित और सत्यापित नहीं किए गए Discord बॉट्स पर बहुत गर्व है, लेकिन जिस बॉट पर मुझे सबसे ज्यादा गर्व है, वह है: [**LAVA MUSIC** | `2021 का सर्वश्रेष्ठ संगीत बॉट`](https://lava.dsc.gg/imroid-development) <@742672021422342165>\n\n मैंने यह बॉट बनाया है, और आप एक मुफ्त बॉट भी प्राप्त कर सकते हैं! बस यहां जाएं: [मेरी सेवा](https://milrato)\n\n मैं एक **वेबसाइट** डेवलपर और **प्लगइन** डेवलपर भी हूं। मैंने **मॉड्यूल्स** जैसे की **स्पीच मॉड्यूल** भी बनाया है [इसे देखें](https://cdn.discordapp.com/attachments/778714123785076768/801606374105546782/2021-01-21_01-15-50.mp4)\n\n मुझे आशा है कि आपको मेरा काम पसंद आएगा :v: <3",
                 "variable1": "`\\`\\`\\`${String(e.stack).substr(0, 2000)}\\`\\`\\``"
             },
             "help": {
@@ -2990,7 +2990,7 @@
                 "variable30": "\"Which MEssage do you wanna send with the Twitter Post?\"",
                 "variable31": "`\\`{url}\\` Will be replaced with the Twitter POST LINK\\n\\n\\`{Twittername}\\` will be replaced with the TwitterAccountname`",
                 "variable32": "` I will now post The Twitter Messages with the Twitter Post: `",
-                "variable33": "`${collected.first().content.replace(\"{url}\", \"https://twitter.com/MilratoDev\").replace(\"{Twittername}\", \"Tomato6966\")}\\n\\nNote that this is just an **example**\\n\\nYou need to have The TWITTERNAME, TWITTERID, and DISCORDCHANNEl and MESSAGE to be right, so that the autoposter works!`",
+                "variable33": "`${collected.first().content.replace(\"{url}\", \"https://twitter.com/Sean70848080\").replace(\"{Twittername}\", \"Sean1751\")}\\n\\nNote that this is just an **example**\\n\\nYou need to have The TWITTERNAME, TWITTERID, and DISCORDCHANNEl and MESSAGE to be right, so that the autoposter works!`",
                 "variablex_34": "\"**NOTE THERE MIGHT BE AN UP TO 7 MINUTES DELAY!** (because of Rate limits)\"",
                 "variable34": "\"When posting a new Twit\"",
                 "variable35": "\" ERROR | Something went wrong, please contact: `_Sean#1751`\"",
