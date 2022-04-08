@@ -197,7 +197,7 @@ module.exports = client => {
     }).catch(() => {})
     let embed = new MessageEmbed()
       .setColor("RED")
-      .setTitle(`<:leaves:866356598356049930> Left a Server`)
+      .setTitle(`<:leaaves:961372216656805909> Left a Server`)
       .addField("Guild Info", `>>> \`\`\`${guild.name} (${guild.id})\`\`\``)
       .addField("Owner Info", `>>> \`\`\`${theowner ? `${theowner.tag} (${theowner.id})` : `${theowner} (${guild.ownerId})`}\`\`\``)
       .addField("Member Count", `>>> \`\`\`${guild.memberCount}\`\`\``)

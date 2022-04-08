@@ -524,7 +524,7 @@ module.exports = {
                     return message.reply({embeds: [new Discord.MessageEmbed()
                       .setTitle(eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variable26"]))
                       .setColor(es.color)
-                      .setDescription(`<:leaves:866356598356049930> **Removed \`[${removedroles.length}] Roles\` and \`[${removedusers.length}] Users\` from the __Anti Bot add__ Whitelist (module)!**`.substring(0, 2048))
+                      .setDescription(`<:leaaves:961372216656805909> **Removed \`[${removedroles.length}] Roles\` and \`[${removedusers.length}] Users\` from the __Anti Bot add__ Whitelist (module)!**`.substring(0, 2048))
                       .addField(eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variablex_27"]), eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variable27"]))
                       .addField(eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variablex_28"]), eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variable28"]))
                       .setFooter(client.getFooter(es))]
@@ -593,7 +593,7 @@ module.exports = {
                     return message.reply({embeds: [new Discord.MessageEmbed()
                       .setTitle(eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variable32"]))
                       .setColor(es.color)
-                      .setDescription(`<:leaves:866356598356049930> **Removed \`[${removedroles.length}] Roles\` and \`[${removedusers.length}] Users\` from the __Anti Kick/Ban__ Whitelist (module)!**`.substring(0, 2048))
+                      .setDescription(`<:leaaves:961372216656805909> **Removed \`[${removedroles.length}] Roles\` and \`[${removedusers.length}] Users\` from the __Anti Kick/Ban__ Whitelist (module)!**`.substring(0, 2048))
                       .addField(eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variablex_33"]), eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variable33"]))
                       .addField(eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variablex_34"]), eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variable34"]))
                       .setFooter(client.getFooter(es))]
@@ -662,7 +662,7 @@ module.exports = {
                     return message.reply({embeds: [new Discord.MessageEmbed()
                       .setTitle(eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variable38"]))
                       .setColor(es.color)
-                      .setDescription(`<:leaves:866356598356049930> **Removed \`[${removedroles.length}] Roles\` and \`[${removedusers.length}] Users\` from the __Anti Create Role__ Whitelist (module)!**`.substring(0, 2048))
+                      .setDescription(`<:leaaves:961372216656805909> **Removed \`[${removedroles.length}] Roles\` and \`[${removedusers.length}] Users\` from the __Anti Create Role__ Whitelist (module)!**`.substring(0, 2048))
                       .addField(eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variablex_39"]), eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variable39"]))
                       .addField(eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variablex_40"]), eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variable40"]))
                       .setFooter(client.getFooter(es))]
@@ -731,7 +731,7 @@ module.exports = {
                     return message.reply({embeds: [new Discord.MessageEmbed()
                       .setTitle(eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variable44"]))
                       .setColor(es.color)
-                      .setDescription(`<:leaves:866356598356049930> **Removed \`[${removedroles.length}] Roles\` and \`[${removedusers.length}] Users\` from the __Anti Delete Role__ Whitelist (module)!**`.substring(0, 2048))
+                      .setDescription(`<:leaaves:961372216656805909> **Removed \`[${removedroles.length}] Roles\` and \`[${removedusers.length}] Users\` from the __Anti Delete Role__ Whitelist (module)!**`.substring(0, 2048))
                       .addField(eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variablex_45"]), eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variable45"]))
                       .addField(eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variablex_46"]), eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variable46"]))
                       .setFooter(client.getFooter(es))]
@@ -800,7 +800,7 @@ module.exports = {
                     return message.reply({embeds: [new Discord.MessageEmbed()
                       .setTitle(eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variable50"]))
                       .setColor(es.color)
-                      .setDescription(`<:leaves:866356598356049930> **Removed \`[${removedroles.length}] Roles\` and \`[${removedusers.length}] Users\` from the __Anti Channel Create__ Whitelist (module)!**`.substring(0, 2048))
+                      .setDescription(`<:leaaves:961372216656805909> **Removed \`[${removedroles.length}] Roles\` and \`[${removedusers.length}] Users\` from the __Anti Channel Create__ Whitelist (module)!**`.substring(0, 2048))
                       .addField(eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variablex_51"]), eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variable51"]))
                       .addField(eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variablex_52"]), eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variable52"]))
                       .setFooter(client.getFooter(es))]
@@ -869,7 +869,7 @@ module.exports = {
                     return message.reply({embeds: [new Discord.MessageEmbed()
                       .setTitle(eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variable56"]))
                       .setColor(es.color)
-                      .setDescription(`<:leaves:866356598356049930> **Removed \`[${removedroles.length}] Roles\` and \`[${removedusers.length}] Users\` from the __Anti Channel Delete__ Whitelist (module)!**`.substring(0, 2048))
+                      .setDescription(`<:leaaves:961372216656805909> **Removed \`[${removedroles.length}] Roles\` and \`[${removedusers.length}] Users\` from the __Anti Channel Delete__ Whitelist (module)!**`.substring(0, 2048))
                       .addField(eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variablex_57"]), eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variable57"]))
                       .addField(eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variablex_58"]), eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variable58"]))
                       .setFooter(client.getFooter(es))]

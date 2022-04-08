@@ -16,7 +16,7 @@
                     {
                         "value": "Creator / Features",
                         "description": "Who is my Creator? / What are my Features?",
-                        "replymsg": "<:Milrato:840259659163893820> **__Imroid Development__ made me!**\n> <:Like:857334024087011378> **Their Website:** https://dsc.gg/imroid-development\n> <:Doscord:961024476642934784> **Their Discord:** https://dsc.gg/imroid-development\n``` ```***__You can join their Discord Server and get yourself a Bot like me, for FREE/CHEAP!__***\n``` ```:muscle: **__My Features__**\n>>> **68+ Systems**, like: <:Tweeter:956660155888590868> **Twitter-** & <:YOUUTUBE:956661075632337026> **Youtube-Auto-Poster** \n**Application-**, Ticket-, **Welcome-Images-** and Reaction Role-, ... Systems\n:notes: An advanced <:Spootify:956662268635017240> **Music System** with **Audio Filtering**\n:video_game: Many **Minigames** and :joystick: **Fun** Commands (150+)\n:no_entry_sign: **Administration** and **Auto-Moderation** and way much more!\n\n**The Developer is: `_Sean#1751`, Contact him if you wanna hire him!**",
+                        "replymsg": "<:Milrato:840259659163893820> **__Imroid Development__ made me!**\n> <:Like:857334024087011378> **Their Website:** https://dsc.gg/imroid-development\n> <:Doscord:961024476642934784> **Their Discord:** https://dsc.gg/imroid-development\n``` ```***__You can join their Discord Server and get yourself a Bot like me, for FREE/CHEAP!__***\n``` ```:muscle: **__My Features__**\n>>> **68+ Systems**, like: <:Tweeter:961366404626546708> **Twitter-** & <:YOUUTUBE:961366723402006588> **Youtube-Auto-Poster** \n**Application-**, Ticket-, **Welcome-Images-** and Reaction Role-, ... Systems\n:notes: An advanced <:Spootify:961367111727460443> **Music System** with **Audio Filtering**\n:video_game: Many **Minigames** and :joystick: **Fun** Commands (150+)\n:no_entry_sign: **Administration** and **Auto-Moderation** and way much more!\n\n**The Developer is: `_Sean#1751`, Contact him if you wanna hire him!**",
                         "emoji": "840259659163893820"
                     },
                     {
@@ -215,7 +215,7 @@
                 },
                 "field2": {
                     "title": "💡 **That means he/she has:**",
-                    "value": "> <:joines:866356465299488809> {invites} Joins (When the Member Joins the Server)\n> <:leaves:866356598356049930> {leaves} Leaves (When the invited Member left the Server)\n> <a:nah:960701828675297300> {fake} Fakes (Alt Accounts / Rejoins)"
+                    "value": "> <:joines:866356465299488809> {invites} Joins (When the Member Joins the Server)\n> <:leaaves:961372216656805909> {leaves} Leaves (When the invited Member left the Server)\n> <a:nah:960701828675297300> {fake} Fakes (Alt Accounts / Rejoins)"
                 },
                 "field3": {
                     "title": "📘 **To Calculate your Invites do:**"
@@ -4433,10 +4433,10 @@
             "manageinvites": {
                 "variable1": "\"MANAGE INVITES OF \" + user.tag, client.user.displayAvatarURL(), \"https://dsc.gg/imroid-development\"",
                 "variable2": "`***Select what you want to do in the Selection down Below!***`",
-                "variablex_3": "`💡 **That means he has:**`","variable3":"`> <:joines:866356465299488809> ${invites} Joins (When the Member Joins the Server)\\n> <:leaves:866356598356049930> ${leaves} Leaves (When the invited Member left the Server)\\n> <a:nah:960701828675297300> ${fake} Fakes (Alt Accounts / Rejoins)`",
+                "variablex_3": "`💡 **That means he has:**`","variable3":"`> <:joines:866356465299488809> ${invites} Joins (When the Member Joins the Server)\\n> <:leaaves:961372216656805909> ${leaves} Leaves (When the invited Member left the Server)\\n> <a:nah:960701828675297300> ${fake} Fakes (Alt Accounts / Rejoins)`",
                 "variable4": "\":x: Cancelled the Setup!\"",
                 "variable5": "\"NOT A NUMBER\"",
-                "variablex_6": "`💡 **That means he has:**`","variable6":"`> <:joines:866356465299488809> ${invites} Joins (When the Member Joins the Server)\\n> <:leaves:866356598356049930> ${leaves} Leaves (When the invited Member left the Server)\\n> <a:nah:960701828675297300> ${fake} Fakes (Alt Accounts / Rejoins)`",
+                "variablex_6": "`💡 **That means he has:**`","variable6":"`> <:joines:866356465299488809> ${invites} Joins (When the Member Joins the Server)\\n> <:leaaves:961372216656805909> ${leaves} Leaves (When the invited Member left the Server)\\n> <a:nah:960701828675297300> ${fake} Fakes (Alt Accounts / Rejoins)`",
                 "variable7": "`\\`\\`\\`${String(message.content).substr(0, 2000)}\\`\\`\\``",
                 "variable8": "`Executed in: `, `<#${message.channel.id}> \\`${message.channel.name}\\``",
                 "variable9": "`Executed by: `, `<@${message.author.id}> (${message.author.tag})\\n\\`${message.author.tag}\\``",
@@ -5326,7 +5326,7 @@
                 "variable2": "\"Don't unmute me!, i muted my self again! This safes Data so it gives you a faster and smoother experience\"",
                 "variable3": "`<a:Join_vc:863876115584385074> Joined a new Guild | ${guild.name}`",
                 "variable4": "`> **${guild.name} (\\`${guild.id}\\`)**\\n\\n> **Owner:** \\`${theowner ? `${theowner.tag} (${theowner.id})` : `${theowner} (${guild.ownerId})`}\\`\\n\\n> **Members:** \\`${guild.memberCount}\\`\\n\\n> **Servers Bot is in:** \\`${client.guilds.cache.size}\\``",
-                "variable5": "`<:leaves:866356598356049930> Left a Guild | ${guild.name}`",
+                "variable5": "`<:leaaves:961372216656805909> Left a Guild | ${guild.name}`",
                 "variable6": "`> **${guild.name} (\\`${guild.id}\\`)**\\n\\n> **Owner:** \\`${theowner ? `${theowner.tag} (${theowner.id})` : `${theowner} (${guild.ownerId})`}\\`\\n\\n> **Members:** \\`${guild.memberCount}\\`\\n\\n> **Servers Bot is in:** \\`${client.guilds.cache.size}\\``"
             }
         },

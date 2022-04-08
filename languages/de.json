@@ -16,7 +16,7 @@
                     {
                         "value": "Ersteller / Funktionen",
                         "description": "Wer ist mein Macher? / Was sind meine Funktionen?",
-                        "replymsg": "<:Milrato:840259659163893820> **__Imroid Development__ hat mich gemacht!**\n> <:Like:857334024087011378> **Ihre Internet Seite:** https://dsc.gg/imroid-development\n> <:Doscord:961024476642934784> **Ihr Discord:** https://dsc.gg/imroid-development\n``` ```***__Du kannst ihrem Discord Server beitreten und einen kostenlosen, bzw. günstigen Discord Bot deiner Wahl erhalten, wie mich!__***\n``` ```:muscle: **__Meine Funktionen__**\n>>> **68+ Systeme**, wie z.B: Automatischer <:Tweeter:956660155888590868> **Twitter-** & <:YOUUTUBE:956661075632337026> **Youtube** Upload Poster \n**Bewerbungs-**, Ticket-, **Willkommens-Bilder-** und Reaction Role-, ... Systeme\n:notes: Ein komplexes <:Spootify:956662268635017240> **Music System** mit **Audio Filter**\n:video_game: Viele **Minigames** und :joystick: **Fun** Befehle (150+)\n:no_entry_sign: **Administration** und **Auto-Moderation** und viel mehr!\n\n**Der Programmiere ist: `_Sean#1751` <:TOMATO:858450817665204224>, Wenn du ihn anheuern willst, dann kontaktiere ihn!**",
+                        "replymsg": "<:Milrato:840259659163893820> **__Imroid Development__ hat mich gemacht!**\n> <:Like:857334024087011378> **Ihre Internet Seite:** https://dsc.gg/imroid-development\n> <:Doscord:961024476642934784> **Ihr Discord:** https://dsc.gg/imroid-development\n``` ```***__Du kannst ihrem Discord Server beitreten und einen kostenlosen, bzw. günstigen Discord Bot deiner Wahl erhalten, wie mich!__***\n``` ```:muscle: **__Meine Funktionen__**\n>>> **68+ Systeme**, wie z.B: Automatischer <:Tweeter:961366404626546708> **Twitter-** & <:YOUUTUBE:961366723402006588> **Youtube** Upload Poster \n**Bewerbungs-**, Ticket-, **Willkommens-Bilder-** und Reaction Role-, ... Systeme\n:notes: Ein komplexes <:Spootify:961367111727460443> **Music System** mit **Audio Filter**\n:video_game: Viele **Minigames** und :joystick: **Fun** Befehle (150+)\n:no_entry_sign: **Administration** und **Auto-Moderation** und viel mehr!\n\n**Der Programmiere ist: `_Sean#1751` <:TOMATO:858450817665204224>, Wenn du ihn anheuern willst, dann kontaktiere ihn!**",
                         "emoji": "840259659163893820"
                     },
                     {
@@ -232,7 +232,7 @@
                 },
                 "field2": {
                     "title": "💡 **Das heißt er/sie hat:**",
-                    "value": "> <:joines:866356465299488809> {invites} Joins (Wenn der Nutzer dem Server joined)\n> <:leaves:866356598356049930> {leaves} Leaves (Wenn der Nutzer den Server verlässt)\n> <a:nah:960701828675297300> {fake} Falsch Einladungen(Alternative Accounts / Rejoins)"
+                    "value": "> <:joines:866356465299488809> {invites} Joins (Wenn der Nutzer dem Server joined)\n> <:leaaves:961372216656805909> {leaves} Leaves (Wenn der Nutzer den Server verlässt)\n> <a:nah:960701828675297300> {fake} Falsch Einladungen(Alternative Accounts / Rejoins)"
                 },
                 "field3": {
                     "title": "📘 **Um deine Einladungen zu berechnen, mach das:**"
@@ -4535,11 +4535,11 @@
                 "variable1": "\"MANAGE INVITES OF \" + user.tag, client.user.displayAvatarURL(), \"https://dsc.gg/imroid-development\"",
                 "variable2": "`***Select what you want to do in the Selection down Below!***`",
                 "variablex_3": "`💡 **That means he has:**`",
-                "variable3": "`> <:joines:866356465299488809> ${invites} Joins (When the Member Joins the Server)\\n> <:leaves:866356598356049930> ${leaves} Leaves (When the invited Member left the Server)\\n> <a:nah:960701828675297300> ${fake} Fakes (Alt Accounts / Rejoins)`",
+                "variable3": "`> <:joines:866356465299488809> ${invites} Joins (When the Member Joins the Server)\\n> <:leaaves:961372216656805909> ${leaves} Leaves (When the invited Member left the Server)\\n> <a:nah:960701828675297300> ${fake} Fakes (Alt Accounts / Rejoins)`",
                 "variable4": "\"<a:nah:960701828675297300> ABGEBROCHEN the Setup!\"",
                 "variable5": "\"NOT A NUMBER\"",
                 "variablex_6": "`💡 **That means he has:**`",
-                "variable6": "`> <:joines:866356465299488809> ${invites} Joins (When the Member Joins the Server)\\n> <:leaves:866356598356049930> ${leaves} Leaves (When the invited Member left the Server)\\n> <a:nah:960701828675297300> ${fake} Fakes (Alt Accounts / Rejoins)`",
+                "variable6": "`> <:joines:866356465299488809> ${invites} Joins (When the Member Joins the Server)\\n> <:leaaves:961372216656805909> ${leaves} Leaves (When the invited Member left the Server)\\n> <a:nah:960701828675297300> ${fake} Fakes (Alt Accounts / Rejoins)`",
                 "variable7": "`\\`\\`\\`${String(message.content).substr(0, 2000)}\\`\\`\\``",
                 "variable8": "`Ausgeführt in:`, `<#${message.channel.id}> \\`${message.channel.name}\\``",
                 "variable9": "`Ausgeführt von:`, `<@${message.author.id}> (${message.author.tag})\\n\\`${message.author.tag}\\``",
@@ -5434,7 +5434,7 @@
                 "variable2": "\"Don't unmute me!, i muted my self again! This safes Data so it gives you a faster and smoother experience\"",
                 "variable3": "`<a:Join_vc:863876115584385074> Joined a new Guild | ${guild.name}`",
                 "variable4": "`> **${guild.name} (\\`${guild.id}\\`)**\\n\\n> **Owner:** \\`${guild.owner ? guild.owner.tag : guild.ownerID}\\`\\n\\n> **Nutzern:** \\`${guild.memberCount}\\`\\n\\n> **Servers Bot is in:** \\`${client.guilds.cache.size}\\``",
-                "variable5": "`<:leaves:866356598356049930> Left a Guild | ${guild.name}`",
+                "variable5": "`<:leaaves:961372216656805909> Left a Guild | ${guild.name}`",
                 "variable6": "`> **${guild.name} (\\`${guild.id}\\`)**\\n\\n> **Owner:** \\`${guild.owner ? guild.owner.tag : guild.ownerID}\\`\\n\\n> **Nutzern:** \\`${guild.memberCount}\\`\\n\\n> **Servers Bot is in:** \\`${client.guilds.cache.size}\\``"
             }
         },
