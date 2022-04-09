@@ -1973,7 +1973,7 @@ module.exports = {
                     ctx.drawImage(background, 0, 0, canvas.width, canvas.height);
 
                     if (client.settings.get(member.guild.id, "welcome.pb")) {
-                      background = await Canvas.loadImage(`./assets/welcome/${framecolor}/welcome1framepb?.png`);
+                      background = await Canvas.loadImage(`./assets/welcome/${framecolor}/welcome1framepb.png`);
                       ctx.drawImage(background, 0, 0, canvas.width, canvas.height);
                     }
                   }
