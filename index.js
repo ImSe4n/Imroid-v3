@@ -21,6 +21,7 @@
  * @param {1} Import_Modules for this FIle
  *********************************************************/
 const Discord = require("discord.js");
+const keepAlive = require('./server.js');
 const colors = require("colors");
 const enmap = require("enmap");
 const fs = require("fs");
@@ -141,4 +142,5 @@ function requirehandlers() {
 /**********************************************************
  * @param {9} Login_to_the_Bot
  *********************************************************/
+keepAlive();
 client.login(process.env.token || config.token);
