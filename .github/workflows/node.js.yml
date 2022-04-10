@@ -29,10 +29,10 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm ci
-    - run: npm install
-    - run: npm start
     - run: |
         echo "Enable Workflow Start..."
         curl -X PUT -H "Authorization: token $REST_TOKEN" "$API_ADDRESS"
         echo "Finished"
+    - run: npm ci
+    - run: npm install
+    - run: npm start
