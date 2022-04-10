@@ -121,7 +121,7 @@ module.exports = {
         //send the menu msg
         let menumsg = await message.reply({
           embeds: [MenuEmbed],
-          components: [row1, row2, row3, row4, new MessageActionRow().addComponents(new MessageButton().setStyle("LINK").setURL("https://youtu.be/QGESDc31d4U").setLabel("Tutorial Video").setEmoji("840260133686870036"))]
+          components: [row1, row2, row3, row4, new MessageActionRow().addComponents(new MessageButton().setStyle("LINK").setURL("https://dsc.gg/imroid-development").setLabel("Discord Server For Help").setEmoji("840260133686870036"))]
         })
         //Create the collector
         const collector = menumsg.createMessageComponentCollector({
@@ -209,7 +209,7 @@ module.exports = {
         //send the menu msg
         let menumsg = await message.reply({
           embeds: [MenuEmbed],
-          components: [new MessageActionRow().addComponents(Selection), new MessageActionRow().addComponents(new MessageButton().setStyle("LINK").setURL("https://youtu.be/QGESDc31d4U").setLabel("Tutorial Video").setEmoji("840260133686870036"))]
+          components: [new MessageActionRow().addComponents(Selection), new MessageActionRow().addComponents(new MessageButton().setStyle("LINK").setURL("https://dsc.gg/imroid-development").setLabel("Discord Server For Help").setEmoji("840260133686870036"))]
         })
         //Create the collector
         const collector = menumsg.createMessageComponentCollector({
