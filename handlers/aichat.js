@@ -24,7 +24,7 @@ module.exports = client => {
                   return message.channel.send({files: [attachment]})
               }
               try{
-                fetch(`http://api.brainshop.ai/get?bid=165525&key=l2us1iAD36NAXuuZ&uid=[uid]&msg=[msg]${encodeURIComponent(message)}`)
+                fetch(`http://api.brainshop.ai/get?bid=165525&key=l2us1iAD36NAXuuZ&uid=1&msg=${encodeURIComponent(message)}`)
                 .then(res => res.json())
                 .then(data => {
                   message.channel.send({content: data.cnt}).catch(() => {})
