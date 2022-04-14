@@ -146,7 +146,7 @@ function isValidURL(string) {
   return url;
 };
 function GetUser(message, arg){
-  var errormessage = "<a:nah:960701828675297300> I failed finding that User...";
+  var errormessage = "<:no:833101993668771842> I failed finding that User...";
   return new Promise(async (resolve, reject) => {
     var args = arg, client = message.client;
     if(!client || !message) return reject("CLIENT IS NOT DEFINED")
@@ -181,7 +181,7 @@ function GetUser(message, arg){
   })
 }
 function GetRole(message, arg){
-  var errormessage = "<a:nah:960701828675297300> I failed finding that Role...";
+  var errormessage = "<:no:833101993668771842> I failed finding that Role...";
   return new Promise(async (resolve, reject) => {
     var args = arg, client = message.client;
     if(!client || !message) return reject("CLIENT IS NOT DEFINED")
@@ -207,7 +207,7 @@ function GetRole(message, arg){
   })
 }
 function GetGlobalUser(message, arg){
-  var errormessage = "<a:nah:960701828675297300> I failed finding that User...";
+  var errormessage = "<:no:833101993668771842> I failed finding that User...";
   return new Promise(async (resolve, reject) => {
     var args = arg, client = message.client;
     if(!client || !message) return reject("CLIENT IS NOT DEFINED")
@@ -393,6 +393,7 @@ async function edit_Roster_msg(client, guild, the_roster_db, pre) {
             console.error(e)
           }
         }
+        
       } else if (data.rosterstyle == "4") {
         //define the memberarray
         let memberarray = role.members.map(member => `${the_roster_db?.get(guild.id, pre+".rosteremoji")} **${member.user.username}**`)
@@ -1355,8 +1356,6 @@ async function swap_pages(client, message, description, TITLE) {
   let prefix = settings.prefix
   let ls = settings.language;
   let cmduser = message.author;
-
-
   let currentPage = 0;
   //GET ALL EMBEDS
   let embeds = [];
@@ -1415,7 +1414,7 @@ async function swap_pages(client, message, description, TITLE) {
   //array of all embeds, here simplified just 10 embeds with numbers 0 - 9
   collector.on('collect', async b => {
       if(b?.user.id !== message.author.id)
-        return b?.reply({content: `<a:nah:960701828675297300> **Only the one who typed ${prefix}help is allowed to react!**`, ephemeral: true})
+        return b?.reply({content: `<:no:833101993668771842> **Only the one who typed ${prefix}help is allowed to react!**`, ephemeral: true})
         //page forward
         if(b?.customId == "1") {
           collector.resetTimer();
@@ -1490,7 +1489,7 @@ async function swap_pages2(client, message, embeds) {
   //array of all embeds, here simplified just 10 embeds with numbers 0 - 9
   collector.on('collect', async b => {
       if(b?.user.id !== message.author.id)
-        return b?.reply({content: `<a:nah:960701828675297300> **Only the one who typed ${prefix}help is allowed to react!**`, ephemeral: true})
+        return b?.reply({content: `<:no:833101993668771842> **Only the one who typed ${prefix}help is allowed to react!**`, ephemeral: true})
         //page forward
         if(b?.customId == "1") {
           collector.resetTimer();
@@ -1572,7 +1571,7 @@ async function swap_pages2_interaction(client, interaction, embeds) {
   //array of all embeds, here simplified just 10 embeds with numbers 0 - 9
   collector.on('collect', async b => {
       if(b?.user.id !== cmduser.id)
-        return b?.reply({content: `<a:nah:960701828675297300> **Only the one who typed ${prefix}help is allowed to react!**`, ephemeral: true})
+        return b?.reply({content: `<:no:833101993668771842> **Only the one who typed ${prefix}help is allowed to react!**`, ephemeral: true})
         //page forward
         if(b?.customId == "1") {
           collector.resetTimer();
@@ -1634,7 +1633,7 @@ function databasing(client, guildid, userid) {
       dbEnsure(client.keyword, guildid, {
         commands: []
       })
-       dbEnsure(client.social_log, guildid, {
+      dbEnsure(client.social_log, guildid, {
         tiktok: {
           channels: [],
           dc_channel: ""
@@ -1752,9 +1751,6 @@ function databasing(client, guildid, userid) {
             */
           ]
         },
-
-
-
         showdisabled: true,
 
         MUSIC: true,
@@ -2223,8 +2219,6 @@ async function create_transcript(message, client, msglimit) {
   let msgs = messageCollection.map(this_Code_is_by_Tomato_6966 => this_Code_is_by_Tomato_6966).reverse(); //reverse the array to have it listed like the discord chat
   message.channel.send({files: [await create_transcript_buffer(msgs, message.channel, message.guild)]}).catch(()=>{});
 }
-
-
  function dbEnsure(db, key, data) {
   if(!db?.has(key)) {
      db?.ensure(key, data);
