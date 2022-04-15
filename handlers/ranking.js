@@ -11,7 +11,7 @@ const { GetUser, duration, nFormatter } = require(`./functions`)
 //Canvas.registerFont( "./assets/fonts/ArialUnicode.ttf", { family: "ArielUnicode" } );
 //Canvas.registerFont("./assets/fonts/Genta.ttf", { family: "Genta" } );
 //Canvas.registerFont("./assets/fonts/UbuntuMono.ttf", { family: "UbuntuMono" } );
-const Fonts = "`DM Sans`, STIXGeneral, AppleSymbol, Arial, ArialUnicode";
+const Fonts = "`Dosis`, STIXGeneral, AppleSymbol, Arial, ArialUnicode";
 module.exports = function (client) {
     //log that the module is loaded
     client.on("messageCreate", async (message) => {
