@@ -10,7 +10,7 @@ const { GetUser, duration, nFormatter } = require(`./functions`)
 //Canvas.registerFont( "./assets/fonts/Arial.ttf"       , { family: "Arial" } );
 //Canvas.registerFont( "./assets/fonts/ArialUnicode.ttf", { family: "ArielUnicode" } );
 //Canvas.registerFont("./assets/fonts/Genta.ttf", { family: "Genta" } );
-//Canvas.registerFont("./assets/fonts/UbuntuMono.ttf", { family: "UbuntuMono" } );
+//Canvas.registerFont("./assets/fonts/Dosis.ttf", { family: "Dosis" } );
 const Fonts = "Dosis";
 module.exports = function (client) {
     //log that the module is loaded
@@ -318,7 +318,7 @@ module.exports = function (client) {
             }
             const canvas = Canvas.createCanvas(1802, 430);
             const ctx = canvas.getContext("2d");
-            ctx.font = "100px UbuntuMono";
+            ctx.font = "100px Dosis";
             ctx.fillStyle = "#2697FF";
             const bgimg = await Canvas.loadImage("./assets/levelup.png");
             ctx.drawImage(bgimg, 0, 0, canvas.width, canvas.height);
@@ -327,7 +327,7 @@ module.exports = function (client) {
             if (text.length > 15) text = text.substring(0, 11) + ".."
             text += ` leveled up!`
             await canvacord.Util.renderEmoji(ctx, text, 475, 150);
-            ctx.font = "80px UbuntuMono";
+            ctx.font = "80px Dosis";
             await canvacord.Util.renderEmoji(ctx, `New Level: ${newLevel}`, 475, 290);
             await canvacord.Util.renderEmoji(ctx, ` New Rank: #${i}`, 475, 380);
             //AVATAR
@@ -925,7 +925,7 @@ module.exports = function (client) {
         
             const canvas = Canvas.createCanvas(830, 1030);
             const ctx = canvas.getContext("2d");
-            ctx.font = "75px UbuntuMono";
+            ctx.font = "75px Dosis";
             ctx.fillStyle = "#2697FF";
 
             var bgimg = await Canvas.loadImage(`./assets/${type == "voice" ? "voice" : "first"}_leaderboard.png`);
@@ -935,7 +935,7 @@ module.exports = function (client) {
                 for(let i = 0; i < array_usernames.length; i++){
                     try{
                         ctx.save();
-                        ctx.font = "75px UbuntuMono";
+                        ctx.font = "75px Dosis";
                         ctx.fillStyle = "#2697FF";
                         
                         //USERNAME
@@ -943,28 +943,28 @@ module.exports = function (client) {
                         let yOffset = 0;
                         let fontsize = 75; 
                         while(ctx.measureText(text).width > 365){
-                            ctx.font = `${ fontsize-- }px UbuntuMono`;
+                            ctx.font = `${ fontsize-- }px Dosis`;
                             yOffset += 0.0025;
                         }
                         canvacord.Util.renderEmoji(ctx, text, 435 , 85 + i * 100 + yOffset);
 
 
                         //LEVEL TEXT
-                        ctx.font = "40px UbuntuMono";
+                        ctx.font = "40px Dosis";
                         ctx.fillStyle = "#6caae7"; 
                         var text4 = `LVL ${array_level[i]}`.trim();
                         canvacord.Util.renderEmoji(ctx, text4, 275, 100 + i * 100 - 22.5);
         
 
                         //POINTS TEXT: 
-                        ctx.font = "19px UbuntuMono";
+                        ctx.font = "19px Dosis";
                         ctx.fillStyle = "#858594"
                         var text5 = `${nFormatter(array_textpoints[i], 1)} P. | ${type == "voice" ? `${cduration(array_amount[i]).join(", ")} Mins.`: `${nFormatter(array_amount[i], 1)} Msgs.`}`.trim();
                         canvacord.Util.renderEmoji(ctx, text5, 235, 101.25 + i * 100);
         
 
                         //DISCRIMINATOR TEXT
-                        ctx.font = "15px UbuntuMono";
+                        ctx.font = "15px Dosis";
                         ctx.fillStyle = "#7F7F7F"
                         canvacord.Util.renderEmoji(ctx, "#"+array_discriminator[i], 750, 100 + i * 100);
                         
@@ -1048,7 +1048,7 @@ module.exports = function (client) {
             
                 const canvas2 = Canvas.createCanvas(830, 1030);
                 const ctx2 = canvas2.getContext("2d");
-                ctx2.font = "75px UbuntuMono";
+                ctx2.font = "75px Dosis";
                 ctx2.fillStyle = "#2697FF";
     
                 var bgimg = await Canvas.loadImage(`./assets/${type == "voice" ? "voice" : "first"}_leaderboard.png`);
@@ -1058,7 +1058,7 @@ module.exports = function (client) {
                     for(let i = 0; i < array_usernames.length; i++){
                         try{
                             ctx2.save();
-                            ctx2.font = "75px UbuntuMono";
+                            ctx2.font = "75px Dosis";
                             ctx2.fillStyle = "#2697FF";
                             
                             //USERNAME
@@ -1066,27 +1066,27 @@ module.exports = function (client) {
                             let yOffset = 0;
                             let fontsize = 75; 
                             while(ctx2.measureText(text).width > 365){
-                                ctx2.font = `${ fontsize-- }px UbuntuMono`;
+                                ctx2.font = `${ fontsize-- }px Dosis`;
                                 yOffset += 0.0025;
                             }
                             canvacord.Util.renderEmoji(ctx2, text, 435 , 85 + i * 100 + yOffset);
     
     
                             //LEVEL TEXT
-                            ctx2.font = "40px UbuntuMono";
+                            ctx2.font = "40px Dosis";
                             ctx2.fillStyle = "#6caae7"; 
                             var text4 = `LVL ${array_level[i]}`.trim();
                             canvacord.Util.renderEmoji(ctx2, text4, 275, 100 + i * 100 - 22.5);
             
     
                             //POINTS TEXT: 
-                            ctx2.font = "19px UbuntuMono";
+                            ctx2.font = "19px Dosis";
                             ctx2.fillStyle = "#858594"
                             var text5 = `${cduration(array_textpoints[i]).join(", ")}`.trim();
                             canvacord.Util.renderEmoji(ctx2, text5, 235, 101.25 + i * 100);
             
                             //DISCRIMINATOR TEXT
-                            ctx2.font = "15px UbuntuMono";
+                            ctx2.font = "15px Dosis";
                             ctx2.fillStyle = "#7F7F7F"
                             canvacord.Util.renderEmoji(ctx2, "#"+array_discriminator[i], 750, 100 + i * 100);
                             
