@@ -195,7 +195,7 @@ module.exports = (client, preindex) => {
     /**
      * CREATE THE CHANNEL
      */
-    await interaction?.reply({ content: `<a:Loading:833101350623117342> **Creating your Ticket...** (Usually takes 0-2 Seconds)`, ephemeral: true });
+    await interaction?.reply({ content: `<a:Lwoading:964690249810862080> **Creating your Ticket...** (Usually takes 0-2 Seconds)`, ephemeral: true });
     guild.channels.create(channelname.substring(0, 31), optionsData).then(async ch => {
       let es = client.settings.get(guild.id, "embed")
       client.setups.push("TICKETS", user.id, ticketspath);

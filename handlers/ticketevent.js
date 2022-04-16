@@ -1049,7 +1049,7 @@ module.exports = client => {
                     reason: `Menu Ticket System for: ${user.tag}`,
                 }
                 guild.channels.create(channelname.substring(0, 31), optionsData).then(async ch => {
-                await interaction?.reply({content: `<a:Loading:833101350623117342> **Creating your ticket?...** (Usually takes 0-2 Seconds)`, ephemeral: true});
+                await interaction?.reply({content: `<a:Lwoading:964690249810862080> **Creating your ticket?...** (Usually takes 0-2 Seconds)`, ephemeral: true});
                 try {
                     var cat = guild.channels.cache.get(settings.data[index].category)
                     if(cat){

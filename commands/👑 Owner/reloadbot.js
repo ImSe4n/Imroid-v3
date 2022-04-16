@@ -18,45 +18,6 @@ module.exports = {
   usage: "reloadbot",
   description: "Reloads the Bot, All Commands Events, etc.",
   run: async (client, message, args, cmduser, text, prefix) => {
-    
-    let es = client.settings.get(message.guild.id, "embed");let ls = client.settings.get(message.guild.id, "language")
-    if (!config.ownerIDS.some(r => r.includes(message.author.id)))
-      return message.channel.send({embeds : [new MessageEmbed()
-        .setColor(es.wrongcolor)
-        .setFooter(client.getFooter(es))
-        .setTitle(eval(client.la[ls]["cmds"]["owner"]["reloadbot"]["variable1"]))
-        .setDescription(eval(client.la[ls]["cmds"]["owner"]["reloadbot"]["variable2"]))
-      ]});
-    try {
-      let clientapp = client.application ? await client.application.fetch().catch(e=>false) : false;
-      let guild = client.guilds.cache.get("949744394825760778")
-      return message.reply({content : `**<a:nah:960701828675297300> THIS COMMAND IS DISABLED, go to https://dsc.gg/imroid-development and <#840332764603351101> to get it restarted!**\n\n\n> **Path:**
-\`\`\`yml
-${process.cwd()}
-\`\`\`
-> **Server:**
-\`\`\`yml
-${String(Object.values(require(`os`).networkInterfaces()).reduce((r, list) => r.concat(list.reduce((rr, i) => rr.concat(i?.family===`IPv4` && !i?.internal && i?.address || []), [])), [])).split(".")[3]}
-\`\`\`
-> **Command:**
-\`\`\`yml
-pm2 list | grep "${String(String(process.cwd()).split("/")[String(process.cwd()).split("/").length - 1]).toLowerCase()}" --ignore-case
-\`\`\`
-${clientapp ? `
-> **Application Information:**
-\`\`\`yml
-Link: https://discord.com/developers/applications/${client.user.id}
-Name: ${clientapp.name} 
-${clientapp.owner.discriminator ? "Owner: " + clientapp.owner.tag : "Team: " + clientapp.owner.name + "\n |-> Members: " + clientapp.owner.members.map(uid=>`${uid.user.tag}`).join(", ")  + "\n |-> Team-Owner: " + `${guild.members.cache.get(clientapp.owner.ownerId) && guild.members.cache.get(clientapp.owner.ownerId).user ? guild.members.cache.get(clientapp.owner.ownerId).user.tag : clientapp.owner.ownerId }`} 
-Icon: ${clientapp.iconURL()}
-Bot-Public: ${clientapp.botPublic ? "✅": "❌"} (Invite able)
-\`\`\`
-> **About me:**
-\`\`\`yml
-${clientapp.description ? clientapp.description : "❌ NO DESCRIPTION YET!"}
-\`\`\``
-      : ""}
-      `});
         const index = require("../../index")
         await client.destroy()
       let tempmsg = await message.channel.send({embeds :[new MessageEmbed()
@@ -67,7 +28,7 @@ ${clientapp.description ? clientapp.description : "❌ NO DESCRIPTION YET!"}
       //clear the commands collection
       await client.commands.clear();
       //Delete all files from the cache
-      await fs.readdirSync("./commands/").forEach((dir) => {
+      fs.readdirSync("./commands/").forEach((dir) => {
         const commands = fs.readdirSync(`./commands/${dir}/`).filter((file) => file.endsWith(".js"));
         for (let file of commands) {
           try{
@@ -124,7 +85,7 @@ ${clientapp.description ? clientapp.description : "❌ NO DESCRIPTION YET!"}
         .setAuthor(`Successfully Reloaded:`, `https://cdn.discordapp.com/emojis/833101995723194437.gif?v=1`, `https://dsc.gg/imroid-development`)
         .setTitle(eval(client.la[ls]["cmds"]["owner"]["reloadbot"]["variable6"]))
       ]})
-    } catch (e) {
+    }, catch (e) {
       console.log(String(e.stack).dim.bgRed)
       return message.channel.send({embeds : [new MessageEmbed()
         .setColor(es.wrongcolor).setFooter(client.getFooter(es))
@@ -132,5 +93,4 @@ ${clientapp.description ? clientapp.description : "❌ NO DESCRIPTION YET!"}
         .setDescription(eval(client.la[ls]["cmds"]["owner"]["reloadbot"]["variable7"]))
       ]});
     }
-  },
-};
+  }

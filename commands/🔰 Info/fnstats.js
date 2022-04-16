@@ -58,7 +58,7 @@ module.exports = {
       }
       try{
         if (platform !== "pc" && platform !== "xbl" && platform !== "psn") platform = "pc";
-        let themsg = await message.reply(`<a:Loading:833101350623117342> Getting the Fortnite Stats of ${Epic}`)
+        let themsg = await message.reply(`<a:Lwoading:964690249810862080> Getting the Fortnite Stats of ${Epic}`)
         const stats = new Canvas.FortniteStats()
         const image = await stats.setToken(
           process.env.fortnitetracker || config.fortnitetracker)

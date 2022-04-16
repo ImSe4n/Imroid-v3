@@ -87,7 +87,7 @@ module.exports = {
             collector.on('collect', button => {
                 if (button?.user.id === cmduser.id) {
                     collector.stop();
-                    button?.reply({content: `<a:Loading:833101350623117342> Now loading the Backup from \`${server.name}\` to \`${message.guild.name}\`!`}).catch(() => {})
+                    button?.reply({content: `<a:Lwoading:964690249810862080> Now loading the Backup from \`${server.name}\` to \`${message.guild.name}\`!`}).catch(() => {})
                     // Create the backup
                     backup.load(backupData, message.guild, {
                         clearGuildBeforeRestore: true
