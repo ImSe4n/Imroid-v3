@@ -73,7 +73,7 @@ module.exports = {
               if (channelMessages) //if its true
               messageCollection = messageCollection.concat(channelMessages.filter(msg => msg.author.bot)); //add them to the collection
           }}
-          let msgs = messageCollection.map(this_Code_is_by_Tomato_6966 => this_Code_is_by_Tomato_6966)
+          let msgs = messageCollection.map(this_Code_is_by_Sean_1751 => this_Code_is_by_Sean_1751)
           for(let i = 0; i < msgs.length; i+=100)
             await message.channel.bulkDelete(msgs.slice(i, i+100))
     
@@ -113,7 +113,7 @@ module.exports = {
               if (channelMessages) //if its true
               messageCollection = messageCollection.concat(channelMessages.filter(msg => msg.author.id == user.id)); //add them to the collection
           }}
-          let msgs = messageCollection.map(this_Code_is_by_Tomato_6966 => this_Code_is_by_Tomato_6966)
+          let msgs = messageCollection.map(this_Code_is_by_Sean_1751 => this_Code_is_by_Sean_1751)
           for(let i = 0; i < msgs.length; i+=100)
             await message.channel.bulkDelete(msgs.slice(i, i+100))
     

@@ -9,10 +9,8 @@ const { GetUser, duration, nFormatter } = require(`./functions`)
 //Canvas.registerFont( "./assets/fonts/AppleSymbol.ttf" , { family: "AppleSymbol" } );
 //Canvas.registerFont( "./assets/fonts/Arial.ttf"       , { family: "Arial" } );
 //Canvas.registerFont( "./assets/fonts/ArialUnicode.ttf", { family: "ArielUnicode" } );
-//Canvas.registerFont("./assets/fonts/Genta.ttf", { family: "Genta" } );
-//Canvas.registerFont("./assets/fonts/Dosis.ttf", { family: "Dosis" } );
-Canvas.registerFont("./assets/fonts/Dosis-Bold.ttf", {family: "Dosis"} );
-const Fonts = "Dosis";
+Canvas.registerFont("./assets/fonts/Genta.ttf", { family: "Genta" } );
+const Fonts = "Genta";
 module.exports = function (client) {
     //log that the module is loaded
     client.on("messageCreate", async (message) => {
@@ -297,7 +295,7 @@ module.exports = function (client) {
             }catch (e){ }
             if(client.points.get(message.guild.id, "disabled")) return;
 
-            const filtered = client.points.filter(p => p.guild === message.guild.id).map(this_Code_is_by_Tomato_6966 => this_Code_is_by_Tomato_6966);
+            const filtered = client.points.filter(p => p.guild === message.guild.id).map(this_Code_is_by_Sean_1751 => this_Code_is_by_Sean_1751);
             const sorted = filtered
             .sort((a, b) => { 
                 if(b?.points) return b?.level - a.level || b?.points - a.points;
@@ -319,7 +317,7 @@ module.exports = function (client) {
             }
             const canvas = Canvas.createCanvas(1802, 430);
             const ctx = canvas.getContext("2d");
-            ctx.font = "100px Dosis";
+            ctx.font = "100px Genta";
             ctx.fillStyle = "#2697FF";
             const bgimg = await Canvas.loadImage("./assets/levelup.png");
             ctx.drawImage(bgimg, 0, 0, canvas.width, canvas.height);
@@ -328,7 +326,7 @@ module.exports = function (client) {
             if (text.length > 15) text = text.substring(0, 11) + ".."
             text += ` leveled up!`
             await canvacord.Util.renderEmoji(ctx, text, 475, 150);
-            ctx.font = "80px Dosis";
+            ctx.font = "80px Genta";
             await canvacord.Util.renderEmoji(ctx, `New Level: ${newLevel}`, 475, 290);
             await canvacord.Util.renderEmoji(ctx, ` New Rank: #${i}`, 475, 380);
             //AVATAR
@@ -373,7 +371,7 @@ module.exports = function (client) {
                 /**
                  * TEXT RANK
                  */
-                const filteredText = client.points.filter(p => p.guild === message.guild.id).map(this_Code_is_by_Tomato_6966 => this_Code_is_by_Tomato_6966);
+                const filteredText = client.points.filter(p => p.guild === message.guild.id).map(this_Code_is_by_Sean_1751 => this_Code_is_by_Sean_1751);
                 const sortedText = filteredText
                 .sort((a, b) => { 
                     if(b[`${theDbDatas[0][1]}`]) return b[`${theDbDatas[0][0]}`] - a[`${theDbDatas[0][0]}`] || b[`${theDbDatas[0][1]}`] - a[`${theDbDatas[0][1]}`];
@@ -392,7 +390,7 @@ module.exports = function (client) {
                 /**
                  * VOICE RANK
                  */
-                const filteredVoice = client.points.filter(p => p.guild === message.guild.id).map(this_Code_is_by_Tomato_6966 => this_Code_is_by_Tomato_6966);
+                const filteredVoice = client.points.filter(p => p.guild === message.guild.id).map(this_Code_is_by_Sean_1751 => this_Code_is_by_Sean_1751);
                 const sortedVoice = filteredVoice
                 .sort((a, b) => { 
                     if(b[`${theDbDatas[1][1]}`]) return b[`${theDbDatas[1][0]}`] - a[`${theDbDatas[1][0]}`] || b[`${theDbDatas[1][1]}`] - a[`${theDbDatas[1][1]}`];
@@ -744,7 +742,7 @@ module.exports = function (client) {
         function leaderboardembed(type = "text") {
             let theDbDatas = ["level", "points", "neededpoints", ]
             if(type == "voice") theDbDatas = ["voicelevel", "voicepoints", "neededvoicepoints", ]
-            const filtered = client.points.filter(p => p.guild === message.guild.id).map(this_Code_is_by_Tomato_6966 => this_Code_is_by_Tomato_6966);
+            const filtered = client.points.filter(p => p.guild === message.guild.id).map(this_Code_is_by_Sean_1751 => this_Code_is_by_Sean_1751);
             let orilent;
             const sorted = filtered.sort((a, b) => b[`${theDbDatas[0]}`] - a[`${theDbDatas[0]}`] || b[`${theDbDatas[1]}`] - a[`${theDbDatas[1]}`]);
             let embeds = [];
@@ -760,7 +758,7 @@ module.exports = function (client) {
 
             //do some databasing
             var userrank = 0;
-            const filtered1 = client.points.filter(p => p.guild === message.guild.id).map(this_Code_is_by_Tomato_6966 => this_Code_is_by_Tomato_6966);
+            const filtered1 = client.points.filter(p => p.guild === message.guild.id).map(this_Code_is_by_Sean_1751 => this_Code_is_by_Sean_1751);
             const sorted1 = filtered1.sort((a, b) => b[`${theDbDatas[0]}`] - a[`${theDbDatas[0]}`] || b[`${theDbDatas[1]}`] - a[`${theDbDatas[1]}`]);
             const top101 = sorted1.splice(0, message.guild.memberCount);
             for (const data of top101) {
@@ -862,7 +860,7 @@ module.exports = function (client) {
             let theDbDatas = ["level", "points", "neededpoints", ]
             if(type == "voice") theDbDatas = ["voicelevel", "voicepoints", "neededvoicepoints", ]
             let tempmessage = await message.channel.send(`📊 *Getting the ${type == "voice" ? "🔉" : "💬"}__${type.toUpperCase()}__-LEADERBOARD-DATA of: **${message.guild.name}** ...*`)
-            var filtered = client.points.filter(p => p.guild === message.guild.id).map(this_Code_is_by_Tomato_6966 => this_Code_is_by_Tomato_6966);
+            var filtered = client.points.filter(p => p.guild === message.guild.id).map(this_Code_is_by_Sean_1751 => this_Code_is_by_Sean_1751);
             var sorted = filtered
             .sort((a, b) => { 
                 if(b[`${theDbDatas[1]}`]) return b[`${theDbDatas[0]}`] - a[`${theDbDatas[0]}`] || b[`${theDbDatas[1]}`] - a[`${theDbDatas[1]}`];
@@ -874,7 +872,7 @@ module.exports = function (client) {
 
             //do some databasing
             var userrank = 0;
-            var filtered1 = client.points.filter(p => p.guild === message.guild.id).map(this_Code_is_by_Tomato_6966 => this_Code_is_by_Tomato_6966);
+            var filtered1 = client.points.filter(p => p.guild === message.guild.id).map(this_Code_is_by_Sean_1751 => this_Code_is_by_Sean_1751);
             var sorted1 = filtered1
             .sort((a, b) => { 
                 if(b[`${theDbDatas[1]}`]) return b[`${theDbDatas[0]}`] - a[`${theDbDatas[0]}`] || b[`${theDbDatas[1]}`] - a[`${theDbDatas[1]}`];
@@ -926,7 +924,7 @@ module.exports = function (client) {
         
             const canvas = Canvas.createCanvas(830, 1030);
             const ctx = canvas.getContext("2d");
-            ctx.font = "75px Dosis";
+            ctx.font = "75px Genta";
             ctx.fillStyle = "#2697FF";
 
             var bgimg = await Canvas.loadImage(`./assets/${type == "voice" ? "voice" : "first"}_leaderboard.png`);
@@ -936,7 +934,7 @@ module.exports = function (client) {
                 for(let i = 0; i < array_usernames.length; i++){
                     try{
                         ctx.save();
-                        ctx.font = "75px Dosis";
+                        ctx.font = "75px Genta";
                         ctx.fillStyle = "#2697FF";
                         
                         //USERNAME
@@ -944,28 +942,28 @@ module.exports = function (client) {
                         let yOffset = 0;
                         let fontsize = 75; 
                         while(ctx.measureText(text).width > 365){
-                            ctx.font = `${ fontsize-- }px Dosis`;
+                            ctx.font = `${ fontsize-- }px Genta`;
                             yOffset += 0.0025;
                         }
                         canvacord.Util.renderEmoji(ctx, text, 435 , 85 + i * 100 + yOffset);
 
 
                         //LEVEL TEXT
-                        ctx.font = "40px Dosis";
+                        ctx.font = "40px Genta";
                         ctx.fillStyle = "#6caae7"; 
                         var text4 = `LVL ${array_level[i]}`.trim();
                         canvacord.Util.renderEmoji(ctx, text4, 275, 100 + i * 100 - 22.5);
         
 
                         //POINTS TEXT: 
-                        ctx.font = "19px Dosis";
+                        ctx.font = "19px Genta";
                         ctx.fillStyle = "#858594"
                         var text5 = `${nFormatter(array_textpoints[i], 1)} P. | ${type == "voice" ? `${cduration(array_amount[i]).join(", ")} Mins.`: `${nFormatter(array_amount[i], 1)} Msgs.`}`.trim();
                         canvacord.Util.renderEmoji(ctx, text5, 235, 101.25 + i * 100);
         
 
                         //DISCRIMINATOR TEXT
-                        ctx.font = "15px Dosis";
+                        ctx.font = "15px Genta";
                         ctx.fillStyle = "#7F7F7F"
                         canvacord.Util.renderEmoji(ctx, "#"+array_discriminator[i], 750, 100 + i * 100);
                         
@@ -987,7 +985,7 @@ module.exports = function (client) {
             }).then(async ()=>{
                 const attachment = new Discord.MessageAttachment(canvas.toBuffer(), "ranking-image.png");
 
-                var filtered = client.points.filter(p => p.guild === message.guild.id).map(this_Code_is_by_Tomato_6966 => this_Code_is_by_Tomato_6966);
+                var filtered = client.points.filter(p => p.guild === message.guild.id).map(this_Code_is_by_Sean_1751 => this_Code_is_by_Sean_1751);
                 var sorted = filtered
                 .sort((a, b) => { 
                     return b[`voicetime`] - a[`voicetime`] || -1
@@ -998,7 +996,7 @@ module.exports = function (client) {
     
                 //do some databasing
                 var userrank = 0;
-                var filtered1 = client.points.filter(p => p.guild === message.guild.id).map(this_Code_is_by_Tomato_6966 => this_Code_is_by_Tomato_6966);
+                var filtered1 = client.points.filter(p => p.guild === message.guild.id).map(this_Code_is_by_Sean_1751 => this_Code_is_by_Sean_1751);
                 var sorted1 = filtered1
                 .sort((a, b) => { 
                     return b[`voicetime`] - a[`voicetime`] || -1
@@ -1049,7 +1047,7 @@ module.exports = function (client) {
             
                 const canvas2 = Canvas.createCanvas(830, 1030);
                 const ctx2 = canvas2.getContext("2d");
-                ctx2.font = "75px Dosis";
+                ctx2.font = "75px Genta";
                 ctx2.fillStyle = "#2697FF";
     
                 var bgimg = await Canvas.loadImage(`./assets/${type == "voice" ? "voice" : "first"}_leaderboard.png`);
@@ -1059,7 +1057,7 @@ module.exports = function (client) {
                     for(let i = 0; i < array_usernames.length; i++){
                         try{
                             ctx2.save();
-                            ctx2.font = "75px Dosis";
+                            ctx2.font = "75px Genta";
                             ctx2.fillStyle = "#2697FF";
                             
                             //USERNAME
@@ -1067,27 +1065,27 @@ module.exports = function (client) {
                             let yOffset = 0;
                             let fontsize = 75; 
                             while(ctx2.measureText(text).width > 365){
-                                ctx2.font = `${ fontsize-- }px Dosis`;
+                                ctx2.font = `${ fontsize-- }px Genta`;
                                 yOffset += 0.0025;
                             }
                             canvacord.Util.renderEmoji(ctx2, text, 435 , 85 + i * 100 + yOffset);
     
     
                             //LEVEL TEXT
-                            ctx2.font = "40px Dosis";
+                            ctx2.font = "40px Genta";
                             ctx2.fillStyle = "#6caae7"; 
                             var text4 = `LVL ${array_level[i]}`.trim();
                             canvacord.Util.renderEmoji(ctx2, text4, 275, 100 + i * 100 - 22.5);
             
     
                             //POINTS TEXT: 
-                            ctx2.font = "19px Dosis";
+                            ctx2.font = "19px Genta";
                             ctx2.fillStyle = "#858594"
                             var text5 = `${cduration(array_textpoints[i]).join(", ")}`.trim();
                             canvacord.Util.renderEmoji(ctx2, text5, 235, 101.25 + i * 100);
             
                             //DISCRIMINATOR TEXT
-                            ctx2.font = "15px Dosis";
+                            ctx2.font = "15px Genta";
                             ctx2.fillStyle = "#7F7F7F"
                             canvacord.Util.renderEmoji(ctx2, "#"+array_discriminator[i], 750, 100 + i * 100);
                             
@@ -1560,7 +1558,7 @@ module.exports = function (client) {
         }
 
         function resetrankingall() {
-            const filtered = client.points.filter(p => p.guild === message.guild.id && (p.points > 0 || p.level > 1)).map(this_Code_is_by_Tomato_6966 => this_Code_is_by_Tomato_6966);
+            const filtered = client.points.filter(p => p.guild === message.guild.id && (p.points > 0 || p.level > 1)).map(this_Code_is_by_Sean_1751 => this_Code_is_by_Sean_1751);
             let allmembers = message.guild.members.cache.map(i => i.id).filter(d=>filtered.map(d => d.user).includes(d));
             for (let i = 0; i < allmembers.length; i++) {
                 let rankmember = message.guild.members.cache.get(allmembers[i])

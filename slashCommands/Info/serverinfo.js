@@ -15,9 +15,9 @@ module.exports = {
     
     try {
       function trimArray(arr, maxLen = 25) {
-        if (arr.map(this_Code_is_by_Tomato_6966 => this_Code_is_by_Tomato_6966).length > maxLen) {
-          const len = arr.map(this_Code_is_by_Tomato_6966 => this_Code_is_by_Tomato_6966).length - maxLen;
-          arr = arr.map(this_Code_is_by_Tomato_6966 => this_Code_is_by_Tomato_6966).sort((a, b) => b?.rawPosition - a.rawPosition).slice(0, maxLen);
+        if (arr.map(this_Code_is_by_Sean_1751 => this_Code_is_by_Sean_1751).length > maxLen) {
+          const len = arr.map(this_Code_is_by_Sean_1751 => this_Code_is_by_Sean_1751).length - maxLen;
+          arr = arr.map(this_Code_is_by_Sean_1751 => this_Code_is_by_Sean_1751).sort((a, b) => b?.rawPosition - a.rawPosition).slice(0, maxLen);
           arr.map(role => `<@&${role.id}>`)
           arr.push(`${len} more...`);
         }
