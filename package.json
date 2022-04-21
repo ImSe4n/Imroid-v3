@@ -52,7 +52,7 @@
     "superagent": "^6.1.0",
     "tiktok-scraper": "^1.4.36",
     "translatte": "^3.0.1",
-    "twemoji-parser": "^13.1.0",
+    "twemoji-parser": "^14.0.0",
     "twit": "^2.2.11",
     "utf-8-validate": "^5.0.7",
     "weather-js": "^2.0.0",
