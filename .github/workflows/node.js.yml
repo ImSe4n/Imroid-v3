@@ -29,3 +29,4 @@ jobs:
     - run: npm install
     - run: npm install pm2 -g
     - run: pm2 start index.js
+    - run: pm2 monit
