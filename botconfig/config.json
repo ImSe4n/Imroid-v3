@@ -1,12 +1,12 @@
 {
-    "token": "OTU0ODA5MDAzMzYyMzU3MjQ4.YjYhLQ.tRXh-3oY3Vj4TZ1BPtj_FgHcnqs",
+    "token": "OTU0ODA5MDAzMzYyMzU3MjQ4.YjYhLQ.opbZI731EtNJiw6d7WPeDcgOupc",
     "prefix": "i!",
     "ownerIDS": [
         "711602696133673011"
     ],
     "fnbr": "GET from: https://fnbr.co",
-    "fortnitetracker": "nope",
-    "memer_api": "nope",
+    "fortnitetracker": "014b8519-baa1-49fa-abc7-0fe07787ad33",
+    "memer_api": "E62OKfykVDT",
     "status": {
         "text": "{prefix}help | on {guildcount} Servers, with {membercount} Members | Played: {songsplayed} Songs",
         "text2": "Imroid Development | Proud bot development since 2021",
@@ -24,8 +24,8 @@
         ]
     },
     "spotify": {
-        "clientSecret": "nope",
-        "clientID": "Nope"
+        "clientSecret": "39ef7705b3034c6cbdcb3290b364bf0d",
+        "clientID": "a44110f92aa44d5c8e3e9ae057fd565f"
     },
     "settings": {
         "COMMENT": "time_delay 0 === insta leave",
