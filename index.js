@@ -64,7 +64,7 @@ const client = new Discord.Client({
   ],
   presence: {
     activities: [{ name: `${config.status.text}`.replace("{prefix}", config.prefix), type: config.status.type, url: config.status.url }],
-    status: "online"
+    status: "idle"
   }});
 
 /**********************************************************
