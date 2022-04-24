@@ -15,19 +15,7 @@
  *   BOT CODED BY: Sean1751 | https://dsc.gg/imroid-development
  *********************************************************/
 
- const core = require('@actions/core');
- const { KeepAliveWorkflow } = require('keepalive-workflow');
- 
- // Using the lib
- KeepAliveWorkflow(githubToken, committerUsername, committerEmail, commitMessage, timeElapsed)
-   .then((message) => {
-     core.info(message);
-     process.exit(0);
-   })
-   .catch((error) => {
-     core.error(error);
-     process.exit(1);
-   });
+
 
 /**********************************************************
  * @param {1} Import_Modules for this FIle
