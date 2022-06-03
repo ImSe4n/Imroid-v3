@@ -80,7 +80,7 @@ var {
           
           //define the embed
           let MenuEmbed = new MessageEmbed()
-            .setColor(es.color)
+            .setColor("RANDON")
             .setAuthor('Anti-Self-Bot', 'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/microsoft/310/hammer_1f528.png', 'https://dsc.gg/imroid-development')
             .setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-ticket"]["variable2"]))
           //send the menu msg
