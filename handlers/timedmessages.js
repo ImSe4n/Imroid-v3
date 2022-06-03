@@ -20,7 +20,7 @@ module.exports = client => {
         for(const guildid of guilds){
             timedmessage(guildid)
         } 
-    }, null, true, 'Europe/Berlin');
+    }, null, true, 'America/New_York');
     client.JobTimesMessages.start();
 
     //function for sending automatic nsfw

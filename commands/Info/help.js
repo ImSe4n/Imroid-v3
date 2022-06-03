@@ -283,7 +283,7 @@ but you can also do \`${prefix}setup-SYSTEM\` e.g. \`${prefix}setup-welcome\``)
 :file_folder: on **${client.guilds.cache.size} Guilds**
 ⌚️ **${duration(client.uptime).map(i => `\`${i}\``).join("︲")} Uptime**
 📶 **\`${Math.floor(client.ws.ping)}ms\` Ping**
-<:ImroidDevelopment:961026498117107783>>  Made by [**Imroid Development**](https://dsc.gg/imroid-development)`)
+<:ImroidDevelopment:961026498117107783>  Made by [**Imroid Development**](https://dsc.gg/imroid-development)`)
           .addField("How to get help?", `>>> **\` 1. Way \`** *Use the Buttons, to swap the Pages*\n**\` 2. Way \`** *Use the Menu to select all Help Pages, you want to display*\``)
 
         let err = false;
