@@ -83,7 +83,7 @@ const { dbEnsure } = require("../../handlers/functions");
           
           //define the embed
           let MenuEmbed = new MessageEmbed()
-            .setColor(es.color)
+            .setColor("RANDOM")
             .setAuthor(client.getAuthor('Timed-Messages', 'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/three-oclock_1f552.png', 'https://dsc.gg/imroid-development'))
             .setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-ticket"]["variable2"]))
           //send the menu msg
@@ -130,7 +130,7 @@ const { dbEnsure } = require("../../handlers/functions");
                 var currentDay = Days[new Date().getDay()];
                 var tempmsg = await message.reply({embeds: [new Discord.MessageEmbed()
                   .setTitle(`When should I send it?`)
-                  .setColor(es.color)
+                  .setColor("RANDOM")
                   .setDescription(`Send the Time now! Just the \`HOURS:MINUTES\`\nExample: \`8:00\`, \`18:34\`\n**It must be written like that!**\n Current Time, as a reference for your Time Zone: \`${currentHour}:${currentMinute}\``).setFooter(es.footertext, es.footericon)]
                 })
                 await tempmsg.channel.awaitMessages({filter: m => m.author.id == message.author.id, 
@@ -171,7 +171,7 @@ const { dbEnsure } = require("../../handlers/functions");
                       //send the menu msg
                       let menumsg = await message.reply({embeds: [new Discord.MessageEmbed()
                         .setTitle(`When should I send it? Select All Days / Week you want to send this Message`)
-                        .setColor(es.color)
+                        .setColor("RANDOM")
                         .setDescription(`Select All Days / Week you want to send this Message\n\n Current Day, as a reference for your Time Zone: \`${currentDay}\``).setFooter(es.footertext, es.footericon)], components: [new MessageActionRow().addComponents(Selection)]})
                       //Create the collector
                       const collector = menumsg.createMessageComponentCollector({ 
@@ -190,7 +190,7 @@ const { dbEnsure } = require("../../handlers/functions");
   
                           var tempmsg = await message.reply({embeds: [new Discord.MessageEmbed()
                             .setTitle(`In which Channel shall I send the Message?`)
-                            .setColor(es.color)
+                            .setColor("RANDOM")
                             .setDescription(`Please **ping** the Channel with #Channel`).setFooter(es.footertext, es.footericon)]
                           })
                           await tempmsg.channel.awaitMessages({filter: m => m.author.id == message.author.id, 
@@ -205,7 +205,7 @@ const { dbEnsure } = require("../../handlers/functions");
                               if(channel){
                                 var tempmsg = await message.reply({embeds: [new Discord.MessageEmbed()
                                   .setTitle(`What Message shall I send?`)
-                                  .setColor(es.color)
+                                  .setColor("RANDOM")
                                   .setDescription(`Just type the MESSAGE CONTENT! If it should be in an Embed or not will be asked afterwards!`).setFooter(es.footertext, es.footericon)]
                                 })
                                 await tempmsg.channel.awaitMessages({filter: m => m.author.id == message.author.id, 
@@ -224,7 +224,7 @@ const { dbEnsure } = require("../../handlers/functions");
                                        */
                                       var tempmsg = await message.reply({embeds: [new Discord.MessageEmbed()
                                         .setTitle(`Should the Message be inside of an Embed?`)
-                                        .setColor(es.color)], components: [new MessageActionRow().addComponents([
+                                        .setColor("RANDOM")], components: [new MessageActionRow().addComponents([
                                           new MessageButton().setStyle("SUCCESS").setLabel("Yes").setCustomId("embed_yes"),
                                           new MessageButton().setStyle("DANGER").setLabel("No, just a normal Message").setCustomId("embed_no"),
                                         ])]
@@ -253,7 +253,7 @@ const { dbEnsure } = require("../../handlers/functions");
                                         if(timedmessage.embed){
                                             message.reply({embeds : [
                                                 new Discord.MessageEmbed()
-                                                .setColor(es.color)
+                                                .setColor("RANDOM")
                                                 .setFooter(es.footertext, es.footericon)
                                                 .setThumbnail(es.thumb ? es.footericon : null)
                                                 .setDescription(timedmessage.content.substr(0, 2000))
@@ -345,7 +345,7 @@ const { dbEnsure } = require("../../handlers/functions");
               
               //define the embed
               let MenuEmbed = new MessageEmbed()
-                .setColor(es.color)
+                .setColor("RANDOM")
                 .setAuthor('Timed-Messages', 'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/three-oclock_1f552.png', 'https://dsc.gg/imroid-development')
                 .setDescription("Select all Timed Messages you want to remove!")
               //send the menu msg
@@ -409,7 +409,7 @@ const { dbEnsure } = require("../../handlers/functions");
               
               //define the embed
               let MenuEmbed = new MessageEmbed()
-                .setColor(es.color)
+                .setColor("RANDOM")
                 .setAuthor('Timed-Messages', 'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/three-oclock_1f552.png', 'https://dsc.gg/imroid-development')
                 .setDescription("Select the Timed Message you want to show!")
               //send the menu msg
@@ -428,7 +428,7 @@ const { dbEnsure } = require("../../handlers/functions");
                   if(msg.embed){
                       message.reply({embeds : [
                           new Discord.MessageEmbed()
-                          .setColor(es.color)
+                          .setColor("RANDOM")
                           .setFooter(es.footertext, es.footericon)
                           .setThumbnail(es.thumb ? es.footericon : null)
                           .setDescription(msg.content.substr(0, 2000))
