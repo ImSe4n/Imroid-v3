@@ -36,9 +36,9 @@ var {
         async function first_layer(){
           let menuoptions = [
             {
-              value: !settings.enabled ? "Enable Anti Self Bot" : "Disable Anti Self Bot",
-              description: !settings.enabled ? "Detect Self Bots and kick / Ban them" : "Don't Detect Self Bots",
-              emoji: !settings.enabled ? "✅" : "❌",
+              value: `${client.settings.enabled ? "Enable Anti Self Bot" : "Disable Anti Self Bot"}`,
+              description: `${client.settings.enabled ? "Detect Self Bots and kick / Ban them" : "Don't Detect Self Bots"}`,
+              emoji: client.settings.enabled ? "✅" : "❌",
             },
             {
               value: "Select the Action",
